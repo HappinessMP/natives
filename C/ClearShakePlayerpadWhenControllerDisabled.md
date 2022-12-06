@@ -1,0 +1,13 @@
+# CLEAR_SHAKE_PLAYERPAD_WHEN_CONTROLLER_DISABLED
+
+## Declaration
+```cpp
+// 0x3F1F51E0
+void CLEAR_SHAKE_PLAYERPAD_WHEN_CONTROLLER_DISABLED();
+```
+
+### Arguments
+
+### Results
+
+## Description
