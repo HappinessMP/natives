@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x6D902EE3
-ScriptAny GET_GROUND_Z_FOR_3D_COORD(float x, float y, float z, float* pGroundZ);
+boolean GET_GROUND_Z_FOR_3D_COORD(float x, float y, float z, float* pGroundZ);
 ```
 
 ### Arguments
@@ -12,7 +12,7 @@ ScriptAny GET_GROUND_Z_FOR_3D_COORD(float x, float y, float z, float* pGroundZ);
 - **float:** z
 
 ### Results
-- **ScriptAny**
+- **boolean**
 - **float*:** pGroundZ
 
 ## Description
