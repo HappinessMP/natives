@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x5267B97
-int GET_STRING_WIDTH_WITH_TEXT_AND_INT(char* gxtname, char* gxtnamenext, int val);
+float GET_STRING_WIDTH_WITH_TEXT_AND_INT(char* gxtname, char* gxtnamenext, int val);
 ```
 
 ### Arguments
@@ -12,6 +12,6 @@ int GET_STRING_WIDTH_WITH_TEXT_AND_INT(char* gxtname, char* gxtnamenext, int val
 - **int:** val
 
 ### Results
-- **int**
+- **float**
 
 ## Description

@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x33E0601D
-int GET_STRING_WIDTH_WITH_NUMBER(char* gxtName, int number);
+float GET_STRING_WIDTH_WITH_NUMBER(char* gxtName, int number);
 ```
 
 ### Arguments
@@ -11,6 +11,6 @@ int GET_STRING_WIDTH_WITH_NUMBER(char* gxtName, int number);
 - **int:** number
 
 ### Results
-- **int**
+- **float**
 
 ## Description

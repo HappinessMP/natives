@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x48850E66
-int GET_STRING_WIDTH_WITH_STRING(char* gxtName, char* literalString);
+float GET_STRING_WIDTH_WITH_STRING(char* gxtName, char* literalString);
 ```
 
 ### Arguments
@@ -11,6 +11,6 @@ int GET_STRING_WIDTH_WITH_STRING(char* gxtName, char* literalString);
 - **char*:** literalString
 
 ### Results
-- **int**
+- **float**
 
 ## Description
