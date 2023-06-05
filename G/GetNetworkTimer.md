@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x20FD4F4E
-void GET_NETWORK_TIMER(ScriptAny);
+void GET_NETWORK_TIMER(uint* pTimer);
 ```
 
 ### Arguments
-- **ScriptAny**
 
 ### Results
+- **uint*:** pTimer
 
 ## Description
