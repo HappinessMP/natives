@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x5996315E
-Player CONVERT_INT_TO_PLAYERINDEX(uint playerId);
+uint CONVERT_INT_TO_PLAYERINDEX(uint playerId);
 ```
 
 ### Arguments
 - **uint:** playerId
 
 ### Results
-- **Player**
+- **uint**
 
 ## Description
