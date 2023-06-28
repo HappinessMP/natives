@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x1BC70617
-void GET_NETWORK_ID_FROM_VEHICLE(ScriptAny, ScriptAny);
+void GET_NETWORK_ID_FROM_VEHICLE(uint vehicleID, int* networkID);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
+- **uint:** vehicleID
 
 ### Results
+- **int*:** networkID
 
 ## Description
