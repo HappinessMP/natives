@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x4E6120A9
-ScriptAny HOW_LONG_HAS_NETWORK_PLAYER_BEEN_DEAD_FOR(ScriptAny);
+int HOW_LONG_HAS_NETWORK_PLAYER_BEEN_DEAD_FOR(int playerIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** playerIndex
 
 ### Results
-- **ScriptAny**
+- **int**
 
 ## Description
