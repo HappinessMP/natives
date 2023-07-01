@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x4E237943
-ScriptAny IS_NETWORK_PLAYER_ACTIVE(ScriptAny);
+bool IS_NETWORK_PLAYER_ACTIVE(uint playerIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **uint:** playerIndex
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description
