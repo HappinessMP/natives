@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x766E78A3
-ScriptAny FIND_NETWORK_KILLER_OF_PLAYER(ScriptAny);
+uint FIND_NETWORK_KILLER_OF_PLAYER(uint playerID);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **uint:** playerID
 
 ### Results
-- **ScriptAny**
+- **uint**
 
 ## Description
