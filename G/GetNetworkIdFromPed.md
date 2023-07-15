@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x7BEE5003
-void GET_NETWORK_ID_FROM_PED(ScriptAny, ScriptAny);
+void GET_NETWORK_ID_FROM_PED(uint ped, int* networkID);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
+- **uint:** ped
 
 ### Results
+- **int*:** networkID
 
 ## Description
