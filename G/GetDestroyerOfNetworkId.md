@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x11E80442
-ScriptAny GET_DESTROYER_OF_NETWORK_ID(ScriptAny, ScriptAny);
+int GET_DESTROYER_OF_NETWORK_ID(int netID, uint* reason);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
+- **int:** netID
 
 ### Results
-- **ScriptAny**
+- **int:** playerID of the killer
+- **uint*:** reason
 
 ## Description
