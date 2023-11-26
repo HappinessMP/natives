@@ -3,21 +3,21 @@
 ## Declaration
 ```cpp
 // 0x22463E22
-ScriptAny GET_SORTED_NETWORK_RESTART_NODE_USING_GROUP_LIST(ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+bool GET_SORTED_NETWORK_RESTART_NODE_USING_GROUP_LIST(float unk0, float unk1, float unk2, float unk3, Vector3* unk4, int* unk5, uint playerId, int unk7, float unk8);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **float:** unk0
+- **float:** unk1
+- **float:** unk2
+- **float:** unk3
+- **Vector3*:** unk4
+- **int*:** unk5
+- **uint:** playerId
+- **int:** unk7
+- **float:** unk8
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description
