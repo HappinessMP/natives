@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x5E7B3816
-void GET_MOBILE_PHONE_RENDER_ID(uint* pRenderId);
+void GET_MOBILE_PHONE_RENDER_ID(int* renderId);
 ```
 
 ### Arguments
 
 ### Results
-- **uint*:** pRenderId
+- **int*:** renderId
 
 ## Description

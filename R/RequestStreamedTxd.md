@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x7C7B1237
-void REQUEST_STREAMED_TXD(char* txdName, boolean unknown);
+void REQUEST_STREAMED_TXD(char* txdName, bool priority);
 ```
 
 ### Arguments
 - **char*:** txdName
-- **boolean:** unknown
+- **bool:** priority
 
 ### Results
 
 ## Description
+Requests a texture dictionary.
