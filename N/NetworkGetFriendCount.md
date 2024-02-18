@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x5EEA3F25
-ScriptAny NETWORK_GET_FRIEND_COUNT();
+int NETWORK_GET_FRIEND_COUNT();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **int**
 
 ## Description
