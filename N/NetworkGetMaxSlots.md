@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x524F7543
-ScriptAny NETWORK_GET_MAX_SLOTS();
+int NETWORK_GET_MAX_SLOTS();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **int**
 
 ## Description

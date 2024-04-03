@@ -3,16 +3,16 @@
 ## Declaration
 ```cpp
 // 0x11EE28D5
-ScriptAny IS_SPHERE_VISIBLE_TO_ANOTHER_MACHINE(ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+bool IS_SPHERE_VISIBLE_TO_ANOTHER_MACHINE(float x, float y, float z, float radius);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **float:** x
+- **float:** y
+- **float:** z
+- **float:** radius
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

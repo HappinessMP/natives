@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x544625D9
-ScriptAny NETWORK_IS_PLAYER_TALKING(ScriptAny);
+bool NETWORK_IS_PLAYER_TALKING(int playerIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** playerIndex
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x18C67E6D
-ScriptAny NETWORK_SEND_TEXT_CHAT(ScriptAny, ScriptAny);
+bool NETWORK_SEND_TEXT_CHAT(int playerId, char* message);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
+- **int:** playerId
+- **char*:** message
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

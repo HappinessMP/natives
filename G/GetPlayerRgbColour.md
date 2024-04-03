@@ -3,15 +3,16 @@
 ## Declaration
 ```cpp
 // 0x73BD71A9
-void GET_PLAYER_RGB_COLOUR(int Player, int* r, int* g, int* b);
+void GET_PLAYER_RGB_COLOUR(int playerIndex, int* red, int* green, int* blue);
 ```
 
 ### Arguments
-- **int:** Player
+- **int:** playerIndex
 
 ### Results
-- **int*:** r
-- **int*:** g
-- **int*:** b
+- **int*:** red
+- **int*:** green
+- **int*:** blue
 
 ## Description
+Gets the RGB colour of the player.

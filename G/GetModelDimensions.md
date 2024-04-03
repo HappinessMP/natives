@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x191B7021
-void GET_MODEL_DIMENSIONS(uint model, Vector3* pMinVector, Vector3* pMaxVector);
+void GET_MODEL_DIMENSIONS(int carModelHashKey, Vector3* returnMin, Vector3* returnMax);
 ```
 
 ### Arguments
-- **uint:** model
+- **int:** carModelHashKey
 
 ### Results
-- **Vector3*:** pMinVector
-- **Vector3*:** pMaxVector
+- **Vector3*:** returnMin
+- **Vector3*:** returnMax
 
 ## Description
+Gets the dimensions of a model. 

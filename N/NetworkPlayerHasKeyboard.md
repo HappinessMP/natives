@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x4FE5C34
-ScriptAny NETWORK_PLAYER_HAS_KEYBOARD(ScriptAny);
+bool NETWORK_PLAYER_HAS_KEYBOARD(int playerIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** playerIndex
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

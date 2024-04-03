@@ -3,23 +3,21 @@
 ## Declaration
 ```cpp
 // 0x588E1506
-boolean GET_RANDOM_CAR_NODE(float x, float y, float z, float radius, boolean flag0, boolean flag1, boolean flag2, float* pX, float* pY, float* pZ, float* heading);
+bool GET_RANDOM_CAR_NODE(float centrePointX, float centrePointY, float centrePointZ, float radius, int minLanes, bool bAvoidDeadEnds, bool bAvoidHighways, Vector3* vecReturn, int* nodeId);
 ```
 
 ### Arguments
-- **float:** x
-- **float:** y
-- **float:** z
+- **float:** centrePointX
+- **float:** centrePointY
+- **float:** centrePointZ
 - **float:** radius
-- **boolean:** flag0
-- **boolean:** flag1
-- **boolean:** flag2
+- **int:** minLanes
+- **bool:** bAvoidDeadEnds
+- **bool:** bAvoidHighways
 
 ### Results
-- **boolean**
-- **float*:** pX
-- **float*:** pY
-- **float*:** pZ
-- **float*:** heading
+- **bool**
+- **Vector3*:** vecReturn
+- **int*:** nodeId
 
 ## Description

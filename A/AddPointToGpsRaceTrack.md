@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x5BE115FD
-void ADD_POINT_TO_GPS_RACE_TRACK(Vector3* point);
+void ADD_POINT_TO_GPS_RACE_TRACK(scrVector& vPosition);
 ```
 
 ### Arguments
 
 ### Results
-- **Vector3*:** point
+- **scrVector&:** vPosition
 
 ## Description
+Adds a point to a gps race track at the given vector.

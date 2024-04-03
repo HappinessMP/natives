@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x3AC85DB1
-void GET_CHAR_PROP_INDEX(Ped ped, boolean unknown, uint* pIndex);
+void GET_CHAR_PROP_INDEX(int charIndex, int position, int* propIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **boolean:** unknown
+- **int:** charIndex
+- **int:** position
 
 ### Results
-- **uint*:** pIndex
+- **int*:** propIndex
 
 ## Description
+Get the id of the prop which has been assigned at the given position for the given char.

@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x29926B20
-ScriptAny REQUEST_CONTROL_OF_NETWORK_ID(ScriptAny);
+bool REQUEST_CONTROL_OF_NETWORK_ID(int networkId);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** networkId
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description
+Request ownership of the object with the specified network ID from the current owner.

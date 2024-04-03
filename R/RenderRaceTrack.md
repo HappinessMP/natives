@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x5062055B
-void RENDER_RACE_TRACK(boolean render);
+void RENDER_RACE_TRACK(bool bOn);
 ```
 
 ### Arguments
-- **boolean:** render
+- **bool:** bOn
 
 ### Results
 
 ## Description
+Renders a race track once contsructed.

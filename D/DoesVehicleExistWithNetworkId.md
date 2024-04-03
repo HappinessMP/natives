@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x69C033D8
-ScriptAny DOES_VEHICLE_EXIST_WITH_NETWORK_ID(ScriptAny);
+bool DOES_VEHICLE_EXIST_WITH_NETWORK_ID(int networkId);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** networkId
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description
+Returns true if an vehicle with the specified network ID exists on the local machine.

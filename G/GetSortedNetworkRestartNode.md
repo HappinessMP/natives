@@ -3,21 +3,21 @@
 ## Declaration
 ```cpp
 // 0x5BF71B87
-ScriptAny GET_SORTED_NETWORK_RESTART_NODE(ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+bool GET_SORTED_NETWORK_RESTART_NODE(float x, float y, float z, float, Vector3* vecReturn, int* nodeId, int playerIndex, int, float);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **float:** x
+- **float:** y
+- **float:** z
+- **float**
+- **int:** playerIndex
+- **int**
+- **float**
 
 ### Results
-- **ScriptAny**
+- **bool**
+- **Vector3*:** vecReturn
+- **int*:** nodeId
 
 ## Description

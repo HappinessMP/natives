@@ -3,17 +3,17 @@
 ## Declaration
 ```cpp
 // 0x46CD1D73
-ScriptAny GET_CLOSEST_NETWORK_RESTART_NODE(ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+bool GET_CLOSEST_NETWORK_RESTART_NODE(float x, float y, float z, Vector3*, float*);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **float:** x
+- **float:** y
+- **float:** z
 
 ### Results
-- **ScriptAny**
+- **bool**
+- **Vector3***
+- **float***
 
 ## Description

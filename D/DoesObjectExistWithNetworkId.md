@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x5BBC62CB
-ScriptAny DOES_OBJECT_EXIST_WITH_NETWORK_ID(ScriptAny);
+bool DOES_OBJECT_EXIST_WITH_NETWORK_ID(int networkId);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** networkId
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description
+Returns true if an object with the specified network ID exists on the local machine.

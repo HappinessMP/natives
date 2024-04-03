@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x120962E7
-ScriptAny NETWORK_IS_PLAYER_MUTED_BY_ME(ScriptAny);
+bool NETWORK_IS_PLAYER_MUTED_BY_ME(int playerIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** playerIndex
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

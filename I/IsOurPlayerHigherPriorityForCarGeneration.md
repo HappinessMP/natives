@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x504E03FC
-ScriptAny IS_OUR_PLAYER_HIGHER_PRIORITY_FOR_CAR_GENERATION(ScriptAny);
+bool IS_OUR_PLAYER_HIGHER_PRIORITY_FOR_CAR_GENERATION(int playerIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** playerIndex
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x408E2F70
-ScriptAny NETWORK_PLAYER_HAS_HEADSET(ScriptAny);
+bool NETWORK_PLAYER_HAS_HEADSET(int playerIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** playerIndex
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

@@ -3,16 +3,17 @@
 ## Declaration
 ```cpp
 // 0x17901684
-void RESURRECT_NETWORK_PLAYER(ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void RESURRECT_NETWORK_PLAYER(int playerIndex, float x, float y, float z, float heading);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** playerIndex
+- **float:** x
+- **float:** y
+- **float:** z
+- **float:** heading
 
 ### Results
 
 ## Description
+Revives the specified player who was previously dead.

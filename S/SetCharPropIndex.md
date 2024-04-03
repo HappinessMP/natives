@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x5FE95249
-void SET_CHAR_PROP_INDEX(Ped ped, uint propType, uint index);
+void SET_CHAR_PROP_INDEX(int charIndex, int position, int newPropIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** propType
-- **uint:** index
+- **int:** charIndex
+- **int:** position
+- **int:** newPropIndex
 
 ### Results
 
 ## Description
+Set the id of the prop at the given position for the given char.

@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x31492174
-void NETWORK_SET_TEAM_ONLY_CHAT(ScriptAny);
+void NETWORK_SET_TEAM_ONLY_CHAT(bool teamOnlyChat);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **bool:** teamOnlyChat
 
 ### Results
 
 ## Description
+Enables/disables team-only chat.

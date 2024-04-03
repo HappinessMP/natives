@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x33500089
-ScriptAny NETWORK_GET_NUM_PLAYERS_MET();
+int NETWORK_GET_NUM_PLAYERS_MET();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **int**
 
 ## Description
+Returns the number of players met during the current session.

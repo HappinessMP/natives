@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x21641887
-ScriptAny DOES_PED_EXIST_WITH_NETWORK_ID(ScriptAny);
+bool DOES_PED_EXIST_WITH_NETWORK_ID(int networkId);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** networkId
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description
+Returns true if an ped with the specified network ID exists on the local machine.

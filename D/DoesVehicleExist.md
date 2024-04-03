@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x67A42263
-boolean DOES_VEHICLE_EXIST(Vehicle vehicle);
+bool DOES_VEHICLE_EXIST(int vehicleIndex);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** vehicleIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Check that vehicle exists in the world.

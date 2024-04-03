@@ -3,21 +3,21 @@
 ## Declaration
 ```cpp
 // 0x22463E22
-bool GET_SORTED_NETWORK_RESTART_NODE_USING_GROUP_LIST(float unk0, float unk1, float unk2, float unk3, Vector3* unk4, int* unk5, uint playerId, int unk7, float unk8);
+bool GET_SORTED_NETWORK_RESTART_NODE_USING_GROUP_LIST(float x, float y, float z, float, Vector3* vecReturn, int* nodeId, int playerIndex, int, float);
 ```
 
 ### Arguments
-- **float:** unk0
-- **float:** unk1
-- **float:** unk2
-- **float:** unk3
-- **Vector3*:** unk4
-- **int*:** unk5
-- **uint:** playerId
-- **int:** unk7
-- **float:** unk8
+- **float:** x
+- **float:** y
+- **float:** z
+- **float**
+- **int:** playerIndex
+- **int**
+- **float**
 
 ### Results
 - **bool**
+- **Vector3*:** vecReturn
+- **int*:** nodeId
 
 ## Description
