@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x4E61480A
-boolean HAS_MODEL_LOADED(uint model);
+bool HAS_MODEL_LOADED(int modelHashKey);
 ```
 
 ### Arguments
-- **uint:** model
+- **int:** modelHashKey
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Return if a model is in memory.

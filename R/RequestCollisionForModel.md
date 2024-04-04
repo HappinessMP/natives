@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x66E93537
-void REQUEST_COLLISION_FOR_MODEL(uint model);
+void REQUEST_COLLISION_FOR_MODEL(int modelHashKey);
 ```
 
 ### Arguments
-- **uint:** model
+- **int:** modelHashKey
 
 ### Results
 
 ## Description
+Tell streaming to request collision for a specific model.

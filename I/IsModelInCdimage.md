@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x771C2838
-boolean IS_MODEL_IN_CDIMAGE(uint model);
+bool IS_MODEL_IN_CDIMAGE(int model);
 ```
 
 ### Arguments
-- **uint:** model
+- **int:** model
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Return if model is available in one of the streaming image files.

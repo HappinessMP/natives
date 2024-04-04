@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x57F46B33
-boolean IS_THIS_MODEL_A_BIKE(uint model);
+bool IS_THIS_MODEL_A_BIKE(int modelHashKey);
 ```
 
 ### Arguments
-- **uint:** model
+- **int:** modelHashKey
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks that vehicle model is a bike model.

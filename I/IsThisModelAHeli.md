@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x62EA75E0
-boolean IS_THIS_MODEL_A_HELI(uint model);
+bool IS_THIS_MODEL_A_HELI(int modelHashKey);
 ```
 
 ### Arguments
-- **uint:** model
+- **int:** modelHashKey
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks that vehicle model is a heli model.

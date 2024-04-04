@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x3D16145
-boolean IS_CAR_MODEL(Vehicle vehicle, uint model);
+bool IS_CAR_MODEL(int vehicleIndex, int modelHashKey);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
-- **uint:** model
+- **int:** vehicleIndex
+- **int:** modelHashKey
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks that the car is a specific model.

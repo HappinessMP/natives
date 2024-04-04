@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x6C403ACC
-boolean IS_CHAR_MODEL(Ped ped, uint model);
+bool IS_CHAR_MODEL(int charIndex, int modelHasKey);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** model
+- **int:** charIndex
+- **int:** modelHasKey
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks that the char is a specific model.

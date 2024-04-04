@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0xA3D60CE
-void GET_CHAR_MODEL(Ped ped, uint* pModel);
+void GET_CHAR_MODEL(int charIndex, int* modelHashKey);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **uint*:** pModel
+- **int*:** modelHashKey
 
 ## Description
+Get the model hash for the char.

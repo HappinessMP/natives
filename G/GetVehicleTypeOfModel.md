@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x60F720F6
-int GET_VEHICLE_TYPE_OF_MODEL(uint model);
+int GET_VEHICLE_TYPE_OF_MODEL(int modelHashKey);
 ```
 
 ### Arguments
-- **uint:** model
+- **int:** modelHashKey
 
 ### Results
-- **int**
+- **int:** vehicleType
 
 ## Description

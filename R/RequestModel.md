@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x502B5185
-void REQUEST_MODEL(uint model);
+void REQUEST_MODEL(int modelHashKey);
 ```
 
 ### Arguments
-- **uint:** model
+- **int:** modelHashKey
 
 ### Results
 
 ## Description
+Request streaming to load a model.

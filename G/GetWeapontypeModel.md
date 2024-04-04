@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x4FE23F25
-void GET_WEAPONTYPE_MODEL(int weapontype, uint* model);
+void GET_WEAPONTYPE_MODEL(int weaponType, int* modelHashKey);
 ```
 
 ### Arguments
-- **int:** weapontype
+- **int:** weaponType
 
 ### Results
-- **uint*:** model
+- **int*:** modelHashKey
 
 ## Description
+Returns the hash key of the weapon model.

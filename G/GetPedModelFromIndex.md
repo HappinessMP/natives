@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x124D4571
-uint GET_PED_MODEL_FROM_INDEX(int index);
+int GET_PED_MODEL_FROM_INDEX(int pedModelIndex);
 ```
 
 ### Arguments
-- **int:** index
+- **int:** pedModelIndex
 
 ### Results
-- **uint**
+- **int:** modelHashKey
 
 ## Description
+Can be used to cycle through all the ped models.

@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x302E113D
-void REQUEST_INTERIOR_MODELS(uint model, char* interiorName);
+void REQUEST_INTERIOR_MODELS(int modelHashKey, char* roomName);
 ```
 
 ### Arguments
-- **uint:** model
-- **char*:** interiorName
+- **int:** modelHashKey
+- **char*:** roomName
 
 ### Results
 
 ## Description
+Requests the room and all the models within it.

@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x7E5C70BF
-uint GET_VEHICLE_MODEL_FROM_INDEX(int index);
+int GET_VEHICLE_MODEL_FROM_INDEX(int vehicleModelIndex);
 ```
 
 ### Arguments
-- **int:** index
+- **int:** vehicleModelIndex
 
 ### Results
-- **uint**
+- **int:** modelHashKey
 
 ## Description
+Can be used to cycle through all the vehicle models.

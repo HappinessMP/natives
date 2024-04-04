@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x43CC0913
-boolean IS_THIS_MODEL_A_BOAT(uint model);
+bool IS_THIS_MODEL_A_BOAT(int modelHashKey);
 ```
 
 ### Arguments
-- **uint:** model
+- **int:** modelHashKey
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks that vehicle model is a boat model.

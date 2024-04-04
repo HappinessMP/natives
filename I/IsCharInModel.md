@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x45DB5FE9
-boolean IS_CHAR_IN_MODEL(Ped ped, uint model);
+bool IS_CHAR_IN_MODEL(int charIndex, int modelHashKey);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** model
+- **int:** charIndex
+- **int:** modelHashKey
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks the char is in the specified model.

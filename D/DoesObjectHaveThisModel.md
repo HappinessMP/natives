@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x7505765B
-boolean DOES_OBJECT_HAVE_THIS_MODEL(Object obj, uint model);
+bool DOES_OBJECT_HAVE_THIS_MODEL(int objectIndex, int modelHashKey);
 ```
 
 ### Arguments
-- **Object:** obj
-- **uint:** model
+- **int:** objectIndex
+- **int:** modelHashKey
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

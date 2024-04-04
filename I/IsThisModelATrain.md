@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x7B8537F7
-boolean IS_THIS_MODEL_A_TRAIN(uint model);
+bool IS_THIS_MODEL_A_TRAIN(int modelHashKey);
 ```
 
 ### Arguments
-- **uint:** model
+- **int:** modelHashKey
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks that vehicle model is a train model.

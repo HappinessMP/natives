@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x62BC0AEE
-boolean IS_THIS_MODEL_A_VEHICLE(uint model);
+bool IS_THIS_MODEL_A_VEHICLE(int modelHashKey);
 ```
 
 ### Arguments
-- **uint:** model
+- **int:** modelHashKey
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
