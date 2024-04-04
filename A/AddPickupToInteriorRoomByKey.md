@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x198B786F
-void ADD_PICKUP_TO_INTERIOR_ROOM_BY_KEY(Object pickup, uint room_hash);
+void ADD_PICKUP_TO_INTERIOR_ROOM_BY_KEY(int pickupIndex, int roomKey);
 ```
 
 ### Arguments
-- **Object:** pickup
-- **uint:** room_hash
+- **int:** pickupIndex
+- **int:** roomKey
 
 ### Results
 

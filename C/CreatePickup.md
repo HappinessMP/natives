@@ -3,18 +3,18 @@
 ## Declaration
 ```cpp
 // 0x7E2868D4
-void CREATE_PICKUP(uint model, uint pickupType, float x, float y, float z, Pickup* pPickup, boolean unknownFalse);
+void CREATE_PICKUP(int modelHashKey, int pickupType, float x, float y, float z, int* pickupIndex, bool unknownFalse);
 ```
 
 ### Arguments
-- **uint:** model
-- **uint:** pickupType
+- **int:** modelHashKey
+- **int:** pickupType
 - **float:** x
 - **float:** y
 - **float:** z
-- **boolean:** unknownFalse
+- **bool:** unknownFalse
 
 ### Results
-- **Pickup*:** pPickup
+- **int*:** pickupIndex
 
 ## Description

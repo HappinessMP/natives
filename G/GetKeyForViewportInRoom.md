@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x10776AAE
-void GET_KEY_FOR_VIEWPORT_IN_ROOM(int viewportid, int* roomkey);
+void GET_KEY_FOR_VIEWPORT_IN_ROOM(int viewportIndex, int* roomKey);
 ```
 
 ### Arguments
-- **int:** viewportid
+- **int:** viewportIndex
 
 ### Results
-- **int*:** roomkey
+- **int*:** roomKey
 
 ## Description

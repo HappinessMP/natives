@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x5FD24FEA
-void CLEAR_ROOM_FOR_CAR(Vehicle vehicle);
+void CLEAR_ROOM_FOR_CAR(int vehicleIndex);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** vehicleIndex
 
 ### Results
 

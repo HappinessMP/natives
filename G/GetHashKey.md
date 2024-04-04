@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x68FF7165
-uint GET_HASH_KEY(char* value);
+int GET_HASH_KEY(char* string);
 ```
 
 ### Arguments
-- **char*:** value
+- **char*:** string
 
 ### Results
-- **uint**
+- **int**
 
 ## Description
+Creates a hash key for the given string.

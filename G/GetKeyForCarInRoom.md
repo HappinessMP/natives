@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0xE390571
-void GET_KEY_FOR_CAR_IN_ROOM(Vehicle vehicle, uint* pKey);
+void GET_KEY_FOR_CAR_IN_ROOM(int vehicleIndex, int* roomKey);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** vehicleIndex
 
 ### Results
-- **uint*:** pKey
+- **int*:** roomKey
 
 ## Description

@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x1E106A88
-void SET_ROOM_FOR_CAR_BY_KEY(Car car, uint roomkey);
+void SET_ROOM_FOR_CAR_BY_KEY(int vehicleIndex, int roomKey);
 ```
 
 ### Arguments
-- **Car:** car
-- **uint:** roomkey
+- **int:** vehicleIndex
+- **int:** roomKey
 
 ### Results
 

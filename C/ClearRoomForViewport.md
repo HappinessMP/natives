@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x7A583068
-void CLEAR_ROOM_FOR_VIEWPORT(int viewportid);
+void CLEAR_ROOM_FOR_VIEWPORT(int viewportIndex);
 ```
 
 ### Arguments
-- **int:** viewportid
+- **int:** viewportIndex
 
 ### Results
 

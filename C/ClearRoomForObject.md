@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x12ED69A6
-void CLEAR_ROOM_FOR_OBJECT(Object obj);
+void CLEAR_ROOM_FOR_OBJECT(int objectIndex);
 ```
 
 ### Arguments
-- **Object:** obj
+- **int:** objectIndex
 
 ### Results
 

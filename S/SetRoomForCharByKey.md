@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x620C26D8
-void SET_ROOM_FOR_CHAR_BY_KEY(Ped ped, uint key);
+void SET_ROOM_FOR_CHAR_BY_KEY(int charIndex, int roomKey);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** key
+- **int:** charIndex
+- **int:** roomKey
 
 ### Results
 

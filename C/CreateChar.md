@@ -3,18 +3,19 @@
 ## Declaration
 ```cpp
 // 0x4A673763
-void CREATE_CHAR(RelationshipGroup type, uint model, float x, float y, float z, Ped* pPed, boolean unknownTrue);
+void CREATE_CHAR(int charType, int modelHashKey, float x, float y, float z, int* charIndex, bool registerAsNetworkObject);
 ```
 
 ### Arguments
-- **RelationshipGroup:** type
-- **uint:** model
+- **int:** charType
+- **int:** modelHashKey
 - **float:** x
 - **float:** y
 - **float:** z
-- **boolean:** unknownTrue
+- **bool:** registerAsNetworkObject
 
 ### Results
-- **Ped*:** pPed
+- **int*:** charIndex
 
 ## Description
+Creates a char on foot at the specified coords.

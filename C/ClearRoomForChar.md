@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x405B16CF
-void CLEAR_ROOM_FOR_CHAR(Ped ped);
+void CLEAR_ROOM_FOR_CHAR(int charIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
 

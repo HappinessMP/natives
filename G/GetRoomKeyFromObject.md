@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x561509AD
-void GET_ROOM_KEY_FROM_OBJECT(Object obj, uint* pRoomKey);
+void GET_ROOM_KEY_FROM_OBJECT(int objectIndex, int* roomKey);
 ```
 
 ### Arguments
-- **Object:** obj
+- **int:** objectIndex
 
 ### Results
-- **uint*:** pRoomKey
+- **int*:** roomKey
 
 ## Description

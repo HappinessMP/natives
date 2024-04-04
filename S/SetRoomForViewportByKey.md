@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x7EE2A45
-void SET_ROOM_FOR_VIEWPORT_BY_KEY(int viewportid, uint roomkey);
+void SET_ROOM_FOR_VIEWPORT_BY_KEY(int viewportIndex, int roomKey);
 ```
 
 ### Arguments
-- **int:** viewportid
-- **uint:** roomkey
+- **int:** viewportIndex
+- **int:** roomKey
 
 ### Results
 

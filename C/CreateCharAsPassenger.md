@@ -3,16 +3,16 @@
 ## Declaration
 ```cpp
 // 0x442B1C1D
-void CREATE_CHAR_AS_PASSENGER(Vehicle vehicle, uint charType, uint model, uint passengerIndex, Ped* pPed);
+void CREATE_CHAR_AS_PASSENGER(int vehicleIndex, int charType, int modelHashKey, int passengerIndex, int* charIndex);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
-- **uint:** charType
-- **uint:** model
-- **uint:** passengerIndex
+- **int:** vehicleIndex
+- **int:** charType
+- **int:** modelHashKey
+- **int:** passengerIndex
 
 ### Results
-- **Ped*:** pPed
+- **int*:** charIndex
 
 ## Description

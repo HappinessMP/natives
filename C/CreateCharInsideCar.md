@@ -3,15 +3,15 @@
 ## Declaration
 ```cpp
 // 0x2702274D
-void CREATE_CHAR_INSIDE_CAR(Vehicle vehicle, uint charType, uint model, Ped* pPed);
+void CREATE_CHAR_INSIDE_CAR(int vehicleIndex, int charType, int modelHashKey, int* charIndex);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
-- **uint:** charType
-- **uint:** model
+- **int:** vehicleIndex
+- **int:** charType
+- **int:** modelHashKey
 
 ### Results
-- **Ped*:** pPed
+- **int*:** charIndex
 
 ## Description

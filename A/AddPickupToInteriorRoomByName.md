@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x365042F
-void ADD_PICKUP_TO_INTERIOR_ROOM_BY_NAME(Pickup pickup, char* roomName);
+void ADD_PICKUP_TO_INTERIOR_ROOM_BY_NAME(int pickupIndex, char* roomName);
 ```
 
 ### Arguments
-- **Pickup:** pickup
+- **int:** pickupIndex
 - **char*:** roomName
 
 ### Results

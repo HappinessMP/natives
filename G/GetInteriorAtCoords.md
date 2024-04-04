@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x29216610
-void GET_INTERIOR_AT_COORDS(float x, float y, float z, Interior* pInterior);
+void GET_INTERIOR_AT_COORDS(float x, float y, float z, int* interiorIndex);
 ```
 
 ### Arguments
@@ -12,6 +12,7 @@ void GET_INTERIOR_AT_COORDS(float x, float y, float z, Interior* pInterior);
 - **float:** z
 
 ### Results
-- **Interior*:** pInterior
+- **int*:** interiorIndex
 
 ## Description
+Gets the interior index from coords.
