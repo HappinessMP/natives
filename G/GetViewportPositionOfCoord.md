@@ -10,10 +10,10 @@ bool GET_VIEWPORT_POSITION_OF_COORD(float worldPosX, float worldPosY, float worl
 - **float:** worldPosX
 - **float:** worldPosY
 - **float:** worldPosZ
+- **int:** type (2: screen pos)
 
 ### Results
 - **bool**
-- **int:** type (2: screen pos)
 - **float*:** viewportPosX
 - **float*:** viewportPosY
 
