@@ -3,18 +3,19 @@
 ## Declaration
 ```cpp
 // 0x287A49A5
-boolean GET_VIEWPORT_POSITION_OF_COORD(float x, float y, float z, float* vx, float* vy, float* vz);
+bool GET_VIEWPORT_POSITION_OF_COORD(float worldPosX, float worldPosY, float worldPosZ, int type, float* viewportPosX, float* viewportPosY);
 ```
 
 ### Arguments
-- **float:** x
-- **float:** y
-- **float:** z
+- **float:** worldPosX
+- **float:** worldPosY
+- **float:** worldPosZ
 
 ### Results
-- **boolean**
-- **float*:** vx
-- **float*:** vy
-- **float*:** vz
+- **bool**
+- **int:** type (2: screen pos)
+- **float*:** viewportPosX
+- **float*:** viewportPosY
 
 ## Description
+Returns a valid point on screen, if either x or y is invalid, this will return false and -1.0 for x and y.
