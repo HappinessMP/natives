@@ -3,17 +3,18 @@
 ## Declaration
 ```cpp
 // 0xD940AF4
-void CREATE_CARS_ON_GENERATORS_IN_AREA(float x0, float y0, float z0, float x1, float y1, float z1);
+void CREATE_CARS_ON_GENERATORS_IN_AREA(float minX, float minY, float minZ, float maxX, float maxY, float maxZ);
 ```
 
 ### Arguments
-- **float:** x0
-- **float:** y0
-- **float:** z0
-- **float:** x1
-- **float:** y1
-- **float:** z1
+- **float:** minX
+- **float:** minY
+- **float:** minZ
+- **float:** maxX
+- **float:** maxY
+- **float:** maxZ
 
 ### Results
 
 ## Description
+For all car generators in this area a vehicle is created (if the space is clear).

@@ -3,16 +3,16 @@
 ## Declaration
 ```cpp
 // 0x768B3AC7
-boolean CREATE_EMERGENCY_SERVICES_CAR(uint model, float x, float y, float z);
+bool CREATE_EMERGENCY_SERVICES_CAR(int modelHashKey, float destinationX, float destinationY, float destinationZ);
 ```
 
 ### Arguments
-- **uint:** model
-- **float:** x
-- **float:** y
-- **float:** z
+- **int:** modelHashKey
+- **float:** destinationX
+- **float:** destinationY
+- **float:** destinationZ
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x41F27499
-uint CREATE_CHECKPOINT(int type, float x, float y, float z, float nextX, float nextY, float nextZ, float radius);
+int CREATE_CHECKPOINT(int type, float x, float y, float z, float pointAtX, float pointAtY, float pointAtZ, float size);
 ```
 
 ### Arguments
@@ -11,12 +11,13 @@ uint CREATE_CHECKPOINT(int type, float x, float y, float z, float nextX, float n
 - **float:** x
 - **float:** y
 - **float:** z
-- **float:** nextX
-- **float:** nextY
-- **float:** nextZ
-- **float:** radius
+- **float:** pointAtX
+- **float:** pointAtY
+- **float:** pointAtZ
+- **float:** size
 
 ### Results
-- **uint**
+- **int**
 
 ## Description
+Creates a race checkpoint.

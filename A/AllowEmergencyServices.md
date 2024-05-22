@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x69A72C50
-void ALLOW_EMERGENCY_SERVICES(boolean allow);
+void ALLOW_EMERGENCY_SERVICES(bool allow);
 ```
 
 ### Arguments
-- **boolean:** allow
+- **bool:** allow
 
 ### Results
 

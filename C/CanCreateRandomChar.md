@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x5CD64D63
-boolean CAN_CREATE_RANDOM_CHAR(boolean flag0, boolean flag1);
+bool CAN_CREATE_RANDOM_CHAR(bool male, bool female);
 ```
 
 ### Arguments
-- **boolean:** flag0
-- **boolean:** flag1
+- **bool:** male
+- **bool:** female
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Call this before trying to create a ped with a random model, to ensure that a model is available.

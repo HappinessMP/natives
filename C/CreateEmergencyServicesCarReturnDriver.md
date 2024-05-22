@@ -3,19 +3,19 @@
 ## Declaration
 ```cpp
 // 0x68251A95
-boolean CREATE_EMERGENCY_SERVICES_CAR_RETURN_DRIVER(uint model, float x, float y, float z, Car* car, Ped* cardriver, Ped* carpass);
+bool CREATE_EMERGENCY_SERVICES_CAR_RETURN_DRIVER(int modelHashKey, float destinationX, float destinationY, float destinationZ, int* carIndex, int* charDriver, int* charPassenger);
 ```
 
 ### Arguments
-- **uint:** model
-- **float:** x
-- **float:** y
-- **float:** z
+- **int:** modelHashKey
+- **float:** destinationX
+- **float:** destinationY
+- **float:** destinationZ
 
 ### Results
-- **boolean**
-- **Car*:** car
-- **Ped*:** cardriver
-- **Ped*:** carpass
+- **bool**
+- **int*:** carIndex
+- **int*:** charDriver
+- **int*:** charPassenger
 
 ## Description

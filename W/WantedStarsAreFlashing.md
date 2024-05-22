@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x746EDF
-boolean WANTED_STARS_ARE_FLASHING();
+bool WANTED_STARS_ARE_FLASHING();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

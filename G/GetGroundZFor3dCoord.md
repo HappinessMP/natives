@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x6D902EE3
-boolean GET_GROUND_Z_FOR_3D_COORD(float x, float y, float z, float* pGroundZ);
+bool GET_GROUND_Z_FOR_3D_COORD(float x, float y, float z, float* returnZ);
 ```
 
 ### Arguments
@@ -12,7 +12,8 @@ boolean GET_GROUND_Z_FOR_3D_COORD(float x, float y, float z, float* pGroundZ);
 - **float:** z
 
 ### Results
-- **boolean**
-- **float*:** pGroundZ
+- **bool**
+- **float*:** returnZ
 
 ## Description
+Trys to store the Z coordinate of the highest ground below the given point.

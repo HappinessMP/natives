@@ -3,26 +3,27 @@
 ## Declaration
 ```cpp
 // 0xF132F7E
-void CREATE_CAR_GENERATOR(float x, float y, float z, float angle, float, float, uint model, int, int, int, int, int, boolean alarm, boolean doorlock, int* handle);
+void CREATE_CAR_GENERATOR(float x, float y, float z, float heading, float maxLength, float maxWidth, int modelHashKey, int remap1, int remap2, int remap3, int remap4, bool highPriorityFlag, int chanceOfVehicleAlarm, int chanceOfLocked, int* carGeneratorIndex);
 ```
 
 ### Arguments
 - **float:** x
 - **float:** y
 - **float:** z
-- **float:** angle
-- **float**
-- **float**
-- **uint:** model
-- **int**
-- **int**
-- **int**
-- **int**
-- **int**
-- **boolean:** alarm
-- **boolean:** doorlock
+- **float:** heading
+- **float:** maxLength
+- **float:** maxWidth
+- **int:** modelHashKey
+- **int:** remap1
+- **int:** remap2
+- **int:** remap3
+- **int:** remap4
+- **bool:** highPriorityFlag
+- **int:** chanceOfVehicleAlarm
+- **int:** chanceOfLocked
 
 ### Results
-- **int*:** handle
+- **int*:** carGeneratorIndex
 
 ## Description
+Creates a car generator.

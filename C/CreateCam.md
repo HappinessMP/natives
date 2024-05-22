@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x694A0DC1
-void CREATE_CAM(uint camtype_usually14, Camera* camera);
+void CREATE_CAM(int type, int* cameraIndex);
 ```
 
 ### Arguments
-- **uint:** camtype_usually14
+- **int:** type (usually 14)
 
 ### Results
-- **Camera*:** camera
+- **int*:** cameraIndex
 
 ## Description
+Create a camera of the given type.
