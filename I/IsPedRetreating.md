@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x7A0B156B
-boolean IS_PED_RETREATING(Ped ped);
+bool IS_PED_RETREATING(int charIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

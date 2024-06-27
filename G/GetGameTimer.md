@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x22B2DA9
-void GET_GAME_TIMER(uint* pTimer);
+void GET_GAME_TIMER(int* timer);
 ```
 
 ### Arguments
 
 ### Results
-- **uint*:** pTimer
+- **int*:** timer
 
 ## Description
+Gets the current game timer in milliseconds.

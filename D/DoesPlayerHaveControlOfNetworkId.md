@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x3D0B5E56
-ScriptAny DOES_PLAYER_HAVE_CONTROL_OF_NETWORK_ID(ScriptAny, ScriptAny);
+bool DOES_PLAYER_HAVE_CONTROL_OF_NETWORK_ID(int playerIndex, int networkIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
+- **int:** playerIndex
+- **int:** networkIndex
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description
+Returns true if the player has ownership of the object with the specified network ID.

@@ -12,3 +12,4 @@ void GET_FRAME_TIME(float* time);
 - **float*:** time
 
 ## Description
+Returns the time since the last frame (in seconds).

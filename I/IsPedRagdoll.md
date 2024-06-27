@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x3E251ADE
-boolean IS_PED_RAGDOLL(Ped ped);
+bool IS_PED_RAGDOLL(int charIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Is ped a ragdoll.

@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x5FB31295
-FireId START_CHAR_FIRE(Ped ped);
+int START_CHAR_FIRE(int charIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **FireId**
+- **int:** fireIndex
 
 ## Description
+Creates a fire on this char.

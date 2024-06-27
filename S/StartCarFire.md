@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x3D703ED7
-FireId START_CAR_FIRE(Vehicle vehicle);
+int START_CAR_FIRE(int carIndex);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** carIndex
 
 ### Results
-- **FireId**
+- **int:** fireIndex
 
 ## Description
+Creates a fire on this car.

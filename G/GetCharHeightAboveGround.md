@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x79973C5A
-void GET_CHAR_HEIGHT_ABOVE_GROUND(Ped ped, float* pValue);
+void GET_CHAR_HEIGHT_ABOVE_GROUND(int charIndex, float* height);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **float*:** pValue
+- **float*:** height
 
 ## Description
+Gets the char's height above the ground.

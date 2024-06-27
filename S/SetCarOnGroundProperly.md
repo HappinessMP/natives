@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0xE717E98
-ScriptAny SET_CAR_ON_GROUND_PROPERLY(Vehicle vehicle);
+bool SET_CAR_ON_GROUND_PROPERLY(int carIndex);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** carIndex
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description
+Sets the car on the ground taking into account the angle of the ground.

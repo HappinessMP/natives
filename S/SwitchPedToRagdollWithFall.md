@@ -3,26 +3,26 @@
 ## Declaration
 ```cpp
 // 0x13E4042D
-boolean SWITCH_PED_TO_RAGDOLL_WITH_FALL(Ped ped, int, int, int, float, float, int, float, float, float, float, float, float, float);
+bool SWITCH_PED_TO_RAGDOLL_WITH_FALL(int charIndex, int minTime, int maxTime, int fallType, float directionX, float directionY, float directionZ, float groundHeight, float grab1x, float grab1y, float grab1z, float grab2x, float grab2y, float grab2z);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **int**
-- **int**
-- **int**
-- **float**
-- **float**
-- **int**
-- **float**
-- **float**
-- **float**
-- **float**
-- **float**
-- **float**
-- **float**
+- **int:** charIndex
+- **int:** minTime
+- **int:** maxTime
+- **int:** fallType
+- **float:** directionX
+- **float:** directionY
+- **float:** directionZ
+- **float:** groundHeight
+- **float:** grab1x
+- **float:** grab1y
+- **float:** grab1z
+- **float:** grab2x
+- **float:** grab2y
+- **float:** grab2z
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

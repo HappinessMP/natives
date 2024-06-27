@@ -3,18 +3,19 @@
 ## Declaration
 ```cpp
 // 0x2CB303F8
-Vehicle GET_CLOSEST_CAR(float x, float y, float z, float radius, boolean unknownFalse, uint unknown70);
+int GET_CLOSEST_CAR(float centreX, float centreY, float centreZ, float radius, int modelHashKey, int searchFlags);
 ```
 
 ### Arguments
-- **float:** x
-- **float:** y
-- **float:** z
+- **float:** centreX
+- **float:** centreY
+- **float:** centreZ
 - **float:** radius
-- **boolean:** unknownFalse
-- **uint:** unknown70
+- **int:** modelHashKey
+- **int:** searchFlags
 
 ### Results
-- **Vehicle**
+- **int:** vehicleIndex
 
 ## Description
+Get the closet random vehicle to a coord.

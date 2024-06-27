@@ -13,3 +13,4 @@ float ABSF(float value);
 - **float**
 
 ## Description
+Checks the absolute value for an float, any negatives will be returned as positive.

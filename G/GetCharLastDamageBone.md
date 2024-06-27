@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x767E5013
-ScriptAny GET_CHAR_LAST_DAMAGE_BONE(Ped ped, uint* pBone);
+bool GET_CHAR_LAST_DAMAGE_BONE(int charIndex, int* pBone);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **ScriptAny**
-- **uint*:** pBone
+- **bool**
+- **int*:** pBone
 
 ## Description
+Gets the bone that took the last piece of damage.

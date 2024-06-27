@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x265544F9
-ScriptAny TOGGLE_CHAR_DUCKING(Ped ped);
+void TOGGLE_CHAR_DUCKING(int charIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **ScriptAny**
 
 ## Description
+Toggles char ducking pose.

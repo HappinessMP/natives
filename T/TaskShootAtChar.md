@@ -3,15 +3,16 @@
 ## Declaration
 ```cpp
 // 0x8022967
-void TASK_SHOOT_AT_CHAR(Ped shooter, Ped victim, int time, ShootMode shootmode);
+void TASK_SHOOT_AT_CHAR(int shooter, int victim, int time, int firingType);
 ```
 
 ### Arguments
-- **Ped:** shooter
-- **Ped:** victim
+- **int:** shooter (charIndex)
+- **int:** victim (charIndex)
 - **int:** time
-- **ShootMode:** shootmode
+- **int:** firingType
 
 ### Results
 
 ## Description
+Gives a shoot at char task.

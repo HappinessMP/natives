@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x64302F16
-ScriptAny SET_CHAR_DUCKING(Ped ped, boolean set);
+void SET_CHAR_DUCKING(int charIndex, bool duck);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **boolean:** set
+- **int:** charIndex
+- **bool:** duck
 
 ### Results
-- **ScriptAny**
 
 ## Description
+Sets a char to a ducking pose.

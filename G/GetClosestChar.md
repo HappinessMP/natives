@@ -3,19 +3,20 @@
 ## Declaration
 ```cpp
 // 0xF4B0239
-boolean GET_CLOSEST_CHAR(float x, float y, float z, float radius, boolean unknown1, boolean unknown2, Ped* pPed);
+bool GET_CLOSEST_CHAR(float centreX, float centreY, float centreZ, float radius, bool scanRandomPeds, bool scanMissionPeds, int* charIndex);
 ```
 
 ### Arguments
-- **float:** x
-- **float:** y
-- **float:** z
+- **float:** centreX
+- **float:** centreY
+- **float:** centreZ
 - **float:** radius
-- **boolean:** unknown1
-- **boolean:** unknown2
+- **bool:** scanRandomPeds
+- **bool:** scanMissionPeds
 
 ### Results
-- **boolean**
-- **Ped*:** pPed
+- **bool**
+- **int*:** charIndex
 
 ## Description
+Trys to get closest random char to a coord.

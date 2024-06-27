@@ -15,3 +15,4 @@ float VMAG2(float x, float y, float z);
 - **float**
 
 ## Description
+Square of vector magnitude (much less costly to compute)

@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x3B977FD4
-void GET_CHAR_VELOCITY(Ped ped, float* pX, float* pY, float* pZ);
+void GET_CHAR_VELOCITY(int charIndex, float* pX, float* pY, float* pZ);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
 - **float*:** pX
@@ -15,3 +15,4 @@ void GET_CHAR_VELOCITY(Ped ped, float* pX, float* pY, float* pZ);
 - **float*:** pZ
 
 ## Description
+Gets the current velocity of the char.

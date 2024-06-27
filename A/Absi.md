@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x75A648B7
-float ABSI(float value);
+int ABSI(int value);
 ```
 
 ### Arguments
-- **float:** value
+- **int:** value
 
 ### Results
-- **float**
+- **int**
 
 ## Description
+Checks the absolute value for an int, any negatives will be returned as positive.

@@ -15,3 +15,4 @@ float VMAG(float x, float y, float z);
 - **float**
 
 ## Description
+Vector magnitude

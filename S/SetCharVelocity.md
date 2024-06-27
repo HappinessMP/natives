@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x7C76803
-void SET_CHAR_VELOCITY(Ped ped, float x, float y, float z);
+void SET_CHAR_VELOCITY(int charIndex, float x, float y, float z);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 - **float:** x
 - **float:** y
 - **float:** z
@@ -15,3 +15,4 @@ void SET_CHAR_VELOCITY(Ped ped, float x, float y, float z);
 ### Results
 
 ## Description
+Sets the char's current velocity.

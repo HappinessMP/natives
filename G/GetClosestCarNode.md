@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x27F87222
-boolean GET_CLOSEST_CAR_NODE(float x, float y, float z, float* pResX, float* pResY, float* pResZ);
+bool GET_CLOSEST_CAR_NODE(float x, float y, float z, float* outX, float* outY, float* outZ);
 ```
 
 ### Arguments
@@ -12,9 +12,10 @@ boolean GET_CLOSEST_CAR_NODE(float x, float y, float z, float* pResX, float* pRe
 - **float:** z
 
 ### Results
-- **boolean**
-- **float*:** pResX
-- **float*:** pResY
-- **float*:** pResZ
+- **bool**
+- **float*:** outX
+- **float*:** outY
+- **float*:** outZ
 
 ## Description
+Will return if can the closest car node to a coord.

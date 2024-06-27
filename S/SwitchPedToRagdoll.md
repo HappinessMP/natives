@@ -3,19 +3,20 @@
 ## Declaration
 ```cpp
 // 0x1A0F56C5
-boolean SWITCH_PED_TO_RAGDOLL(Ped ped, int unk, int time, boolean flag0, boolean flag1, boolean flag2, boolean flag3);
+bool SWITCH_PED_TO_RAGDOLL(int charIndex, int minTime, int maxTime, int startTask, bool abortIfInjured, bool abortIfDead, bool forceScriptControl);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **int:** unk
-- **int:** time
-- **boolean:** flag0
-- **boolean:** flag1
-- **boolean:** flag2
-- **boolean:** flag3
+- **int:** charIndex
+- **int:** minTime
+- **int:** maxTime
+- **int:** startTask
+- **bool:** abortIfInjured
+- **bool:** abortIfDead
+- **bool:** forceScriptControl
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Sets a ped into a rag doll state.

@@ -3,20 +3,23 @@
 ## Declaration
 ```cpp
 // 0x2F2405D1
-boolean GET_CLOSEST_CAR_NODE_FAVOUR_DIRECTION(int, float x, float y, float z, float* pX, float* pY, float* pZ, float* heading);
+bool GET_CLOSEST_CAR_NODE_FAVOUR_DIRECTION(float x, float y, float z, float faceX, float faceY, float faceZ, float* outX, float* outY, float* outZ, float* outHeading);
 ```
 
 ### Arguments
-- **int**
 - **float:** x
 - **float:** y
 - **float:** z
+- **float:** faceX
+- **float:** faceY
+- **float:** faceZ
 
 ### Results
-- **boolean**
-- **float*:** pX
-- **float*:** pY
-- **float*:** pZ
-- **float*:** heading
+- **bool**
+- **float*:** outX
+- **float*:** outY
+- **float*:** outZ
+- **float*:** outHeading
 
 ## Description
+Will return if can the closest vehicle node, tries to return a heading which points the car in the right direction to reach face coords.

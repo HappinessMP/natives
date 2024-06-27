@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x20FD4F4E
-void GET_NETWORK_TIMER(uint* pTimer);
+void GET_NETWORK_TIMER(int* timer);
 ```
 
 ### Arguments
 
 ### Results
-- **uint*:** pTimer
+- **int*:** timer
 
 ## Description
+Gets the current network timer in milliseconds.

@@ -3,15 +3,16 @@
 ## Declaration
 ```cpp
 // 0x6E1A0A84
-ScriptAny SET_AMMO_IN_CLIP(Ped ped, uint weapon, uint ammo);
+bool SET_AMMO_IN_CLIP(int charIndex, int weaponType, int ammoInClip);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** weapon
-- **uint:** ammo
+- **int:** charIndex
+- **int:** weaponType
+- **int:** ammoInClip
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description
+Sets the amount of ammo in a clip.

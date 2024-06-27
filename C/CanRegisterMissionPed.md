@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x1DC730B8
-ScriptAny CAN_REGISTER_MISSION_PED();
+bool CAN_REGISTER_MISSION_PED();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

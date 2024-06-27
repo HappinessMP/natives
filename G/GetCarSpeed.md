@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x16DD2D00
-void GET_CAR_SPEED(Vehicle vehicle, float* pValue);
+void GET_CAR_SPEED(int carIndex, float* pValue);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** carIndex
 
 ### Results
 - **float*:** pValue
 
 ## Description
+Gets the speed an car is travelling in a forward direction (m/sec).

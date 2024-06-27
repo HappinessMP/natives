@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x45345838
-Object GET_OBJECT_PED_IS_HOLDING(Ped ped);
+int GET_OBJECT_PED_IS_HOLDING(int charIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **Object**
+- **int**
 
 ## Description

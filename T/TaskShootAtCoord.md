@@ -3,17 +3,18 @@
 ## Declaration
 ```cpp
 // 0x705231A9
-void TASK_SHOOT_AT_COORD(Ped ped, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void TASK_SHOOT_AT_COORD(int charIndex, float x, float y, float z, int duration, int firingType);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** charIndex
+- **float:** x
+- **float:** y
+- **float:** z
+- **int:** duration
+- **int:** firingType
 
 ### Results
 
 ## Description
+Tells the char to shoot at given coord.

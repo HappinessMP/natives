@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x51983F94
-ScriptAny GET_SERVER_ID();
+int GET_SERVER_ID();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **int**
 
 ## Description

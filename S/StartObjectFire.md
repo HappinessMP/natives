@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x2D7D5DD2
-ScriptAny START_OBJECT_FIRE(Object obj);
+int START_OBJECT_FIRE(int objectIndex);
 ```
 
 ### Arguments
-- **Object:** obj
+- **int:** objectIndex
 
 ### Results
-- **ScriptAny**
+- **int:** fireIndex
 
 ## Description
+Creates a fire on this object.
