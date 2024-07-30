@@ -13,3 +13,4 @@ void REMOVE_BLIP_AND_CLEAR_INDEX(int& blipIndex);
 - **int&:** blipIndex
 
 ## Description
+Delete radar blip and sets the variable to NULL.

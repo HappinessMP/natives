@@ -3,15 +3,15 @@
 ## Declaration
 ```cpp
 // 0x68373878
-ScriptAny STORE_DAMAGE_TRACKER_FOR_NETWORK_PLAYER(ScriptAny, ScriptAny, ScriptAny);
+int STORE_DAMAGE_TRACKER_FOR_NETWORK_PLAYER(int playerIndex, int type, int networkId);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** playerIndex
+- **int:** type
+- **int:** networkId
 
 ### Results
-- **ScriptAny**
+- **int**
 
 ## Description

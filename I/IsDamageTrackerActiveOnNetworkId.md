@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x5A2F2DD1
-ScriptAny IS_DAMAGE_TRACKER_ACTIVE_ON_NETWORK_ID(ScriptAny);
+bool IS_DAMAGE_TRACKER_ACTIVE_ON_NETWORK_ID(int networkId);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** networkId
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

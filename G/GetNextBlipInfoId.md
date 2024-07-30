@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x154932F0
-Blip GET_NEXT_BLIP_INFO_ID(uint type);
+int GET_NEXT_BLIP_INFO_ID(int blipSprite);
 ```
 
 ### Arguments
-- **uint:** type
+- **int:** blipSprite
 
 ### Results
-- **Blip**
+- **int:** blipIndex
 
 ## Description

@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x7BBF3625
-void REMOVE_BLIP(Blip blip);
+void REMOVE_BLIP(int blipIndex);
 ```
 
 ### Arguments
-- **Blip:** blip
+- **int:** blipIndex
 
 ### Results
 
 ## Description
+Delete radar blip.

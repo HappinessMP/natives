@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x1181CA3
-void ACTIVATE_DAMAGE_TRACKER_ON_NETWORK_ID(ScriptAny, ScriptAny);
+void ACTIVATE_DAMAGE_TRACKER_ON_NETWORK_ID(int networkId, bool activateTracker);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
+- **int:** networkId
+- **bool:** activateTracker
 
 ### Results
 
