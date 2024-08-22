@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x542D499E
-void ADD_NEW_CONVERSATION_SPEAKER(int id, int, int*);
+void ADD_NEW_CONVERSATION_SPEAKER(int speakerConversationIndex, int speakerCharIndex, char* voiceName);
 ```
 
 ### Arguments
-- **int:** id
-- **int**
+- **int:** speakerConversationIndex
+- **int:** speakerCharIndex
+- **char*:** voiceName
 
 ### Results
-- **int***
 
 ## Description

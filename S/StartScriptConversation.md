@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x288E50A3
-void START_SCRIPT_CONVERSATION(boolean flag0, boolean flag1);
+void START_SCRIPT_CONVERSATION(bool displaySubtitles, bool addToBriefing);
 ```
 
 ### Arguments
-- **boolean:** flag0
-- **boolean:** flag1
+- **bool:** displaySubtitles
+- **bool:** addToBriefing
 
 ### Results
 

@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x3CA23254
-boolean IS_SCRIPTED_CONVERSATION_ONGOING();
+bool IS_SCRIPTED_CONVERSATION_ONGOING();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

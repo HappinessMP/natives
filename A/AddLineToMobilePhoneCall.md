@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0xBED1DDE
-void ADD_LINE_TO_MOBILE_PHONE_CALL(int id, char* name, char* text);
+void ADD_LINE_TO_MOBILE_PHONE_CALL(int speakerNumber, char* context, char* subtitle);
 ```
 
 ### Arguments
-- **int:** id
-- **char*:** name
-- **char*:** text
+- **int:** speakerNumber
+- **char*:** context
+- **char*:** subtitle
 
 ### Results
 

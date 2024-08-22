@@ -3,15 +3,15 @@
 ## Declaration
 ```cpp
 // 0x75080482
-void ADD_LINE_TO_CONVERSATION(ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void ADD_LINE_TO_CONVERSATION(int speakerNumber, char* context, char* subtitle, int listenerNumber, int volumeType);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** speakerNumber
+- **char*:** context
+- **char*:** subtitle
+- **int:** listenerNumber
+- **int:** volumeType
 
 ### Results
 
