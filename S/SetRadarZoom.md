@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x35E37826
-void SET_RADAR_ZOOM(float zoom);
+void SET_RADAR_ZOOM(int zoomLevel);
 ```
 
 ### Arguments
-- **float:** zoom
+- **int:** zoomLevel
 
 ### Results
 
