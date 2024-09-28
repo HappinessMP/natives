@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x6136B6A
-void SET_GFWL_HAS_SAFE_HOUSE(ScriptAny);
+void SET_GFWL_HAS_SAFE_HOUSE(bool);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **bool**
 
 ### Results
 

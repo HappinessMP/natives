@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x51DF00D8
-ScriptAny NETWORK_IS_FIND_RESULT_VALID(ScriptAny);
+bool NETWORK_IS_FIND_RESULT_VALID(int findIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** findIndex
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

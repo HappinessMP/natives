@@ -3,18 +3,19 @@
 ## Declaration
 ```cpp
 // 0x1F736F00
-void CREATE_PICKUP_WITH_AMMO(uint model, uint pickupType, uint unknown, float x, float y, float z, Pickup* pPickup);
+void CREATE_PICKUP_WITH_AMMO(int modelHash, int pickupType, int ammo, float x, float y, float z, int* pickupIndex);
 ```
 
 ### Arguments
-- **uint:** model
-- **uint:** pickupType
-- **uint:** unknown
+- **int:** modelHash
+- **int:** pickupType
+- **int:** ammo
 - **float:** x
 - **float:** y
 - **float:** z
 
 ### Results
-- **Pickup*:** pPickup
+- **int*:** pickupIndex
 
 ## Description
+Creates a weapon pickup, giving the player the specified amount of ammo when they pick it up.

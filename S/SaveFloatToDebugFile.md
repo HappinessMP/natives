@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x66317064
-void SAVE_FLOAT_TO_DEBUG_FILE(ScriptAny);
+void SAVE_FLOAT_TO_DEBUG_FILE(float floatToSave);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **float:** floatToSave
 
 ### Results
 
 ## Description
+Writes an float value to temp_debug.txt.

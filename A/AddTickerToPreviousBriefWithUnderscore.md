@@ -3,17 +3,17 @@
 ## Declaration
 ```cpp
 // 0x20E0318
-void ADD_TICKER_TO_PREVIOUS_BRIEF_WITH_UNDERSCORE(ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void ADD_TICKER_TO_PREVIOUS_BRIEF_WITH_UNDERSCORE(char*, bool, char*, char*, bool, char*, bool);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **char***
+- **bool**
+- **char***
+- **char***
+- **bool**
+- **char***
+- **bool**
 
 ### Results
 

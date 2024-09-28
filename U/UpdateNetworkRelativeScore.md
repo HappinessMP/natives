@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x384E3F3A
-void UPDATE_NETWORK_RELATIVE_SCORE(ScriptAny, ScriptAny, ScriptAny);
+void UPDATE_NETWORK_RELATIVE_SCORE(int playerIndex, int, int teamIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** playerIndex
+- **int:**
+- **int:** teamIndex
 
 ### Results
 

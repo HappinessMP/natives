@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x5D4D0C86
-void NETWORK_FIND_GAME(ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void NETWORK_FIND_GAME(int gameMode, bool, int, int);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** gameMode
+- **bool**
+- **int**
+- **int**
 
 ### Results
 

@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x30D373DF
-void NETWORK_STORE_GAME_CONFIG(ScriptAny);
+void NETWORK_STORE_GAME_CONFIG(void* gameConfig);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **void*:** gameConfig
 
 ### Results
 

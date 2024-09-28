@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x7F35BFE
-void PLAYSTATS_INT_INT(ScriptAny, int, int);
+void PLAYSTATS_INT_INT(char* stat, int value, int value2);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **int**
-- **int**
+- **char*:** stat
+- **int:** value
+- **int:** value2
 
 ### Results
 

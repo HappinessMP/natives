@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x60806A0C
-ScriptAny NETWORK_JOIN_GAME(ScriptAny);
+bool NETWORK_JOIN_GAME(int findIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** findIndex
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

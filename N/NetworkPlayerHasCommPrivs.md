@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x2854024A
-ScriptAny NETWORK_PLAYER_HAS_COMM_PRIVS();
+bool NETWORK_PLAYER_HAS_COMM_PRIVS();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

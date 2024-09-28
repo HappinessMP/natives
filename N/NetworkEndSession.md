@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x75291BEC
-ScriptAny NETWORK_END_SESSION();
+bool NETWORK_END_SESSION();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description
+Ends a network session.

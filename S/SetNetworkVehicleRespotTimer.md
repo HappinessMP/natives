@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x266F327C
-void SET_NETWORK_VEHICLE_RESPOT_TIMER(ScriptAny, ScriptAny);
+void SET_NETWORK_VEHICLE_RESPOT_TIMER(int networkIndex, int timer);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
+- **int:** networkIndex
+- **int:** timer
 
 ### Results
 

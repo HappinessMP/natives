@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x7B31633E
-ScriptAny GET_PLAYER_RANK_LEVEL_DURING_MP(ScriptAny);
+int GET_PLAYER_RANK_LEVEL_DURING_MP(int playerIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** playerIndex
 
 ### Results
-- **ScriptAny**
+- **int**
 
 ## Description

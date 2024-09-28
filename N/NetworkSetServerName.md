@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x580E1C3D
-ScriptAny NETWORK_SET_SERVER_NAME(ScriptAny);
+bool NETWORK_SET_SERVER_NAME(char* name);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **char*:** name
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

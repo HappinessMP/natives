@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x720A4D47
-void RESERVE_NETWORK_MISSION_OBJECTS(ScriptAny);
+void RESERVE_NETWORK_MISSION_OBJECTS(int numObjectsToReserve);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** numObjectsToReserve
 
 ### Results
 
 ## Description
+Reserves space in the population pool for the given number of objects.

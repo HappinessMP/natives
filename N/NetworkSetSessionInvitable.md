@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x5FB15E81
-ScriptAny NETWORK_SET_SESSION_INVITABLE(ScriptAny);
+bool NETWORK_SET_SESSION_INVITABLE(bool invitable);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **bool:** invitable
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

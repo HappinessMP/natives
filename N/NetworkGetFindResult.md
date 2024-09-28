@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x282D2CAA
-void NETWORK_GET_FIND_RESULT(ScriptAny, ScriptAny);
+void NETWORK_GET_FIND_RESULT(int findIndex, void* results);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
+- **int:** findIndex
+- **void*:** results
 
 ### Results
 

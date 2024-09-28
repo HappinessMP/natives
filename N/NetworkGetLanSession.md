@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x48A723C1
-ScriptAny NETWORK_GET_LAN_SESSION();
+bool NETWORK_GET_LAN_SESSION();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

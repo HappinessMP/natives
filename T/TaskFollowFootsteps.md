@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x45DF7CCA
-void TASK_FOLLOW_FOOTSTEPS(Ped ped, ScriptAny);
+void TASK_FOLLOW_FOOTSTEPS(int charIndex, int charIndex2);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **ScriptAny**
+- **int:** charIndex
+- **int:** charIndex2
 
 ### Results
 

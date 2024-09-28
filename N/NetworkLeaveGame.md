@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x55D66E24
-ScriptAny NETWORK_LEAVE_GAME();
+bool NETWORK_LEAVE_GAME();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description
+Leaves a network game.

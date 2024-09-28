@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x611D69BC
-ScriptAny IS_LCPD_DATA_VALID();
+bool IS_LCPD_DATA_VALID();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

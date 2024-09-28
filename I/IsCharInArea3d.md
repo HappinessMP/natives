@@ -3,20 +3,21 @@
 ## Declaration
 ```cpp
 // 0x44A30283
-boolean IS_CHAR_IN_AREA_3D(Ped ped, float x1, float y1, float z1, float x2, float y2, float z2, boolean unknownFalse);
+bool IS_CHAR_IN_AREA_3D(int charIndex, float minX, float minY, float minZ, float maxX, float maxY, float maxZ, bool highlightArea);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **float:** x1
-- **float:** y1
-- **float:** z1
-- **float:** x2
-- **float:** y2
-- **float:** z2
-- **boolean:** unknownFalse
+- **int:** charIndex
+- **float:** minX
+- **float:** minY
+- **float:** minZ
+- **float:** maxX
+- **float:** maxY
+- **float:** maxZ
+- **bool:** highlightArea
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns true if the character is within the specified 3D area.

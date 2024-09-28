@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x31E25160
-void SET_PLAYER_CONTROL_ADVANCED(Player playerIndex, boolean unknown1, boolean unknown2, boolean unknown3);
+void SET_PLAYER_CONTROL_ADVANCED(int playerIndex, bool unknown1, bool unknown2, bool unknown3);
 ```
 
 ### Arguments
-- **Player:** playerIndex
-- **boolean:** unknown1
-- **boolean:** unknown2
-- **boolean:** unknown3
+- **int:** playerIndex
+- **bool:** unknown1
+- **bool:** unknown2
+- **bool:** unknown3
 
 ### Results
 

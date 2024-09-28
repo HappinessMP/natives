@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x11D360D
-void TASK_SHUFFLE_TO_NEXT_CAR_SEAT(Ped ped, ScriptAny);
+void TASK_SHUFFLE_TO_NEXT_CAR_SEAT(int charIndex, int carIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **ScriptAny**
+- **int:** charIndex
+- **int:** carIndex
 
 ### Results
 
 ## Description
+Tells the char to move across to the next seat in the car.

@@ -3,17 +3,18 @@
 ## Declaration
 ```cpp
 // 0x4F72E4C
-void TASK_GO_TO_COORD_ANY_MEANS(Ped ped, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void TASK_GO_TO_COORD_ANY_MEANS(int charIndex, float coordsX, float coordsY, float coordsZ, int moveState, int carIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** charIndex
+- **float:** coordsX
+- **float:** coordsY
+- **float:** coordsZ
+- **int:** moveState
+- **int:** carIndex
 
 ### Results
 
 ## Description
+Tells a char to go to a coord by any means.

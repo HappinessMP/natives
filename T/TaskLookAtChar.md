@@ -3,15 +3,16 @@
 ## Declaration
 ```cpp
 // 0x2DD35B3F
-void TASK_LOOK_AT_CHAR(Ped ped, Ped targetPed, uint duration, uint unknown_0);
+void TASK_LOOK_AT_CHAR(int charIndex, int otherCharIndex, int time, int lookFlags);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **Ped:** targetPed
-- **uint:** duration
-- **uint:** unknown_0
+- **int:** charIndex
+- **int:** otherCharIndex
+- **int:** time
+- **int:** lookFlags
 
 ### Results
 
 ## Description
+Tells a character to look at an other character.

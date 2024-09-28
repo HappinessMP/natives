@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x7537050D
-ScriptAny ADD_TEXT_WIDGET(ScriptAny);
+int ADD_TEXT_WIDGET(char* title);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **char*:** title
 
 ### Results
-- **ScriptAny**
+- **int:** textWidgetIndex
 
 ## Description
+Creates a widget in which the user can enter text.

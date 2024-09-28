@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x17D72833
-void DELETE_WIDGET_GROUP(ScriptAny);
+void DELETE_WIDGET_GROUP(int widgetGroupIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** widgetGroupIndex
 
 ### Results
 
 ## Description
+Deletes a widget group.

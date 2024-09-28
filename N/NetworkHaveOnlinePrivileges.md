@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x4B907716
-ScriptAny NETWORK_HAVE_ONLINE_PRIVILEGES();
+bool NETWORK_HAVE_ONLINE_PRIVILEGES();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description
+Returns true if the local player has online privileges.

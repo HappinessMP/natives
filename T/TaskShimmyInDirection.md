@@ -3,14 +3,13 @@
 ## Declaration
 ```cpp
 // 0x7B1A5333
-boolean TASK_SHIMMY_IN_DIRECTION(Ped ped, ScriptAny);
+void TASK_SHIMMY_IN_DIRECTION(int charIndex, int direction);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **ScriptAny**
+- **int:** charIndex
+- **int:** direction
 
 ### Results
-- **boolean**
 
 ## Description

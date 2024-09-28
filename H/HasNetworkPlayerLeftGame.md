@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x135154B0
-ScriptAny HAS_NETWORK_PLAYER_LEFT_GAME(ScriptAny);
+bool HAS_NETWORK_PLAYER_LEFT_GAME(int playerIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** playerIndex
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

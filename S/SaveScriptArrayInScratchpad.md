@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x331F7E6F
-void SAVE_SCRIPT_ARRAY_IN_SCRATCHPAD(ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void SAVE_SCRIPT_ARRAY_IN_SCRATCHPAD(void* array, int size, int scriptIndex, int scratchpadIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **void*:** array
+- **int:** size
+- **int:** scriptIndex
+- **int:** scratchpadIndex
 
 ### Results
 

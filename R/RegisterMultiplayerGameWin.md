@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x43E41D81
-void REGISTER_MULTIPLAYER_GAME_WIN(ScriptAny, ScriptAny);
+void REGISTER_MULTIPLAYER_GAME_WIN(int playerIndex, int);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
+- **int:** playerIndex
+- **int**
 
 ### Results
 

@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x24C45D0D
-void DROP_OBJECT(Ped ped, boolean unknownTrue);
+void DROP_OBJECT(int charIndex, bool drop);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **boolean:** unknownTrue
+- **int:** charIndex
+- **bool:** drop
 
 ### Results
 

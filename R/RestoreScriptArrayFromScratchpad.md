@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x522B182B
-void RESTORE_SCRIPT_ARRAY_FROM_SCRATCHPAD(ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void RESTORE_SCRIPT_ARRAY_FROM_SCRATCHPAD(void* array, int size, int scriptIndex, int scratchpadIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **void*:** array
+- **int:** size
+- **int:** scriptIndex
+- **int:** scratchpadIndex
 
 ### Results
 

@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x7E113020
-void SET_ONLINE_LAN(ScriptAny);
+void SET_ONLINE_LAN(bool);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **bool**
 
 ### Results
 

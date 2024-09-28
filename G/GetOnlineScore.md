@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x6CFD3E5F
-ScriptAny GET_ONLINE_SCORE(ScriptAny);
+int GET_ONLINE_SCORE(int);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int**
 
 ### Results
-- **ScriptAny**
+- **int**
 
 ## Description

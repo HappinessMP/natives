@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x2A3A77FD
-ScriptAny IS_PARTY_MODE();
+bool IS_PARTY_MODE();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

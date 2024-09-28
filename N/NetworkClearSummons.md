@@ -3,12 +3,11 @@
 ## Declaration
 ```cpp
 // 0x6289239F
-ScriptAny NETWORK_CLEAR_SUMMONS();
+void NETWORK_CLEAR_SUMMONS();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
 
 ## Description

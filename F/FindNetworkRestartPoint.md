@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x66F445BB
-void FIND_NETWORK_RESTART_POINT(ScriptAny, ScriptAny, ScriptAny);
+bool FIND_NETWORK_RESTART_POINT(Vector3* position, float* heading, int);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int**
 
 ### Results
+- **bool**
+- **Vector3*:** position
+- **float*:** heading
 
 ## Description

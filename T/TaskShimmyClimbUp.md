@@ -3,13 +3,12 @@
 ## Declaration
 ```cpp
 // 0x36AD6480
-boolean TASK_SHIMMY_CLIMB_UP(Ped ped);
+void TASK_SHIMMY_CLIMB_UP(int charIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **boolean**
 
 ## Description

@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x15D668D0
-TextureDict GET_TXD(char* txdName);
+char* GET_TXD(char* txdName);
 ```
 
 ### Arguments
 - **char*:** txdName
 
 ### Results
-- **TextureDict**
+- **char*:** dictionary
 
 ## Description

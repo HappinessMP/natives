@@ -3,19 +3,20 @@
 ## Declaration
 ```cpp
 // 0x39C2663E
-void TASK_CAR_MISSION_PED_TARGET(Ped ped, Vehicle vehicle, Ped target, uint unknown0_4, float speed, uint unknown2_1, uint unknown3_5, uint unknown4_10);
+void TASK_CAR_MISSION_PED_TARGET(int charIndex, int carIndex, int targetCharIndex, int carMission, float speed, int drivingMode, float targetReachedDist, float straightLineDist);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **Vehicle:** vehicle
-- **Ped:** target
-- **uint:** unknown0_4
+- **int:** charIndex
+- **int:** carIndex
+- **int:** targetCharIndex
+- **int:** carMission
 - **float:** speed
-- **uint:** unknown2_1
-- **uint:** unknown3_5
-- **uint:** unknown4_10
+- **int:** drivingMode
+- **float:** targetReachedDist
+- **float:** straightLineDist
 
 ### Results
 
 ## Description
+Tells a ped in a car to target another ped in a car.

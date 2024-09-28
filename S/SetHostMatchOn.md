@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x2C41421A
-void SET_HOST_MATCH_ON(ScriptAny);
+void SET_HOST_MATCH_ON(bool);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **bool**
 
 ### Results
 

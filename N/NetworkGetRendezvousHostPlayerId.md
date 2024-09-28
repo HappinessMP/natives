@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x282D29FE
-ScriptAny NETWORK_GET_RENDEZVOUS_HOST_PLAYER_ID();
+int NETWORK_GET_RENDEZVOUS_HOST_PLAYER_ID();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **int**
 
 ## Description

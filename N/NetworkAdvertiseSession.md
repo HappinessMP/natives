@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x1B9E5D07
-ScriptAny NETWORK_ADVERTISE_SESSION(ScriptAny);
+bool NETWORK_ADVERTISE_SESSION(bool enable);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **bool:** enable
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

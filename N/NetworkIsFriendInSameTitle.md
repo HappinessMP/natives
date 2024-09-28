@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x4B5C4957
-ScriptAny NETWORK_IS_FRIEND_IN_SAME_TITLE(ScriptAny);
+bool NETWORK_IS_FRIEND_IN_SAME_TITLE(char* friendName);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **char*:** friendName
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description
+Returns true if the friend is playing the same game (e.g. GTAIV).

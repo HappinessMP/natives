@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x5873667B
-ScriptAny NETWORK_START_SESSION_SUCCEEDED();
+bool NETWORK_START_SESSION_SUCCEEDED();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

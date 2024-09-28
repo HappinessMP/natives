@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x4ADB10A4
-void REGISTER_NETWORK_BEST_GAME_SCORES(ScriptAny, ScriptAny, ScriptAny);
+void REGISTER_NETWORK_BEST_GAME_SCORES(int playerIndex, int, int);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** playerIndex
+- **int**
+- **int**
 
 ### Results
 

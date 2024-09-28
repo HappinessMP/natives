@@ -3,17 +3,17 @@
 ## Declaration
 ```cpp
 // 0xDA61310
-void DISPLAY_TEXT_SUBSTRING(ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void DISPLAY_TEXT_SUBSTRING(float x, float y, char* textLabel, bool, int, int, int);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **float:** x
+- **float:** y
+- **char*:** textLabel
+- **bool**
+- **int**
+- **int**
+- **int**
 
 ### Results
 

@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x7C5F327E
-ScriptAny GET_LOCAL_GAMERLEVEL_FROM_PROFILESETTINGS();
+int GET_LOCAL_GAMERLEVEL_FROM_PROFILESETTINGS();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **int**
 
 ## Description

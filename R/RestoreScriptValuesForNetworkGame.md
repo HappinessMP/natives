@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x37CD55AA
-ScriptAny RESTORE_SCRIPT_VALUES_FOR_NETWORK_GAME(ScriptAny);
+bool RESTORE_SCRIPT_VALUES_FOR_NETWORK_GAME(void* array);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **void*:** array
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x558C4259
-ScriptAny CREATE_WIDGET_GROUP(ScriptAny);
+int CREATE_WIDGET_GROUP(char* name);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **char*:** name
 
 ### Results
-- **ScriptAny**
+- **int:** widgetGroupIndex
 
 ## Description
+Create a debug widget group.

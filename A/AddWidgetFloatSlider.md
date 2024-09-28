@@ -3,17 +3,17 @@
 ## Declaration
 ```cpp
 // 0x6F9256DF
-ScriptAny ADD_WIDGET_FLOAT_SLIDER(ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void ADD_WIDGET_FLOAT_SLIDER(char* name, float& variable, float min, float max, float sliderStep);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **char*:** name
+- **float&:** variable
+- **float:** min
+- **float:** max
+- **float:** sliderStep
 
 ### Results
-- **ScriptAny**
+- **float&:** variable
 
 ## Description

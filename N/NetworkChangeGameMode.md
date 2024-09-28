@@ -3,16 +3,16 @@
 ## Declaration
 ```cpp
 // 0x3F054F44
-ScriptAny NETWORK_CHANGE_GAME_MODE(ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+bool NETWORK_CHANGE_GAME_MODE(int gameMode, int maxPlayers, int maxPrivateSlots, int maxTeams);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** gameMode
+- **int:** maxPlayers
+- **int:** maxPrivateSlots
+- **int:** maxTeams
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x267D5146
-void DELETE_WIDGET(ScriptAny);
+void DELETE_WIDGET(int textWidgetIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** textWidgetIndex
 
 ### Results
 
 ## Description
+Deletes a text widget.

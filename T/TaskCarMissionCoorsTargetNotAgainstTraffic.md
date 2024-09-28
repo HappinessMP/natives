@@ -3,21 +3,22 @@
 ## Declaration
 ```cpp
 // 0x3CB4693B
-void TASK_CAR_MISSION_COORS_TARGET_NOT_AGAINST_TRAFFIC(Ped ped, Vehicle vehicle, float x, float y, float z, uint unknown0_4, float speed, uint unknown2_1, uint unknown3_5, uint unknown4_10);
+void TASK_CAR_MISSION_COORS_TARGET_NOT_AGAINST_TRAFFIC(int charIndex, int carIndex, float x, float y, float z, int missionType, float cruiseSpeed, int drivingMode, float targetReachedDist, float straightLineDist);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **Vehicle:** vehicle
+- **int:** charIndex
+- **int:** carIndex
 - **float:** x
 - **float:** y
 - **float:** z
-- **uint:** unknown0_4
-- **float:** speed
-- **uint:** unknown2_1
-- **uint:** unknown3_5
-- **uint:** unknown4_10
+- **int:** missionType
+- **float:** cruiseSpeed
+- **int:** drivingMode
+- **float:** targetReachedDist
+- **float:** straightLineDist
 
 ### Results
 
 ## Description
+Tells a character in a car to target a coord without driving on the opposite side of the road into incoming traffic.

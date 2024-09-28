@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x78300C0C
-void CREATE_GROUP(boolean unknownFalse, Group* pGroup, boolean unknownTrue);
+void CREATE_GROUP(int, int* groupIndex, bool);
 ```
 
 ### Arguments
-- **boolean:** unknownFalse
-- **boolean:** unknownTrue
+- **int**
+- **bool**
 
 ### Results
-- **Group*:** pGroup
+- **int*:** groupIndex
 
 ## Description
+Creates a group.

@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x1AEB793A
-void SET_IN_MP_TUTORIAL(ScriptAny);
+void SET_IN_MP_TUTORIAL(bool inMPTutorial);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **bool:** inMPTutorial
 
 ### Results
 

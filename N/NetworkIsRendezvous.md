@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x60560DAE
-ScriptAny NETWORK_IS_RENDEZVOUS();
+bool NETWORK_IS_RENDEZVOUS();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

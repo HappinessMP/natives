@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x70B45E01
-void UPDATE_NETWORK_STATISTICS(ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void UPDATE_NETWORK_STATISTICS(int playerIndex, int, int, int teamIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** playerIndex
+- **int**
+- **int**
+- **int:** teamIndex
 
 ### Results
 

@@ -3,17 +3,18 @@
 ## Declaration
 ```cpp
 // 0x76F25B4B
-void SET_CHAR_PROOFS(Ped ped, boolean unknown0, boolean fallingDamage, boolean unknown1, boolean unknown2, boolean unknown3);
+void SET_CHAR_PROOFS(int charIndex, bool notDamagedByBulletsFlag, bool notDamagedByFlamesFlag, bool ignoresExplosionsFlag, bool notDamagedByCollisionsFlag, bool notDamagedByMeleeFlag);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **boolean:** unknown0
-- **boolean:** fallingDamage
-- **boolean:** unknown1
-- **boolean:** unknown2
-- **boolean:** unknown3
+- **int:** charIndex
+- **bool:** notDamagedByBulletsFlag
+- **bool:** notDamagedByFlamesFlag
+- **bool:** ignoresExplosionsFlag
+- **bool:** notDamagedByCollisionsFlag
+- **bool:** notDamagedByMeleeFlag
 
 ### Results
 
 ## Description
+Sets the character's immunities.

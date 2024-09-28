@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x6B032A0B
-ScriptAny GET_ONLINE_LAN();
+bool GET_ONLINE_LAN();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

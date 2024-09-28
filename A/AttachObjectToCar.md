@@ -3,20 +3,21 @@
 ## Declaration
 ```cpp
 // 0x7E81412A
-void ATTACH_OBJECT_TO_CAR(Object obj, Vehicle v, uint unknown0_0, float pX, float pY, float pZ, float rX, float rY, float rZ);
+void ATTACH_OBJECT_TO_CAR(int objectIndex, int carIndex, int boneIndex, float offsetX, float offsetY, float offsetZ, float rotationX, float rotationY, float rotationZ);
 ```
 
 ### Arguments
-- **Object:** obj
-- **Vehicle:** v
-- **uint:** unknown0_0
-- **float:** pX
-- **float:** pY
-- **float:** pZ
-- **float:** rX
-- **float:** rY
-- **float:** rZ
+- **int:** objectIndex
+- **int:** carIndex
+- **int:** boneIndex
+- **float:** offsetX
+- **float:** offsetY
+- **float:** offsetZ
+- **float:** rotationX
+- **float:** rotationY
+- **float:** rotationZ
 
 ### Results
 
 ## Description
+Attaches an object to an car with a non physical attachement.

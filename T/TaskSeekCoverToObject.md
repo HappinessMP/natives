@@ -3,17 +3,18 @@
 ## Declaration
 ```cpp
 // 0x4DB55DF5
-void TASK_SEEK_COVER_TO_OBJECT(Ped ped, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void TASK_SEEK_COVER_TO_OBJECT(int charIndex, int objectIndex, float fromCoordsX, float fromCoordsY, float fromCoordsZ, int time);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** charIndex
+- **int:** objectIndex
+- **float:** fromCoordsX
+- **float:** fromCoordsY
+- **float:** fromCoordsZ
+- **int:** time
 
 ### Results
 
 ## Description
+Task making the char seek cover at the object.

@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x48726B45
-ScriptAny NETWORK_HAVE_SUMMONS();
+bool NETWORK_HAVE_SUMMONS();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

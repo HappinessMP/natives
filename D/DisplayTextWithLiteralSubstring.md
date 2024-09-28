@@ -3,16 +3,16 @@
 ## Declaration
 ```cpp
 // 0x1FCB5241
-void DISPLAY_TEXT_WITH_LITERAL_SUBSTRING(ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void DISPLAY_TEXT_WITH_LITERAL_SUBSTRING(float x, float y, char* textLabel, char* literalString, int, int);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **float:** x
+- **float:** y
+- **char*:** textLabel
+- **char*:** literalString
+- **int**
+- **int**
 
 ### Results
 

@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x58802CE5
-ScriptAny NETWORK_START_SESSION();
+bool NETWORK_START_SESSION();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description
+Starts a network session (for scoring, leaderboard).

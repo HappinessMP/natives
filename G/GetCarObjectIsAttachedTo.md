@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x2D215414
-Vehicle GET_CAR_OBJECT_IS_ATTACHED_TO(Object obj);
+int GET_CAR_OBJECT_IS_ATTACHED_TO(int objectIndex);
 ```
 
 ### Arguments
-- **Object:** obj
+- **int:** objectIndex
 
 ### Results
-- **Vehicle**
+- **int:** carIndex
 
 ## Description

@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x7B05072C
-Object GET_BLIP_INFO_ID_OBJECT_INDEX(Blip blip);
+int GET_BLIP_INFO_ID_OBJECT_INDEX(int blipIndex);
 ```
 
 ### Arguments
-- **Blip:** blip
+- **int:** blipIndex
 
 ### Results
-- **Object**
+- **int:** objectIndex
 
 ## Description

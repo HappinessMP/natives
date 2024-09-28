@@ -3,20 +3,20 @@
 ## Declaration
 ```cpp
 // 0x7DCA398F
-void CREATE_MENU(char* gxtentry, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, int* menuid);
+void CREATE_MENU(char* name, float x, float y, float width, int columns, bool interactive, bool background, int alignment, int* menuIndex);
 ```
 
 ### Arguments
-- **char*:** gxtentry
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **char*:** name
+- **float:** x
+- **float:** y
+- **float:** width
+- **int:** columns
+- **bool:** interactive
+- **bool:** background
+- **int:** alignment
 
 ### Results
-- **int*:** menuid
+- **int*:** menuIndex
 
 ## Description

@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x8C6502C
-boolean HAS_RELOADED_WITH_MOTION_CONTROL(ScriptAny, ScriptAny);
+bool HAS_RELOADED_WITH_MOTION_CONTROL(int padNumber, bool* hasReloaded);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
+- **int:** padNumber
 
 ### Results
-- **boolean**
+- **bool**
+- **bool*:** hasReloaded
 
 ## Description
+Returns true/false if motion controls are enabled/disabled.

@@ -3,20 +3,21 @@
 ## Declaration
 ```cpp
 // 0x10CB1413
-void TASK_GO_TO_COORD_WHILE_SHOOTING(Ped ped, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void TASK_GO_TO_COORD_WHILE_SHOOTING(int charIndex, float goToX, float goToY, float goToZ, int moveState, float targetDistance, float slowDistance, int shootAtCharIndex, bool useNavmesh);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** charIndex
+- **float:** goToX
+- **float:** goToY
+- **float:** goToZ
+- **int:** moveState
+- **float:** targetDistance
+- **float:** slowDistance
+- **int:** shootAtCharIndex
+- **bool:** useNavmesh
 
 ### Results
 
 ## Description
+The char will move to the coords while shooting at target char.

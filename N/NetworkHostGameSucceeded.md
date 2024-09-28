@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x1CA77E94
-ScriptAny NETWORK_HOST_GAME_SUCCEEDED();
+bool NETWORK_HOST_GAME_SUCCEEDED();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

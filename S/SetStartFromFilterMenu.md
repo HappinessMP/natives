@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x3F6B5975
-void SET_START_FROM_FILTER_MENU(ScriptAny);
+void SET_START_FROM_FILTER_MENU(bool);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **bool**
 
 ### Results
 

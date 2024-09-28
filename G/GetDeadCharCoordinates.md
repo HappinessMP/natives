@@ -1,9 +1,9 @@
-# GET_CHAR_COORDINATES
+# GET_DEAD_CHAR_COORDINATES
 
 ## Declaration
 ```cpp
-// 0x2B5C06E6
-void GET_CHAR_COORDINATES(int charIndex, float* pX, float* pY, float* pZ);
+// 0x51457269
+void GET_DEAD_CHAR_COORDINATES(int charIndex, float* pX, float* pY, float* pZ);
 ```
 
 ### Arguments

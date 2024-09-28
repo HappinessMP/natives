@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x58493B8E
-boolean IS_BULLET_IN_AREA(float x, float y, float z, float radius, boolean unknownTrue);
+bool IS_BULLET_IN_AREA(float x, float y, float z, float radius, bool isPlayer);
 ```
 
 ### Arguments
@@ -11,9 +11,10 @@ boolean IS_BULLET_IN_AREA(float x, float y, float z, float radius, boolean unkno
 - **float:** y
 - **float:** z
 - **float:** radius
-- **boolean:** unknownTrue
+- **bool:** isPlayer (checks if the player fired the bullet)
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks that a bullet is in the defined sphere.

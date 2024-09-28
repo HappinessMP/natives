@@ -3,17 +3,18 @@
 ## Declaration
 ```cpp
 // 0x48252E33
-boolean DOES_SCENARIO_EXIST_IN_AREA(ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+bool DOES_SCENARIO_EXIST_IN_AREA(float posX, float posY, float posZ, float range, bool mustBeFree);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **float:** posX
+- **float:** posY
+- **float:** posZ
+- **float:** range
+- **bool:** mustBeFree
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns true if there is a scenario in the area given.

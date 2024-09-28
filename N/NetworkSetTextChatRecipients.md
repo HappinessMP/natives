@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x3A2246BB
-void NETWORK_SET_TEXT_CHAT_RECIPIENTS(ScriptAny);
+void NETWORK_SET_TEXT_CHAT_RECIPIENTS(int);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int**
 
 ### Results
 

@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x696021E6
-void NETWORK_SHOW_FRIEND_PROFILE_UI(ScriptAny);
+void NETWORK_SHOW_FRIEND_PROFILE_UI(char* friendName);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **char*:** friendName
 
 ### Results
 

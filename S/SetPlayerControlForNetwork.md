@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x2AF07CC8
-void SET_PLAYER_CONTROL_FOR_NETWORK(ScriptAny, ScriptAny, ScriptAny);
+void SET_PLAYER_CONTROL_FOR_NETWORK(int playerIndex, bool, bool);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** playerIndex
+- **bool**
+- **bool**
 
 ### Results
 

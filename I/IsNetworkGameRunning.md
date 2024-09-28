@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x1CF773D4
-ScriptAny IS_NETWORK_GAME_RUNNING();
+bool IS_NETWORK_GAME_RUNNING();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

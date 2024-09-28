@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x755D6DF8
-Ped GET_PED_OBJECT_IS_ATTACHED_TO(Object obj);
+int GET_PED_OBJECT_IS_ATTACHED_TO(int objectIndex);
 ```
 
 ### Arguments
-- **Object:** obj
+- **int:** objectIndex
 
 ### Results
-- **Ped**
+- **int:** charIndex
 
 ## Description

@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x3432536A
-ScriptAny NETWORK_GET_UNACCEPTED_INVITE_EPISODE(ScriptAny);
+int NETWORK_GET_UNACCEPTED_INVITE_EPISODE(int inviteIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** inviteIndex
 
 ### Results
-- **ScriptAny**
+- **int**
 
 ## Description

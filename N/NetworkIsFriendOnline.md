@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x4783029
-ScriptAny NETWORK_IS_FRIEND_ONLINE(ScriptAny);
+bool NETWORK_IS_FRIEND_ONLINE(char* friendName);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **char*:** friendName
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x2BF8368E
-void SET_RICH_PRESENCE_TEMPLATEMP4(ScriptAny, ScriptAny);
+void SET_RICH_PRESENCE_TEMPLATEMP4(int, int);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
+- **int**
+- **int**
 
 ### Results
 

@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x39ED0C43
-void DRAW_CORONA(float x, float y, float z, float radius, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void DRAW_CORONA(float x, float y, float z, float radius, int coronaType, int flareType, int r, int g, int b);
 ```
 
 ### Arguments
@@ -11,11 +11,11 @@ void DRAW_CORONA(float x, float y, float z, float radius, ScriptAny, ScriptAny, 
 - **float:** y
 - **float:** z
 - **float:** radius
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** coronaType
+- **int:** flareType
+- **int:** r
+- **int:** g
+- **int:** b
 
 ### Results
 

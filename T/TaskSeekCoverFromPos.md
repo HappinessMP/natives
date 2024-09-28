@@ -3,16 +3,17 @@
 ## Declaration
 ```cpp
 // 0x2BDF7B7E
-void TASK_SEEK_COVER_FROM_POS(Ped ped, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void TASK_SEEK_COVER_FROM_POS(int charIndex, float fromCoordsX, float fromCoordsY, float fromCoordsZ, int time);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** charIndex
+- **float:** fromCoordsX
+- **float:** fromCoordsY
+- **float:** fromCoordsZ
+- **int:** time
 
 ### Results
 
 ## Description
+The char will seek cover from the given coordinates.

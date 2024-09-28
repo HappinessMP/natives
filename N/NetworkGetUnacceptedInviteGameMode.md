@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x5E44065D
-ScriptAny NETWORK_GET_UNACCEPTED_INVITE_GAME_MODE(ScriptAny);
+int NETWORK_GET_UNACCEPTED_INVITE_GAME_MODE(int inviteIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** inviteIndex
 
 ### Results
-- **ScriptAny**
+- **int**
 
 ## Description

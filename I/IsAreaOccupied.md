@@ -3,23 +3,24 @@
 ## Declaration
 ```cpp
 // 0x5BE1238D
-boolean IS_AREA_OCCUPIED(float x1, float y1, float z1, float x2, float y2, float z2, boolean unknownFalse1, boolean unknownTrue, boolean unknownFalse2, boolean unknownFalse3, boolean unknownFalse4);
+bool IS_AREA_OCCUPIED(float minX, float minY, float minZ, float maxX, float maxY, float maxZ, bool buildingFlag, bool vehicleFlag, bool pedFlag, bool objectFlag, bool dummyFlag);
 ```
 
 ### Arguments
-- **float:** x1
-- **float:** y1
-- **float:** z1
-- **float:** x2
-- **float:** y2
-- **float:** z2
-- **boolean:** unknownFalse1
-- **boolean:** unknownTrue
-- **boolean:** unknownFalse2
-- **boolean:** unknownFalse3
-- **boolean:** unknownFalse4
+- **float:** minX
+- **float:** minY
+- **float:** minZ
+- **float:** maxX
+- **float:** maxY
+- **float:** maxZ
+- **boolean:** buildingFlag
+- **boolean:** vehicleFlag
+- **boolean:** pedFlag
+- **boolean:** objectFlag
+- **boolean:** dummyFlag
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if an area is ocupied by an entity/entities.

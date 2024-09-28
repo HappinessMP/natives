@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x314F6DD3
-void SET_RICH_PRESENCE_TEMPLATEMP5(ScriptAny, ScriptAny, ScriptAny);
+void SET_RICH_PRESENCE_TEMPLATEMP5(int, int, int);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int**
+- **int**
+- **int**
 
 ### Results
 

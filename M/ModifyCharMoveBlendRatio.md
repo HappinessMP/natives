@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x3E657606
-void MODIFY_CHAR_MOVE_BLEND_RATIO(Ped ped, ScriptAny);
+void MODIFY_CHAR_MOVE_BLEND_RATIO(int charIndex, float moveBlendRatio);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **ScriptAny**
+- **int:** charIndex
+- **float:** moveBlendRatio
 
 ### Results
 
 ## Description
+Sets chars current move blend ratio.

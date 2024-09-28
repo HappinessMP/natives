@@ -3,15 +3,16 @@
 ## Declaration
 ```cpp
 // 0x27C740D0
-void TASK_LOOK_AT_OBJECT(Ped ped, Object targetObject, uint duration, uint unknown_0);
+void TASK_LOOK_AT_OBJECT(int charIndex, int objectIndex, int time, int lookFlags);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **Object:** targetObject
-- **uint:** duration
-- **uint:** unknown_0
+- **int:** charIndex
+- **int:** objectIndex
+- **int:** time
+- **int:** lookFlags
 
 ### Results
 
 ## Description
+Tells a character to look at an object.

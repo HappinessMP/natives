@@ -3,15 +3,16 @@
 ## Declaration
 ```cpp
 // 0x6C4113E
-uint GET_NUMBER_OF_CHAR_TEXTURE_VARIATIONS(Ped ped, uint component, uint unknown1);
+int GET_NUMBER_OF_CHAR_TEXTURE_VARIATIONS(int charIndex, int componentNumber, int drawableNumber);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** component
-- **uint:** unknown1
+- **int:** charIndex
+- **int:** componentNumber
+- **int:** drawableNumber
 
 ### Results
-- **uint**
+- **int**
 
 ## Description
+Gets the total number of different textures for the specified drawable for the component (body part) for the char's model.

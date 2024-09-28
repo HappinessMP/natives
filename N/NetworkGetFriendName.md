@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x17FD0934
-ScriptAny NETWORK_GET_FRIEND_NAME(ScriptAny);
+char* NETWORK_GET_FRIEND_NAME(int friendIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** friendIndex
 
 ### Results
-- **ScriptAny**
+- **char*:** friendName
 
 ## Description

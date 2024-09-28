@@ -3,18 +3,19 @@
 ## Declaration
 ```cpp
 // 0x7EA03481
-boolean IS_CAR_IN_AREA_2D(Vehicle vehicle, float x1, float y1, float x2, float y2, boolean unknownFalse);
+bool IS_CAR_IN_AREA_2D(int carIndex, float minX, float minY, float maxX, float maxY, bool highlightArea);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
-- **float:** x1
-- **float:** y1
-- **float:** x2
-- **float:** y2
-- **boolean:** unknownFalse
+- **int:** carIndex
+- **float:** minX
+- **float:** minY
+- **float:** maxX
+- **float:** maxY
+- **bool:** highlightArea
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns true if the car is located within the specified 2D area.

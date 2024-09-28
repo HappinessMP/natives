@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x2CCA0D6A
-ScriptAny FINISH_WIDGET_COMBO(ScriptAny, ScriptAny);
+void FINISH_WIDGET_COMBO(char* comboName, int& variable);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
+- **char*:** comboName
+- **int&:** variable
 
 ### Results
-- **ScriptAny**
+- **int&:** variable
 
 ## Description
+Call this command once you have added all the entries to the combo.

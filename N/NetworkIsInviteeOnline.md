@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x772B01CC
-ScriptAny NETWORK_IS_INVITEE_ONLINE();
+bool NETWORK_IS_INVITEE_ONLINE();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

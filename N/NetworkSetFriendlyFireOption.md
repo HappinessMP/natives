@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x5AC43965
-void NETWORK_SET_FRIENDLY_FIRE_OPTION(ScriptAny);
+void NETWORK_SET_FRIENDLY_FIRE_OPTION(bool friendlyFire);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **bool:** friendlyFire
 
 ### Results
 

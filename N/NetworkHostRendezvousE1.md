@@ -3,15 +3,15 @@
 ## Declaration
 ```cpp
 // 0x48032420
-ScriptAny NETWORK_HOST_RENDEZVOUS_E1(ScriptAny, ScriptAny, ScriptAny);
+bool NETWORK_HOST_RENDEZVOUS_E1(int gameMode, int maxPlayers, int episode);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** gameMode
+- **int:** maxPlayers
+- **int:** episode
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

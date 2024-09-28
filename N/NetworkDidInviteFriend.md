@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x3CAA1340
-ScriptAny NETWORK_DID_INVITE_FRIEND(ScriptAny);
+bool NETWORK_DID_INVITE_FRIEND(char* friendName);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **char*:** friendName
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

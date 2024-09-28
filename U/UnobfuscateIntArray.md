@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x6314421A
-void UNOBFUSCATE_INT_ARRAY(ScriptAny, ScriptAny);
+void UNOBFUSCATE_INT_ARRAY(int, void* array);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
+- **int**
+- **void*:** array
 
 ### Results
 

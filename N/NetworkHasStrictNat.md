@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x2704460E
-ScriptAny NETWORK_HAS_STRICT_NAT();
+bool NETWORK_HAS_STRICT_NAT();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

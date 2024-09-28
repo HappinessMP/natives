@@ -3,13 +3,12 @@
 ## Declaration
 ```cpp
 // 0x1AA32729
-boolean TASK_SHIMMY_LET_GO(Ped ped);
+void TASK_SHIMMY_LET_GO(int charIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **boolean**
 
 ## Description

@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x18BD071B
-void BREAK_CAR_DOOR(Vehicle vehicle, uint door, boolean unknownFalse);
+void BREAK_CAR_DOOR(int carIndex, int door, bool visibility);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
-- **uint:** door
-- **boolean:** unknownFalse
+- **int:** carIndex
+- **int:** door
+- **bool:** visibility
 
 ### Results
 

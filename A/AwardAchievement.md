@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x5ED03255
-ScriptAny AWARD_ACHIEVEMENT(uint achievement);
+bool AWARD_ACHIEVEMENT(int achievementIndex);
 ```
 
 ### Arguments
-- **uint:** achievement
+- **int:** achievementIndex
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description
+Award an achievement to the main player.

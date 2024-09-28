@@ -3,16 +3,17 @@
 ## Declaration
 ```cpp
 // 0x27722942
-void CLEAR_AREA(float x, float y, float z, float radius, boolean unknown);
+void CLEAR_AREA(float centreX, float centreY, float centreZ, float radius, bool deleteProjectilesFlag);
 ```
 
 ### Arguments
-- **float:** x
-- **float:** y
-- **float:** z
+- **float:** centreX
+- **float:** centreY
+- **float:** centreZ
 - **float:** radius
-- **boolean:** unknown
+- **bool:** deleteProjectilesFlag
 
 ### Results
 
 ## Description
+Clears all non-mission cars and chars within the defined sphere.

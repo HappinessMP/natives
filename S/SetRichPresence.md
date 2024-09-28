@@ -3,15 +3,15 @@
 ## Declaration
 ```cpp
 // 0x73AB2028
-void SET_RICH_PRESENCE(ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void SET_RICH_PRESENCE(int, int, int, int, int);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int**
+- **int**
+- **int**
+- **int**
+- **int**
 
 ### Results
 

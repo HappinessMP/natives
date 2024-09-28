@@ -3,15 +3,16 @@
 ## Declaration
 ```cpp
 // 0x1DD624A0
-boolean HAS_CHAR_BEEN_DAMAGED_BY_CHAR(Ped ped, Ped otherChar, boolean unknownFalse);
+bool HAS_CHAR_BEEN_DAMAGED_BY_CHAR(int charIndex, int damagerCharIndex, bool checkDamagerVehicle);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **Ped:** otherChar
-- **boolean:** unknownFalse
+- **int:** charIndex
+- **int:** damagerCharIndex
+- **bool:** checkDamagerVehicle
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns TRUE if the last thing to damage the given char was the given damager char.

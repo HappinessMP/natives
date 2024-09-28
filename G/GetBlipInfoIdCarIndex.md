@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x566D04C2
-Vehicle GET_BLIP_INFO_ID_CAR_INDEX(Blip blip);
+int GET_BLIP_INFO_ID_CAR_INDEX(int blipIndex);
 ```
 
 ### Arguments
-- **Blip:** blip
+- **int:** blipIndex
 
 ### Results
-- **Vehicle**
+- **int:** carIndex
 
 ## Description

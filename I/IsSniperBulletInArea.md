@@ -3,18 +3,19 @@
 ## Declaration
 ```cpp
 // 0x6E435BDE
-ScriptAny IS_SNIPER_BULLET_IN_AREA(float x0, float y0, float z0, float x1, float y1, float z1);
+bool IS_SNIPER_BULLET_IN_AREA(float minX, float minY, float minZ, float maxX, float maxY, float maxZ);
 ```
 
 ### Arguments
-- **float:** x0
-- **float:** y0
-- **float:** z0
-- **float:** x1
-- **float:** y1
-- **float:** z1
+- **float:** minX
+- **float:** minY
+- **float:** minZ
+- **float:** maxX
+- **float:** maxY
+- **float:** maxZ
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description
+Checks that a sniper bullet is in a area.

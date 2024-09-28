@@ -3,18 +3,19 @@
 ## Declaration
 ```cpp
 // 0x5FAD09CA
-float GET_HEIGHT_OF_VEHICLE(Vehicle vehicle, float x, float y, float z, boolean unknownTrue1, boolean unknownTrue2);
+float GET_HEIGHT_OF_VEHICLE(int carIndex, float posX, float posY, float posZ, bool isWorldPos, bool wantWorldResult);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
-- **float:** x
-- **float:** y
-- **float:** z
-- **boolean:** unknownTrue1
-- **boolean:** unknownTrue2
+- **int:** carIndex
+- **float:** posX
+- **float:** posY
+- **float:** posZ
+- **bool:** isWorldPos
+- **bool:** wantWorldResult
 
 ### Results
 - **float**
 
 ## Description
+Gets the height of the car.

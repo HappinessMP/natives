@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0xF5D1937
-Texture GET_TEXTURE(TextureDict dictionary, char* textureName);
+int GET_TEXTURE(char* dictionary, char* textureName);
 ```
 
 ### Arguments
-- **TextureDict:** dictionary
+- **char*::** dictionary
 - **char*:** textureName
 
 ### Results
-- **Texture**
+- **int**
 
 ## Description

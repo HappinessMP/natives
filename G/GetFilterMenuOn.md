@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x509D75E8
-ScriptAny GET_FILTER_MENU_ON();
+bool GET_FILTER_MENU_ON();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

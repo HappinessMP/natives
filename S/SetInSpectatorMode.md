@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x40035D5D
-void SET_IN_SPECTATOR_MODE(ScriptAny);
+void SET_IN_SPECTATOR_MODE(bool inSpectatorMode);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **bool:** inSpectatorMode
 
 ### Results
 
 ## Description
+Set the local in spectator mode.

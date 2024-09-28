@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x6CC1560F
-void TASK_SIT_DOWN_INSTANTLY(Ped ped, ScriptAny, ScriptAny, ScriptAny);
+void TASK_SIT_DOWN_INSTANTLY(int charIndex, int, int, int time);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** charIndex
+- **int**
+- **int**
+- **int:** time
 
 ### Results
 

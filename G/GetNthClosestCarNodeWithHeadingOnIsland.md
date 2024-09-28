@@ -3,22 +3,23 @@
 ## Declaration
 ```cpp
 // 0x59DB1AD1
-boolean GET_NTH_CLOSEST_CAR_NODE_WITH_HEADING_ON_ISLAND(float x, float y, float z, uint nodeNum, uint areaId, float* pResX, float* pResY, float* pResZ, float* pHeading, uint* pUnknownMaybeAreaId);
+bool GET_NTH_CLOSEST_CAR_NODE_WITH_HEADING_ON_ISLAND(float x, float y, float z, int nodeNum, int island, float* nearestNodeX, float* nearestNodeY, float* nearestNodeZ, float* returnHeading, int* numLanes);
 ```
 
 ### Arguments
 - **float:** x
 - **float:** y
 - **float:** z
-- **uint:** nodeNum
-- **uint:** areaId
+- **int:** nodeNum
+- **int:** island
 
 ### Results
-- **boolean**
-- **float*:** pResX
-- **float*:** pResY
-- **float*:** pResZ
-- **float*:** pHeading
-- **uint*:** pUnknownMaybeAreaId
+- **bool**
+- **float*:** nearestNodeX
+- **float*:** nearestNodeY
+- **float*:** nearestNodeZ
+- **float*:** returnHeading
+- **int*:** numLanes
 
 ## Description
+Will return if can the nth (n = 1 being closest) closest car node with a heading, to a coord on an island.

@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x39D87BD6
-void SET_DEBUG_TEXT_VISIBLE(ScriptAny);
+void SET_DEBUG_TEXT_VISIBLE(bool visible);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **bool:** visible
 
 ### Results
 

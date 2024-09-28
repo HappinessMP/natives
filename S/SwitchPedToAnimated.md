@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x762301C8
-void SWITCH_PED_TO_ANIMATED(Ped ped, boolean unknownTrue);
+void SWITCH_PED_TO_ANIMATED(int charIndex, bool forceSwitch);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **boolean:** unknownTrue
+- **int:** charIndex
+- **bool:** forceSwitch
 
 ### Results
 
 ## Description
+Sets a character from a ragdoll state to an animated state.

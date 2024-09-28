@@ -3,19 +3,20 @@
 ## Declaration
 ```cpp
 // 0x18D5264D
-void ADD_COVER_POINT(ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void ADD_COVER_POINT(float x, float y, float z, int, float direction, int, bool isPriorityToPlayer, int* coverpointIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **float:** x
+- **float:** y
+- **float:** z
+- **int**
+- **float:** direction
+- **int**
+- **bool:** isPriorityToPlayer
 
 ### Results
+- **int*:** coverpointIndex
 
 ## Description
+Adds a cover point in the given position to cover from direction (in degrees).

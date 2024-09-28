@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x4FAF2007
-ScriptAny NETWORK_AM_I_BLOCKED_BY_PLAYER(ScriptAny);
+bool NETWORK_AM_I_BLOCKED_BY_PLAYER(int playerIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** playerIndex
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description
+Check communication status with a particular player.

@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x4E11812
-ScriptAny NETWORK_IS_NETWORK_AVAILABLE();
+bool NETWORK_IS_NETWORK_AVAILABLE();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

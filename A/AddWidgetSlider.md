@@ -3,17 +3,18 @@
 ## Declaration
 ```cpp
 // 0x4A904476
-ScriptAny ADD_WIDGET_SLIDER(ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void ADD_WIDGET_SLIDER(char* name, int& variable, int min, int max, int sliderStep);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **char*:** name
+- **int&:** variable
+- **int:** min
+- **int:** max
+- **int:** sliderStep
 
 ### Results
-- **ScriptAny**
+- **int&:** variable
 
 ## Description
+Add a slider (for an INT variable) to the script widgets.

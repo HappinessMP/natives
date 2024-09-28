@@ -3,20 +3,20 @@
 ## Declaration
 ```cpp
 // 0x725654F4
-void TASK_SIT_DOWN_ON_NEAREST_OBJECT(Ped ped, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void TASK_SIT_DOWN_ON_NEAREST_OBJECT(int charIndex, int, int, float x, float y, float z, int objectHash, float, int time, bool);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** charIndex
+- **int**
+- **int**
+- **float:** x
+- **float:** y
+- **float:** z
+- **int:** objectHash
+- **float**
+- **int:** time
+- **bool**
 
 ### Results
 

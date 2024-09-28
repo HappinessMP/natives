@@ -3,15 +3,16 @@
 ## Declaration
 ```cpp
 // 0x65EB71CC
-void TASK_GOTO_CHAR_AIMING(Ped ped, ScriptAny, ScriptAny, ScriptAny);
+void TASK_GOTO_CHAR_AIMING(int charIndex, int targetCharIndex, float seekRadius, float aimRadius);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** charIndex
+- **int:** targetCharIndex
+- **float:** seekRadius
+- **float:** aimRadius
 
 ### Results
 
 ## Description
+Sends a char to an char aiming a gun.

@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0xABE3FA8
-void TASK_CLIMB_LADDER(Ped ped, ScriptAny);
+void TASK_CLIMB_LADDER(int charIndex, bool fast);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **ScriptAny**
+- **int:** charIndex
+- **bool:** fast
 
 ### Results
 
 ## Description
+Tells a char to perform a climb ladder task.

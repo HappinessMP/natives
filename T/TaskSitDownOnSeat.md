@@ -3,18 +3,18 @@
 ## Declaration
 ```cpp
 // 0x2CBE4DAF
-void TASK_SIT_DOWN_ON_SEAT(Ped ped, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void TASK_SIT_DOWN_ON_SEAT(int charIndex, int, int, float x, float y, float z, float heading, int time);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** charIndex
+- **int**
+- **int**
+- **float:** x
+- **float:** y
+- **float:** z
+- **float:** heading
+- **int:** time
 
 ### Results
 

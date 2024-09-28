@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x1FA41244
-void TASK_OPEN_DRIVER_DOOR(Ped ped, Vehicle vehicle, uint unknown0);
+void TASK_OPEN_DRIVER_DOOR(int charIndex, int carIndex, int);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **Vehicle:** vehicle
-- **uint:** unknown0
+- **int:** charIndex
+- **int:** carIndex
+- **int**
 
 ### Results
 

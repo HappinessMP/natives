@@ -3,18 +3,19 @@
 ## Declaration
 ```cpp
 // 0x30975326
-void FIRE_SINGLE_BULLET(float x, float y, float z, float targetX, float targetY, float targetZ, uint unknown);
+void FIRE_SINGLE_BULLET(float startX, float startY, float startZ, float endX, float endY, float endZ, int damageCaused);
 ```
 
 ### Arguments
-- **float:** x
-- **float:** y
-- **float:** z
-- **float:** targetX
-- **float:** targetY
-- **float:** targetZ
-- **uint:** unknown
+- **float:** startX
+- **float:** startY
+- **float:** startZ
+- **float:** endX
+- **float:** endY
+- **float:** endZ
+- **int:** damageCaused
 
 ### Results
 
 ## Description
+Fires an instant hit bullet between the two points.

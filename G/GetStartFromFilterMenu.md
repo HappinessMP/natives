@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x45073C46
-ScriptAny GET_START_FROM_FILTER_MENU();
+bool GET_START_FROM_FILTER_MENU();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

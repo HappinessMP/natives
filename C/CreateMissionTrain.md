@@ -3,17 +3,18 @@
 ## Declaration
 ```cpp
 // 0xDDD70AE
-void CREATE_MISSION_TRAIN(uint unknown1, float x, float y, float z, boolean unknown2, Train* pTrain);
+void CREATE_MISSION_TRAIN(int variation, float x, float y, float z, bool directionFlag, int* carIndex);
 ```
 
 ### Arguments
-- **uint:** unknown1
+- **int:** variation
 - **float:** x
 - **float:** y
 - **float:** z
-- **boolean:** unknown2
+- **bool:** directionFlag
 
 ### Results
-- **Train*:** pTrain
+- **int*:** carIndex
 
 ## Description
+Create a mission train.

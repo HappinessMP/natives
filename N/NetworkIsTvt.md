@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x73D87A5F
-ScriptAny NETWORK_IS_TVT();
+bool NETWORK_IS_TVT();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

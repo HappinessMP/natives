@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x31A219FA
-void OBFUSCATE_INT(ScriptAny, ScriptAny);
+void OBFUSCATE_INT(int, int);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
+- **int**
+- **int**
 
 ### Results
 

@@ -18,3 +18,4 @@ void CREATE_PICKUP(int modelHashKey, int pickupType, float x, float y, float z, 
 - **int*:** pickupIndex
 
 ## Description
+Create an object that the player can pickup.

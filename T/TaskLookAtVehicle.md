@@ -3,15 +3,16 @@
 ## Declaration
 ```cpp
 // 0x4A2C5544
-void TASK_LOOK_AT_VEHICLE(Ped ped, Vehicle targetVehicle, uint duration, uint unknown_0);
+void TASK_LOOK_AT_VEHICLE(int charIndex, int carIndex, int time, int lookFlags);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **Vehicle:** targetVehicle
-- **uint:** duration
-- **uint:** unknown_0
+- **int:** charIndex
+- **int:** carIndex
+- **int:** time
+- **int:** lookFlags
 
 ### Results
 
 ## Description
+Tells a character to look at an car.

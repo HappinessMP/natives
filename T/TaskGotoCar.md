@@ -3,15 +3,16 @@
 ## Declaration
 ```cpp
 // 0x3EA116F7
-void TASK_GOTO_CAR(Ped ped, ScriptAny, ScriptAny, ScriptAny);
+void TASK_GOTO_CAR(int charIndex, int carIndex, int time, float seekRadius);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** charIndex
+- **int:** carIndex
+- **int:** time
+- **float:** seekRadius
 
 ### Results
 
 ## Description
+Tells a char to go to a car.

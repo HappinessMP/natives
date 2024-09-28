@@ -3,15 +3,16 @@
 ## Declaration
 ```cpp
 // 0x664D06FF
-void TASK_GO_TO_CHAR(Ped ped, ScriptAny, ScriptAny, ScriptAny);
+void TASK_GO_TO_CHAR(int charIndex, int targetCharIndex, int time, float seekRadius);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** charIndex
+- **int:** targetCharIndex
+- **int:** time
+- **float:** seekRadius
 
 ### Results
 
 ## Description
+Tells a char to go to another char.

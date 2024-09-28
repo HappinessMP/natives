@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x6F2A5430
-void NETWORK_SHOW_PLAYER_PROFILE_UI(ScriptAny);
+void NETWORK_SHOW_PLAYER_PROFILE_UI(int playerIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** playerIndex
 
 ### Results
 

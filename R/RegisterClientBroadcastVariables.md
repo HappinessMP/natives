@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x499B6DB6
-void REGISTER_CLIENT_BROADCAST_VARIABLES(ScriptAny, ScriptAny, ScriptAny);
+void REGISTER_CLIENT_BROADCAST_VARIABLES(void* vars, int size, int);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **void*:** vars
+- **int:** size
+- **int**
 
 ### Results
 
 ## Description
+Registers the variables for each client running the script.

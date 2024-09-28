@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x53230256
-void TASK_SHIMMY(Ped ped, ScriptAny);
+void TASK_SHIMMY(int charIndex, bool);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **ScriptAny**
+- **int:** charIndex
+- **bool**
 
 ### Results
 

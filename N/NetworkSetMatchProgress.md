@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x5C8D66EA
-void NETWORK_SET_MATCH_PROGRESS(ScriptAny);
+void NETWORK_SET_MATCH_PROGRESS(int progress);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** progress
 
 ### Results
 

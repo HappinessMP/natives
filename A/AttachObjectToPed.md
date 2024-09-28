@@ -3,21 +3,22 @@
 ## Declaration
 ```cpp
 // 0x577A699E
-void ATTACH_OBJECT_TO_PED(Object obj, Ped c, uint bone, float pX, float pY, float pZ, float rX, float rY, float rZ, uint unknown1_0);
+void ATTACH_OBJECT_TO_PED(int objectIndex, int charIndex, int boneIndex, float offsetX, float offsetY, float offsetZ, float rotationX, float rotationY, float rotationZ, bool detachOnRagdoll);
 ```
 
 ### Arguments
-- **Object:** obj
-- **Ped:** c
-- **uint:** bone
-- **float:** pX
-- **float:** pY
-- **float:** pZ
-- **float:** rX
-- **float:** rY
-- **float:** rZ
-- **uint:** unknown1_0
+- **int:** objectIndex
+- **int:** charIndex
+- **int:** boneIndex
+- **float:** offsetX
+- **float:** offsetY
+- **float:** offsetZ
+- **float:** rotationX
+- **float:** rotationY
+- **float:** rotationZ
+- **bool:** detachOnRagdoll
 
 ### Results
 
 ## Description
+Attaches an object to an char with a non physical attachement.

@@ -3,18 +3,19 @@
 ## Declaration
 ```cpp
 // 0x42941472
-boolean IS_CHAR_SHOOTING_IN_AREA(Ped ped, float x1, float y1, float x2, float y2, boolean unknownFalse);
+bool IS_CHAR_SHOOTING_IN_AREA(int charIndex, float minX, float minY, float maxX, float maxY, bool highlightArea);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **float:** x1
-- **float:** y1
-- **float:** x2
-- **float:** y2
-- **boolean:** unknownFalse
+- **int:** charIndex
+- **float:** minX
+- **float:** minY
+- **float:** maxX
+- **float:** maxY
+- **bool:** highlightArea
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks that a character is shooting in an area.

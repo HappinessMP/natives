@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x255059BB
-void DETACH_PED_FROM_WITHIN_CAR(Ped ped, boolean unknown);
+void DETACH_PED_FROM_WITHIN_CAR(int charIndex, bool noCollisionUntilClear);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **boolean:** unknown
+- **int:** charIndex
+- **bool:** noCollisionUntilClear
 
 ### Results
 

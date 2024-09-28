@@ -3,18 +3,18 @@
 ## Declaration
 ```cpp
 // 0x5BEA05E2
-ScriptAny NETWORK_HOST_GAME_E1(ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+bool NETWORK_HOST_GAME_E1(int gameMode, bool ranked, int maxPlayers, int maxPrivateSlots, int episode, int maxTeams);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** gameMode
+- **bool:** ranked
+- **int:** maxPlayers
+- **int:** maxPrivateSlots
+- **int:** episode
+- **int:** maxTeams
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

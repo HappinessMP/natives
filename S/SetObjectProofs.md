@@ -3,17 +3,18 @@
 ## Declaration
 ```cpp
 // 0x352865D2
-void SET_OBJECT_PROOFS(Object obj, boolean unknown0, boolean fallingDamage, boolean unknown1, boolean unknown2, boolean unknown3);
+void SET_OBJECT_PROOFS(int objectIndex, bool bulletProof, bool flameProof, bool explosionProof, bool collisionProof, bool meleeWeaponProof);
 ```
 
 ### Arguments
-- **Object:** obj
-- **boolean:** unknown0
-- **boolean:** fallingDamage
-- **boolean:** unknown1
-- **boolean:** unknown2
-- **boolean:** unknown3
+- **int:** objectIndex
+- **bool:** bulletProof
+- **bool:** flameProof
+- **bool:** explosionProof
+- **bool:** collisionProof
+- **bool:** meleeWeaponProof
 
 ### Results
 
 ## Description
+Sets what immunities the object has.

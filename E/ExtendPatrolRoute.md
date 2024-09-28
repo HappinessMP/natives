@@ -3,15 +3,15 @@
 ## Declaration
 ```cpp
 // 0xF3402B8
-void EXTEND_PATROL_ROUTE(ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void EXTEND_PATROL_ROUTE(float x, float y, float z, char*, char*);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **float:** x
+- **float:** y
+- **float:** z
+- **char***
+- **char***
 
 ### Results
 

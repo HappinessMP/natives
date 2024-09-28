@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x36DF37DB
-void ADD_SPAWN_BLOCKING_AREA(ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void ADD_SPAWN_BLOCKING_AREA(float x, float y, float z, float range);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **float:** x
+- **float:** y
+- **float:** z
+- **float:** range
 
 ### Results
 

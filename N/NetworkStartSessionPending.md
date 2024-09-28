@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x7F853FF4
-ScriptAny NETWORK_START_SESSION_PENDING();
+bool NETWORK_START_SESSION_PENDING();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

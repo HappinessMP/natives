@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x742E3376
-ScriptAny GET_CONTENTS_OF_TEXT_WIDGET(ScriptAny);
+char* GET_CONTENTS_OF_TEXT_WIDGET(int textWidgetIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** textWidgetIndex
 
 ### Results
-- **ScriptAny**
+- **char***
 
 ## Description
+Returns the contents of a text widget that has previously been created with ADD_TEXT_WIDGET.

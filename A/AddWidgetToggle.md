@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x66F47727
-ScriptAny ADD_WIDGET_TOGGLE(ScriptAny, ScriptAny);
+void ADD_WIDGET_TOGGLE(char* name, bool& toggle);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
+- **char*:** name
+- **bool&:** toggle
 
 ### Results
-- **ScriptAny**
+- **bool&:** toggle
 
 ## Description
+Add a toggle to the script widgets.

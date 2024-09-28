@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x59E3BEB
-Pickup GET_BLIP_INFO_ID_PICKUP_INDEX(Blip blip);
+int GET_BLIP_INFO_ID_PICKUP_INDEX(int blipIndex);
 ```
 
 ### Arguments
-- **Blip:** blip
+- **int:** blipIndex
 
 ### Results
-- **Pickup**
+- **int**
 
 ## Description

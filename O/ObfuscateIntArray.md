@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x3EF15B6A
-void OBFUSCATE_INT_ARRAY(ScriptAny, ScriptAny);
+void OBFUSCATE_INT_ARRAY(int, int);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
+- **int**
+- **int**
 
 ### Results
 

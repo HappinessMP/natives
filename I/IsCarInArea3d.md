@@ -3,20 +3,21 @@
 ## Declaration
 ```cpp
 // 0x289D3888
-boolean IS_CAR_IN_AREA_3D(Vehicle vehicle, float x1, float y1, float z1, float x2, float y2, float z2, uint unknownFalse);
+bool IS_CAR_IN_AREA_3D(int carIndex, float minX, float minY, float minZ, float maxX, float maxY, float maxZ, bool highlightArea);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
-- **float:** x1
-- **float:** y1
-- **float:** z1
-- **float:** x2
-- **float:** y2
-- **float:** z2
-- **uint:** unknownFalse
+- **int:** carIndex
+- **float:** minX
+- **float:** minY
+- **float:** minZ
+- **float:** maxX
+- **float:** maxY
+- **float:** maxZ
+- **bool:** highlightArea
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns true if the car is located within the specified 3D area.

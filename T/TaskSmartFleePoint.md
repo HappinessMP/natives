@@ -3,17 +3,18 @@
 ## Declaration
 ```cpp
 // 0x7381337A
-void TASK_SMART_FLEE_POINT(Ped ped, float x, float y, float z, float unknown0_100, uint duration);
+void TASK_SMART_FLEE_POINT(int charIndex, float x, float y, float z, float safeDistance, int fleeTime);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 - **float:** x
 - **float:** y
 - **float:** z
-- **float:** unknown0_100
-- **uint:** duration
+- **int:** safeDistance
+- **int:** fleeTime
 
 ### Results
 
 ## Description
+Tells a character to flee the given coord.

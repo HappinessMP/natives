@@ -3,18 +3,19 @@
 ## Declaration
 ```cpp
 // 0x7E21C28
-void TASK_GUARD_ASSIGNED_DEFENSIVE_AREA(Ped ped, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void TASK_GUARD_ASSIGNED_DEFENSIVE_AREA(int charIndex, float defendPositionX, float defendPositionY, float defendPositionZ, float heading, float maxPatrolProximity, int timer);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** charIndex
+- **float:** defendPositionX
+- **float:** defendPositionY
+- **float:** defendPositionZ
+- **float:** heading
+- **float:** maxPatrolProximity
+- **int:** timer
 
 ### Results
 
 ## Description
+Tells the char to guard its assigned area, will assert if no defensive area is assigned.

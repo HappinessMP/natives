@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x72BF79F1
-void TASK_DUCK(Ped ped, ScriptAny);
+void TASK_DUCK(int charIndex, int time);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **ScriptAny**
+- **int:** charIndex
+- **int:** time
 
 ### Results
 
 ## Description
+Gives the char a ducking task.

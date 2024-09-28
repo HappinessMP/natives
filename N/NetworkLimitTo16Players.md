@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0xA1D6E36
-ScriptAny NETWORK_LIMIT_TO_16_PLAYERS();
+bool NETWORK_LIMIT_TO_16_PLAYERS();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x6A66149A
-ScriptAny NETWORK_RETURN_TO_RENDEZVOUS_PENDING();
+bool NETWORK_RETURN_TO_RENDEZVOUS_PENDING();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

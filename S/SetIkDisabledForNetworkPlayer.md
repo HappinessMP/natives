@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x13B27FFE
-void SET_IK_DISABLED_FOR_NETWORK_PLAYER(ScriptAny, ScriptAny);
+void SET_IK_DISABLED_FOR_NETWORK_PLAYER(int playerIndex, bool disabled);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
+- **int:** playerIndex
+- **bool:** disabled
 
 ### Results
 

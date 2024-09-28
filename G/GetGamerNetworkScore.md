@@ -3,15 +3,15 @@
 ## Declaration
 ```cpp
 // 0x6C507EAC
-ScriptAny GET_GAMER_NETWORK_SCORE(ScriptAny, ScriptAny, ScriptAny);
+int GET_GAMER_NETWORK_SCORE(int playerIndex, int, int);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** playerIndex
+- **int**
+- **int**
 
 ### Results
-- **ScriptAny**
+- **int**
 
 ## Description

@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x10C75BDA
-void SCRIPT_ASSERT(ScriptAny);
+void SCRIPT_ASSERT(char* errorString);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **char*:** errorString
 
 ### Results
 

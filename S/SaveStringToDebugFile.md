@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x27FA32D4
-void SAVE_STRING_TO_DEBUG_FILE(ScriptAny);
+void SAVE_STRING_TO_DEBUG_FILE(char* stringToSave);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **char*:** stringToSave
 
 ### Results
 
 ## Description
+Writes a string to temp_debug.txt.

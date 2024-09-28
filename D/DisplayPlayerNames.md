@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0xB177D76
-void DISPLAY_PLAYER_NAMES(ScriptAny);
+void DISPLAY_PLAYER_NAMES(bool display);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **bool:** display
 
 ### Results
 

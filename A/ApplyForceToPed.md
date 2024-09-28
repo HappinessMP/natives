@@ -3,23 +3,24 @@
 ## Declaration
 ```cpp
 // 0x7305301D
-void APPLY_FORCE_TO_PED(Ped ped, uint unknown0_3, float x, float y, float z, float spinX, float spinY, float spinZ, uint unknown4_0, uint unknown5_1, uint unknown6_1, uint unknown7_1);
+void APPLY_FORCE_TO_PED(int charIndex, int type, float forceX, float forceY, float forceZ, float offsetX, float offsetY, float offsetZ, int component, bool localForce, bool localOffset, bool scaleByMass);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** unknown0_3
-- **float:** x
-- **float:** y
-- **float:** z
-- **float:** spinX
-- **float:** spinY
-- **float:** spinZ
-- **uint:** unknown4_0
-- **uint:** unknown5_1
-- **uint:** unknown6_1
-- **uint:** unknown7_1
+- **int:** charIndex
+- **int:** type
+- **float:** forceX
+- **float:** forceY
+- **float:** forceZ
+- **float:** offsetX
+- **float:** offsetY
+- **float:** offsetZ
+- **int:** component
+- **bool:** localForce
+- **bool:** localOffset
+- **bool:** scaleByMass
 
 ### Results
 
 ## Description
+Apply a force to an char.

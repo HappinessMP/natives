@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x575136AC
-void SET_SERVER_ID(ScriptAny);
+void SET_SERVER_ID(int);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int**
 
 ### Results
 

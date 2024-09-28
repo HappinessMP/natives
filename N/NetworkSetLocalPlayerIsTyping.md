@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x141D24A6
-ScriptAny NETWORK_SET_LOCAL_PLAYER_IS_TYPING(ScriptAny);
+bool NETWORK_SET_LOCAL_PLAYER_IS_TYPING(int playerIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** playerIndex
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

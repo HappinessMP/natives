@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x5FD47B45
-Ped GET_BLIP_INFO_ID_PED_INDEX(Blip blip);
+int GET_BLIP_INFO_ID_PED_INDEX(int blipIndex);
 ```
 
 ### Arguments
-- **Blip:** blip
+- **int:** blipIndex
 
 ### Results
-- **Ped**
+- **int:** charIndex
 
 ## Description

@@ -3,13 +3,12 @@
 ## Declaration
 ```cpp
 // 0x1E1B5C26
-ScriptAny NETWORK_RESTORE_GAME_CONFIG(ScriptAny);
+void NETWORK_RESTORE_GAME_CONFIG(void* gameConfig);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **void*:** gameConfig
 
 ### Results
-- **ScriptAny**
 
 ## Description

@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x2F9B0583
-Object WHAT_WILL_PLAYER_PICKUP(int player);
+int WHAT_WILL_PLAYER_PICKUP(int playerIndex);
 ```
 
 ### Arguments
-- **int:** player
+- **int:** playerIndex
 
 ### Results
-- **Object**
+- **int:** objectIndex
 
 ## Description
+Returns the ID of the object that the player will pick up if they press PICKUP now.

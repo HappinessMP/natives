@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x47E03E87
-void SET_CELLPHONE_RANKED(ScriptAny);
+void SET_CELLPHONE_RANKED(bool);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **bool**
 
 ### Results
 

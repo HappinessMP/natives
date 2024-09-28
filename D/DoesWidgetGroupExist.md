@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x3AAF5BE5
-ScriptAny DOES_WIDGET_GROUP_EXIST(ScriptAny);
+bool DOES_WIDGET_GROUP_EXIST(int widgetGroupIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** widgetGroupIndex
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description
+Check if a widget group exists.

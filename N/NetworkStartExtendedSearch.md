@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x7FD3C35
-void NETWORK_START_EXTENDED_SEARCH(ScriptAny);
+void NETWORK_START_EXTENDED_SEARCH(void*);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **void***
 
 ### Results
 

@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x57AC66E9
-void TASK_SMART_FLEE_CHAR_PREFERRING_PAVEMENTS(Ped ped, Ped fleeFromPed, float unknown0_100, uint duration);
+void TASK_SMART_FLEE_CHAR_PREFERRING_PAVEMENTS(int charIndex, int fleeFromCharIndex, float safeDistance, int fleeTime);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **Ped:** fleeFromPed
-- **float:** unknown0_100
-- **uint:** duration
+- **int:** charIndex
+- **int:** fleeFromCharIndex
+- **float:** safeDistance
+- **int:** fleeTime
 
 ### Results
 

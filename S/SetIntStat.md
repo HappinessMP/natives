@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x1B64665B
-void SET_INT_STAT(uint stat, uint value);
+void SET_INT_STAT(int stat, int value);
 ```
 
 ### Arguments
-- **uint:** stat
-- **uint:** value
+- **int:** stat
+- **int:** value
 
 ### Results
 

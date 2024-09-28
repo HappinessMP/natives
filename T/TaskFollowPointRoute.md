@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x1C430F41
-void TASK_FOLLOW_POINT_ROUTE(Ped ped, ScriptAny, ScriptAny);
+void TASK_FOLLOW_POINT_ROUTE(int charIndex, int moveState, int mode);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **ScriptAny**
-- **ScriptAny**
+- **int:** charIndex
+- **int:** moveState
+- **int:** mode
 
 ### Results
 
 ## Description
+Tells a char to follow a point route.

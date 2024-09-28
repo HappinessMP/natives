@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0xB1562DF
-ScriptAny NETWORK_SET_PLAYER_MUTED(ScriptAny, ScriptAny);
+bool NETWORK_SET_PLAYER_MUTED(int playerIndex, bool muted);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
+- **int:** playerIndex
+- **bool:** muted
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description
+Mutes / unmutes the remote player.

@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x6045426E
-void DAMAGE_CHAR(Ped ped, uint hitPoints, boolean unknown);
+void DAMAGE_CHAR(int charIndex, int damage, bool damageArmourFlag);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** hitPoints
-- **boolean:** unknown
+- **int:** charIndex
+- **int:** damage
+- **bool:** damageArmourFlag
 
 ### Results
 
 ## Description
+Applies damage to the char, can apply to the body armour as well.

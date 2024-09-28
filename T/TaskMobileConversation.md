@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x64903364
-void TASK_MOBILE_CONVERSATION(Ped ped, ScriptAny);
+void TASK_MOBILE_CONVERSATION(int charIndex, bool wander);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **ScriptAny**
+- **int:** charIndex
+- **bool:** wander
 
 ### Results
 
 ## Description
+Tells the char to have a mobile conversation.

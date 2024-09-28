@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x6E120246
-void CLEAR_SCRIPT_ARRAY_FROM_SCRATCHPAD(ScriptAny);
+void CLEAR_SCRIPT_ARRAY_FROM_SCRATCHPAD(int scratchpadIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** scratchpadIndex
 
 ### Results
 

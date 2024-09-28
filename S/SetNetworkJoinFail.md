@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x5849311B
-void SET_NETWORK_JOIN_FAIL(ScriptAny);
+void SET_NETWORK_JOIN_FAIL(bool);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **bool**
 
 ### Results
 

@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x272D15FD
-void DIM_BLIP(Blip blip, boolean unknownTrue);
+void DIM_BLIP(int blipIndex, bool state);
 ```
 
 ### Arguments
-- **Blip:** blip
-- **boolean:** unknownTrue
+- **int:** blipIndex
+- **bool:** state
 
 ### Results
 
 ## Description
+Dims the brightness of a blip.

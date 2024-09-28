@@ -3,19 +3,20 @@
 ## Declaration
 ```cpp
 // 0x60964DB8
-boolean IS_BULLET_IN_BOX(float x1, float y1, float z1, float x2, float y2, float z2, boolean unknown);
+bool IS_BULLET_IN_BOX(float minX, float minY, float minZ, float maxX, float maxY, float maxZ, bool isPlayer);
 ```
 
 ### Arguments
-- **float:** x1
-- **float:** y1
-- **float:** z1
-- **float:** x2
-- **float:** y2
-- **float:** z2
-- **boolean:** unknown
+- **float:** minX
+- **float:** minY
+- **float:** minZ
+- **float:** maxX
+- **float:** maxY
+- **float:** maxZ
+- **bool:** isPlayer (checks if the player fired the bullet)
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks that a bullet is in the area.

@@ -3,18 +3,18 @@
 ## Declaration
 ```cpp
 // 0xA2B76C2
-ScriptAny GET_RANDOM_NETWORK_RESTART_NODE(ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+bool GET_RANDOM_NETWORK_RESTART_NODE(float x, float y, float z, float range, Vector3*, int* nodeIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **float:** x
+- **float:** y
+- **float:** z
+- **float:** range
 
 ### Results
-- **ScriptAny**
+- **bool**
+- **Vector3***
+- **int*:** nodeIndex
 
 ## Description

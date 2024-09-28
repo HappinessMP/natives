@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x546F5326
-void SET_PLAYER_MOOD_NORMAL(Player playerIndex);
+void SET_PLAYER_MOOD_NORMAL(int playerIndex);
 ```
 
 ### Arguments
-- **Player:** playerIndex
+- **int:** playerIndex
 
 ### Results
 
 ## Description
+The players mood is set to normal.

@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x7D99343C
-ScriptAny PLAYER_WANTS_TO_JOIN_NETWORK_GAME(ScriptAny);
+bool PLAYER_WANTS_TO_JOIN_NETWORK_GAME(int playerIndex);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** playerIndex
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

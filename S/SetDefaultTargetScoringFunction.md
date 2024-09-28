@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0xB164EF2
-void SET_DEFAULT_TARGET_SCORING_FUNCTION(Ped ped, ScriptAny);
+void SET_DEFAULT_TARGET_SCORING_FUNCTION(int, char*);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **ScriptAny**
+- **int**
+- **char***
 
 ### Results
 

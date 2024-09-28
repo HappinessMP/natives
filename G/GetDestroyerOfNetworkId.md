@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x11E80442
-int GET_DESTROYER_OF_NETWORK_ID(int netID, uint* reason);
+int GET_DESTROYER_OF_NETWORK_ID(int networkIndex, int* weaponType);
 ```
 
 ### Arguments
-- **int:** netID
+- **int:** networkIndex
 
 ### Results
-- **int:** playerID of the killer
-- **uint*:** reason
+- **int:** playerIndex
+- **int*:** weaponType
 
 ## Description
+Returns the player index of the player that destroyed the network object with the specified network ID.

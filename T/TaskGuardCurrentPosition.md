@@ -3,15 +3,16 @@
 ## Declaration
 ```cpp
 // 0x3E6137CB
-void TASK_GUARD_CURRENT_POSITION(Ped ped, float unknown0_15, float unknown1_10, uint unknown2_1);
+void TASK_GUARD_CURRENT_POSITION(int charIndex, float maxPatrolProximity, float guardAreaRadius, bool setDefensiveArea);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **float:** unknown0_15
-- **float:** unknown1_10
-- **uint:** unknown2_1
+- **int:** charIndex
+- **float:** maxPatrolProximity
+- **float:** guardAreaRadius
+- **bool:** setDefensiveArea
 
 ### Results
 
 ## Description
+Tells the character to guard their current position with the area passed.

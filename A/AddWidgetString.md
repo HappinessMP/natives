@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x27D20F21
-ScriptAny ADD_WIDGET_STRING(ScriptAny);
+void ADD_WIDGET_STRING(char* string);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **char*:** string
 
 ### Results
-- **ScriptAny**
 
 ## Description
+Show a string.

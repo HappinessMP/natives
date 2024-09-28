@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x18A302CD
-ScriptAny CALCULATE_CHECKSUM(ScriptAny, ScriptAny);
+uint CALCULATE_CHECKSUM(void* array, int);
 ```
 
 ### Arguments
-- **ScriptAny**
-- **ScriptAny**
+- **void*:** array
+- **int**
 
 ### Results
-- **ScriptAny**
+- **uint:** checksum
 
 ## Description

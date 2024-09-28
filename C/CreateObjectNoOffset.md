@@ -3,17 +3,18 @@
 ## Declaration
 ```cpp
 // 0x75C51A26
-void CREATE_OBJECT_NO_OFFSET(uint model, float x, float y, float z, Object* pObj, boolean unknownTrue);
+void CREATE_OBJECT_NO_OFFSET(int modelHash, float x, float y, float z, int* objectIndex, bool registerAsNetworkObject);
 ```
 
 ### Arguments
-- **uint:** model
+- **int:** modelHash
 - **float:** x
 - **float:** y
 - **float:** z
-- **boolean:** unknownTrue
+- **bool:** registerAsNetworkObject
 
 ### Results
-- **Object*:** pObj
+- **int*:** objectIndex
 
 ## Description
+Create an object with no offset at the given coord.

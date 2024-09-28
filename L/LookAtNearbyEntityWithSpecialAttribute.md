@@ -3,18 +3,18 @@
 ## Declaration
 ```cpp
 // 0x6EB639E8
-boolean LOOK_AT_NEARBY_ENTITY_WITH_SPECIAL_ATTRIBUTE(int, Vector3*, float*, ScriptAny*, ScriptAny*, ScriptAny*);
+bool LOOK_AT_NEARBY_ENTITY_WITH_SPECIAL_ATTRIBUTE(int, Vector3* coords, float* distance, int*, int*, float*);
 ```
 
 ### Arguments
 - **int**
 
 ### Results
-- **boolean**
-- **Vector3***
+- **bool**
+- **Vector3*:** coords
+- **float*:** distance
+- **int***
+- **int***
 - **float***
-- **ScriptAny***
-- **ScriptAny***
-- **ScriptAny***
 
 ## Description

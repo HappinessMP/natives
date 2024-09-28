@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x4FDD00CE
-ScriptAny NETWORK_ACCEPT_INVITE(ScriptAny);
+bool NETWORK_ACCEPT_INVITE(int index);
 ```
 
 ### Arguments
-- **ScriptAny**
+- **int:** index
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description
+Accepts the unaccepted invite at the given index.

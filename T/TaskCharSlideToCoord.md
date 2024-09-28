@@ -3,17 +3,18 @@
 ## Declaration
 ```cpp
 // 0x4962F82
-void TASK_CHAR_SLIDE_TO_COORD(Ped ped, ScriptAny, ScriptAny, ScriptAny, ScriptAny, ScriptAny);
+void TASK_CHAR_SLIDE_TO_COORD(int charIndex, float coordsX, float coordsY, float coordsZ, float headingDegrees, float speed);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **int:** charIndex
+- **float:** coordsX
+- **float:** coordsY
+- **float:** coordsZ
+- **float:** headingDegrees
+- **float:** speed
 
 ### Results
 
 ## Description
+Slides a char to the given coord.

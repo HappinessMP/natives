@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x52364369
-ScriptAny NETWORK_IS_BEING_KICKED();
+bool NETWORK_IS_BEING_KICKED();
 ```
 
 ### Arguments
 
 ### Results
-- **ScriptAny**
+- **bool**
 
 ## Description

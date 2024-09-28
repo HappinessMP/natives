@@ -3,15 +3,15 @@
 ## Declaration
 ```cpp
 // 0x64E51535
-int GET_WIDTH_OF_SUBSTRING_GIVEN_TEXT_LABEL(char* gxtname, boolean, ScriptAny, ScriptAny, ScriptAny);
+int GET_WIDTH_OF_SUBSTRING_GIVEN_TEXT_LABEL(char* textLabel, bool, int, int, int);
 ```
 
 ### Arguments
-- **char*:** gxtname
-- **boolean**
-- **ScriptAny**
-- **ScriptAny**
-- **ScriptAny**
+- **char*:** textLabel
+- **bool**
+- **int**
+- **int**
+- **int**
 
 ### Results
 - **int**

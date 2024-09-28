@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x34CC1F23
-void DETACH_CAR(Vehicle vehicle);
+void DETACH_CAR(int carIndex);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** carIndex
 
 ### Results
 
