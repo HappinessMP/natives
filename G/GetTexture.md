@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0xF5D1937
-int GET_TEXTURE(char* dictionary, char* textureName);
+int GET_TEXTURE(uint, char* textureName);
 ```
 
 ### Arguments
-- **char*::** dictionary
+- **uint**
 - **char*:** textureName
 
 ### Results
