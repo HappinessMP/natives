@@ -3,21 +3,22 @@
 ## Declaration
 ```cpp
 // 0x5C4B1A8A
-uint START_PTFX_ON_VEH(char* name, Vehicle veh, float x, float y, float z, float, float, float, float);
+int START_PTFX_ON_VEH(char* fxName, int carIndex, float posX, float posY, float posZ, float rotX, float rotY, float rotZ, float scale);
 ```
 
 ### Arguments
-- **char*:** name
-- **Vehicle:** veh
-- **float:** x
-- **float:** y
-- **float:** z
-- **float**
-- **float**
-- **float**
-- **float**
+- **char*:** fxName
+- **int:** carIndex
+- **float:** posX
+- **float:** posY
+- **float:** posZ
+- **float:** rotX
+- **float:** rotY
+- **float:** rotZ
+- **float:** scale (default size = 1.0)
 
 ### Results
-- **uint**
+- **int:** ptfxId
 
 ## Description
+Start a particle effect on an car with an offset position and orientation.

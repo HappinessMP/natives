@@ -3,22 +3,23 @@
 ## Declaration
 ```cpp
 // 0x60980323
-uint START_PTFX_ON_OBJ_BONE(char* name, Object obj, float x, float y, float z, float, float, float, int objbone, uint flags);
+int START_PTFX_ON_OBJ_BONE(char* fxName, int objectIndex, float posX, float posY, float posZ, float rotX, float rotY, float rotZ, int boneIndex, float scale);
 ```
 
 ### Arguments
-- **char*:** name
-- **Object:** obj
-- **float:** x
-- **float:** y
-- **float:** z
-- **float**
-- **float**
-- **float**
-- **int:** objbone
-- **uint:** flags
+- **char*:** fxName
+- **int:** objectIndex
+- **float:** posX
+- **float:** posY
+- **float:** posZ
+- **float:** rotX
+- **float:** rotY
+- **float:** rotZ
+- **int:** boneIndex
+- **float:** scale (default size = 1.0)
 
 ### Results
-- **uint**
+- **int:** ptfxId
 
 ## Description
+Start a particle effect on a object bone with an offset position and orientation.

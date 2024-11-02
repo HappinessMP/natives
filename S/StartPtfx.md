@@ -3,20 +3,21 @@
 ## Declaration
 ```cpp
 // 0x3A774777
-uint START_PTFX(char* name, float x, float y, float z, float, float, float, uint flags);
+int START_PTFX(char* fxName, float posX, float posY, float posZ, float rotX, float rotY, float rotZ, float scale);
 ```
 
 ### Arguments
-- **char*:** name
-- **float:** x
-- **float:** y
-- **float:** z
-- **float**
-- **float**
-- **float**
-- **uint:** flags
+- **char*:** fxName
+- **float:** posX
+- **float:** posY
+- **float:** posZ
+- **float:** rotX
+- **float:** rotY
+- **float:** rotZ
+- **float:** scale (default size = 1.0)
 
 ### Results
-- **uint**
+- **int:** ptfxId
 
 ## Description
+Start a particle effect at a world position and orientation.

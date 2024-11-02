@@ -3,21 +3,22 @@
 ## Declaration
 ```cpp
 // 0xD8407E9
-uint START_PTFX_ON_OBJ(char* name, Object obj, float x, float y, float z, float, float, float, uint flags);
+int START_PTFX_ON_OBJ(char* fxName, int objectIndex, float posX, float posY, float posZ, float rotX, float rotY, float rotZ, float scale);
 ```
 
 ### Arguments
-- **char*:** name
-- **Object:** obj
-- **float:** x
-- **float:** y
-- **float:** z
-- **float**
-- **float**
-- **float**
-- **uint:** flags
+- **char*:** fxName
+- **int:** objectIndex
+- **float:** posX
+- **float:** posY
+- **float:** posZ
+- **float:** rotX
+- **float:** rotY
+- **float:** rotZ
+- **float:** scale (default size = 1.0)
 
 ### Results
-- **uint**
+- **int:** ptfxId
 
 ## Description
+Start a particle effect on an object with an offset position and orientation.
