@@ -2,7 +2,7 @@
 
 ## Declaration
 ```cpp
-// 0x04F12617
+// 0x4F12617
 char* OBFUSCATE_STRING(char* str);
 ```
 

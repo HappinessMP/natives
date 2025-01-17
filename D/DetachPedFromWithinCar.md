@@ -2,7 +2,7 @@
 
 ## Declaration
 ```cpp
-// 0x255059BB
+// 0x15F70500
 void DETACH_PED_FROM_WITHIN_CAR(int charIndex, bool noCollisionUntilClear);
 ```
 
