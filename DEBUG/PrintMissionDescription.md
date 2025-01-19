@@ -11,3 +11,4 @@ void PRINT_MISSION_DESCRIPTION();
 ### Results
 
 ## Description
+This native function doesn't work (debug function removed in release build).

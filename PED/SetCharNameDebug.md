@@ -11,3 +11,4 @@ void SET_CHAR_NAME_DEBUG();
 ### Results
 
 ## Description
+This native function doesn't work (debug function removed in release build).

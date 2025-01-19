@@ -12,3 +12,4 @@ void REMOVE_USER_3D_MARKER(uint marker);
 ### Results
 
 ## Description
+This native function doesn't work (nullsub).

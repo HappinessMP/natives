@@ -14,4 +14,4 @@ void FINISH_WIDGET_COMBO(char* comboName, int& variable);
 - **int&:** variable
 
 ## Description
-Call this command once you have added all the entries to the combo.
+This native function doesn't work (debug function removed in release build).

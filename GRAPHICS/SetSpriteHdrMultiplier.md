@@ -12,3 +12,4 @@ void SET_SPRITE_HDR_MULTIPLIER(float multiplier);
 ### Results
 
 ## Description
+This native function doesn't work (nullsub).

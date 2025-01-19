@@ -13,4 +13,4 @@ void SET_CONTENTS_OF_TEXT_WIDGET(int textWidgetIndex, char* newWidgetContents);
 ### Results
 
 ## Description
-Sets the contents of a text widget that has previously been created with ADD_TEXT_WIDGET.
+This native function doesn't work (debug function removed in release build).

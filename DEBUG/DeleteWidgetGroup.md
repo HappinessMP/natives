@@ -12,4 +12,4 @@ void DELETE_WIDGET_GROUP(int widgetGroupIndex);
 ### Results
 
 ## Description
-Deletes a widget group.
+This native function doesn't work (debug function removed in release build).

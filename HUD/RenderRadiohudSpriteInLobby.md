@@ -11,3 +11,4 @@ void RENDER_RADIOHUD_SPRITE_IN_LOBBY();
 ### Results
 
 ## Description
+This native function doesn't work (nullsub).

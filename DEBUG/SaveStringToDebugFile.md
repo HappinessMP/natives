@@ -12,4 +12,4 @@ void SAVE_STRING_TO_DEBUG_FILE(char* stringToSave);
 ### Results
 
 ## Description
-Writes a string to temp_debug.txt.
+This native function doesn't work (debug function removed in release build).

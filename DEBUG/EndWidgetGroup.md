@@ -11,3 +11,4 @@ void END_WIDGET_GROUP();
 ### Results
 
 ## Description
+This native function doesn't work (debug function removed in release build).

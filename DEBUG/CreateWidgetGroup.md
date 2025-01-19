@@ -13,4 +13,4 @@ int CREATE_WIDGET_GROUP(char* name);
 - **int:** widgetGroupIndex
 
 ## Description
-Create a debug widget group.
+This native function doesn't work (debug function removed in release build).

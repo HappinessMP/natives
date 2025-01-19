@@ -11,3 +11,4 @@ void GET_CONSOLE_COMMAND();
 ### Results
 
 ## Description
+This native function doesn't work (debug function removed in release build).

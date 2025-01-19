@@ -12,4 +12,4 @@ void DELETE_WIDGET(int textWidgetIndex);
 ### Results
 
 ## Description
-Deletes a text widget.
+This native function doesn't work (debug function removed in release build).

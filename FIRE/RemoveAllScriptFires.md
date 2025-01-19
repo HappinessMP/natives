@@ -11,3 +11,4 @@ void REMOVE_ALL_SCRIPT_FIRES();
 ### Results
 
 ## Description
+This native function doesn't work (nullsub).

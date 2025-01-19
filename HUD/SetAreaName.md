@@ -11,3 +11,4 @@ void SET_AREA_NAME();
 ### Results
 
 ## Description
+This native function doesn't work (nullsub).

@@ -12,4 +12,4 @@ void SAVE_INT_TO_DEBUG_FILE(int intToSave);
 ### Results
 
 ## Description
-Writes an int value to temp_debug.txt.
+This native function doesn't work (debug function removed in release build).

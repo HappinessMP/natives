@@ -12,4 +12,4 @@ void SAVE_FLOAT_TO_DEBUG_FILE(float floatToSave);
 ### Results
 
 ## Description
-Writes an float value to temp_debug.txt.
+This native function doesn't work (debug function removed in release build).

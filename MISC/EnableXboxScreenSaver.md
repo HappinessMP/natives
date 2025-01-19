@@ -11,3 +11,4 @@ void ENABLE_XBOX_SCREEN_SAVER();
 ### Results
 
 ## Description
+This native function doesn't work (nullsub).

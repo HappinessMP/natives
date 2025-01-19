@@ -14,4 +14,4 @@ void ADD_WIDGET_READ_ONLY(char* name, int& variable);
 - **int&:** variable
 
 ## Description
-Add a "slider" (which cannot be changed) (for an INT variable) to the script widgets in order to show updated values/numbers.
+This native function doesn't work (debug function removed in release build).

@@ -17,4 +17,4 @@ void ADD_WIDGET_SLIDER(char* name, int& variable, int min, int max, int sliderSt
 - **int&:** variable
 
 ## Description
-Add a slider (for an INT variable) to the script widgets.
+This native function doesn't work (debug function removed in release build).

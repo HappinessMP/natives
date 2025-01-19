@@ -13,3 +13,4 @@ void SET_CHAR_WEAPON_SKILL(Ped ped, int skill);
 ### Results
 
 ## Description
+This native function doesn't work (nullsub).

@@ -13,3 +13,4 @@ char* GET_MODEL_NAME_FOR_DEBUG(uint model);
 - **char***
 
 ## Description
+This native function doesn't work (debug function removed in release build).

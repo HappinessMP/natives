@@ -11,3 +11,4 @@ void GET_ROOM_NAME_FROM_CHAR_DEBUG();
 ### Results
 
 ## Description
+This native function doesn't work (debug function removed in release build).

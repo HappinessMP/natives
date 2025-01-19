@@ -12,4 +12,4 @@ void ADD_WIDGET_STRING(char* string);
 ### Results
 
 ## Description
-Show a string.
+This native function doesn't work (debug function removed in release build).

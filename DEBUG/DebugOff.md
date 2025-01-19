@@ -11,3 +11,4 @@ void DEBUG_OFF();
 ### Results
 
 ## Description
+This native function doesn't work (debug function removed in release build).

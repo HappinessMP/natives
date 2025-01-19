@@ -11,3 +11,4 @@ void GET_MODEL_NAME_OF_CAR_FOR_DEBUG_ONLY();
 ### Results
 
 ## Description
+This native function doesn't work (debug function removed in release build).

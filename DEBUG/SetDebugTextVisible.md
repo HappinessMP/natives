@@ -12,3 +12,4 @@ void SET_DEBUG_TEXT_VISIBLE(bool visible);
 ### Results
 
 ## Description
+This native function doesn't work (debug function removed in release build).

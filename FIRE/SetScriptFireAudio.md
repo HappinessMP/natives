@@ -11,3 +11,4 @@ void SET_SCRIPT_FIRE_AUDIO();
 ### Results
 
 ## Description
+This native function doesn't work (nullsub).

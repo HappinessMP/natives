@@ -11,3 +11,4 @@ void PICK_RANDOM_WEATHER();
 ### Results
 
 ## Description
+This native function doesn't work (nullsub).

@@ -11,3 +11,4 @@ void STREAM_CUTSCENE();
 ### Results
 
 ## Description
+This native function doesn't work (nullsub).

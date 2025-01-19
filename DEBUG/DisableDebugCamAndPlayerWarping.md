@@ -11,3 +11,4 @@ void DISABLE_DEBUG_CAM_AND_PLAYER_WARPING();
 ### Results
 
 ## Description
+This native function doesn't work (debug function removed in release build).

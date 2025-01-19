@@ -15,3 +15,4 @@ void DRAW_DEBUG_SPHERE(float x, float y, float z, float radius);
 ### Results
 
 ## Description
+This native function doesn't work (debug function removed in release build).

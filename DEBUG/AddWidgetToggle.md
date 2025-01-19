@@ -14,4 +14,4 @@ void ADD_WIDGET_TOGGLE(char* name, bool& toggle);
 - **bool&:** toggle
 
 ## Description
-Add a toggle to the script widgets.
+This native function doesn't work (debug function removed in release build).

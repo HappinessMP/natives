@@ -11,3 +11,4 @@ void SET_ALL_PEDS_SPAWNED_ARE_COPS();
 ### Results
 
 ## Description
+This native function doesn't work (debug function removed in release build).

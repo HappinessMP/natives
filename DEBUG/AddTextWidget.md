@@ -13,4 +13,4 @@ int ADD_TEXT_WIDGET(char* title);
 - **int:** textWidgetIndex
 
 ## Description
-Creates a widget in which the user can enter text.
+This native function doesn't work (debug function removed in release build).

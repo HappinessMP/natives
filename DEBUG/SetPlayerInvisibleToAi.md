@@ -12,3 +12,4 @@ void SET_PLAYER_INVISIBLE_TO_AI(boolean set);
 ### Results
 
 ## Description
+This native function doesn't work (debug function removed in release build).

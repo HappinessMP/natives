@@ -11,3 +11,4 @@ void GET_RID_OF_PLAYER_PROSTITUTE();
 ### Results
 
 ## Description
+This native function doesn't work (nullsub).

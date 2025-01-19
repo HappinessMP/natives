@@ -11,3 +11,4 @@ void OPEN_DEBUG_FILE();
 ### Results
 
 ## Description
+This native function doesn't work (debug function removed in release build).

@@ -11,3 +11,4 @@ void START_NEW_WIDGET_COMBO();
 ### Results
 
 ## Description
+This native function doesn't work (debug function removed in release build).

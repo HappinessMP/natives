@@ -11,3 +11,4 @@ void ACTIVATE_VECTOR_MAP();
 ### Results
 
 ## Description
+This native function doesn't work (debug function removed in release build).

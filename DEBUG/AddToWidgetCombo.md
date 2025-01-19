@@ -12,4 +12,4 @@ void ADD_TO_WIDGET_COMBO(char* newComboEntryName);
 ### Results
 
 ## Description
-Call this command for every entry in the list for the combo box.
+This native function doesn't work (debug function removed in release build).

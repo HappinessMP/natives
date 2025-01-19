@@ -11,3 +11,4 @@ void TURN_ON_RADIOHUD_IN_LOBBY();
 ### Results
 
 ## Description
+This native function doesn't work (nullsub).

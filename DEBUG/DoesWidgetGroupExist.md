@@ -13,4 +13,4 @@ bool DOES_WIDGET_GROUP_EXIST(int widgetGroupIndex);
 - **bool**
 
 ## Description
-Check if a widget group exists.
+This native function doesn't work (debug function removed in release build).

@@ -11,3 +11,4 @@ void SET_CAR_HAS_BEEN_CREATED_IN_INTERIOR();
 ### Results
 
 ## Description
+This native function doesn't work (nullsub).
