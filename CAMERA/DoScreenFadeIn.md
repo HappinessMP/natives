@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x4D72200
-void DO_SCREEN_FADE_IN(uint timeMS);
+void DO_SCREEN_FADE_IN(int timeMS);
 ```
 
 ### Arguments
-- **uint:** timeMS
+- **int:** timeMS
 
 ### Results
 
 ## Description
+Fade in the main viewport with fade from black.

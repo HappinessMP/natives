@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x2966710D
-void ATTACH_CAM_TO_OBJECT(int cam, Object obj);
+void ATTACH_CAM_TO_OBJECT(int camId, int objectId);
 ```
 
 ### Arguments
-- **int:** cam
-- **Object:** obj
+- **int:** camId
+- **int:** objectId
 
 ### Results
 
 ## Description
+Attaches a camera to an object.

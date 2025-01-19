@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x5E564CFF
-void ATTACH_CAM_TO_VEHICLE(int cam, Vehicle veh);
+void ATTACH_CAM_TO_VEHICLE(int camId, int carId);
 ```
 
 ### Arguments
-- **int:** cam
-- **Vehicle:** veh
+- **int:** camId
+- **int:** carId
 
 ### Results
 
 ## Description
+Attaches a camera to an car.

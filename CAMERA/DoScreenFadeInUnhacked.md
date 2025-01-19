@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x5F9218C3
-void DO_SCREEN_FADE_IN_UNHACKED(uint timeMS);
+void DO_SCREEN_FADE_IN_UNHACKED(int timeMS);
 ```
 
 ### Arguments
-- **uint:** timeMS
+- **int:** timeMS
 
 ### Results
 

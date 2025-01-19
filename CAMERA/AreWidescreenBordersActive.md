@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x4FE17259
-boolean ARE_WIDESCREEN_BORDERS_ACTIVE();
+bool ARE_WIDESCREEN_BORDERS_ACTIVE();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Are the widescreen borders still visible on the screen. Set via SET_WIDESCREEN_BORDERS.

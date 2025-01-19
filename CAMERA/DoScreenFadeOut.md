@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x65DE621C
-void DO_SCREEN_FADE_OUT(uint timeMS);
+void DO_SCREEN_FADE_OUT(int timeMS);
 ```
 
 ### Arguments
-- **uint:** timeMS
+- **int:** timeMS
 
 ### Results
 
 ## Description
+Fade out the main viewport with fade to black.
