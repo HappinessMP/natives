@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x48ED6432
-void RETUNE_RADIO_TO_STATION_INDEX(uint radioStation);
+void RETUNE_RADIO_TO_STATION_INDEX(int radioStationIndex);
 ```
 
 ### Arguments
-- **uint:** radioStation
+- **int:** radioStation
 
 ### Results
 
 ## Description
+Retunes the radio station to the specified index.

@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x2CA53AA1
-boolean HAS_SOUND_FINISHED(uint sound);
+bool HAS_SOUND_FINISHED(int soundId);
 ```
 
 ### Arguments
-- **uint:** sound
+- **int:** soundId
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks that a sound has finished playing.

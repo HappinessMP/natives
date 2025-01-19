@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x3F0F4E0C
-void SET_MISSION_PICKUP_SOUND(uint model, char* SoundName);
+void SET_MISSION_PICKUP_SOUND(int modelHash, char* soundName);
 ```
 
 ### Arguments
-- **uint:** model
-- **char*:** SoundName
+- **int:** modelHash
+- **char*:** soundName
 
 ### Results
 

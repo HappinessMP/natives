@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x211D390A
-void RELEASE_SOUND_ID(uint sound);
+void RELEASE_SOUND_ID(int soundId);
 ```
 
 ### Arguments
-- **uint:** sound
+- **int:** soundId
 
 ### Results
 
 ## Description
+Releases a sound ID.

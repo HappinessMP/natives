@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x6342018A
-uint GET_SOUND_ID();
+int GET_SOUND_ID();
 ```
 
 ### Arguments
 
 ### Results
-- **uint**
+- **int**
 
 ## Description
+Returns an new id for a sound.

@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x416413F6
-void ADD_LINE_TO_SCRIPTED_CONVERSATION(uint conversation, int, int);
+void ADD_LINE_TO_SCRIPTED_CONVERSATION(int conversation, int, int);
 ```
 
 ### Arguments
-- **uint:** conversation
+- **int:** conversation
 - **int**
 - **int**
 

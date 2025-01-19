@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x39200B83
-void SET_VARIABLE_ON_SOUND(uint sound, char* varname, float value);
+void SET_VARIABLE_ON_SOUND(int soundId, char* varName, float varValue);
 ```
 
 ### Arguments
-- **uint:** sound
-- **char*:** varname
-- **float:** value
+- **int:** soundId
+- **char*:** varName
+- **float:** varValue
 
 ### Results
 
 ## Description
+Sets a variable on a sound.
