@@ -3,22 +3,23 @@
 ## Declaration
 ```cpp
 // 0x63C00DE7
-boolean GET_CLOSEST_ROAD(float x, float y, float z, float, int, Vector3*, Vector3*, float*, float*, float*);
+bool GET_CLOSEST_ROAD(float x, float y, float z, float minLength, int minLanes, Vector3* southEndNode, Vector3* northEndNode, int* lanesGoingSouth, int* lanesGoingNorth, float* centralReservationWidth);
 ```
 
 ### Arguments
 - **float:** x
 - **float:** y
 - **float:** z
-- **float**
-- **int**
+- **float:** minLength
+- **int:** minLanes
 
 ### Results
-- **boolean**
-- **Vector3***
-- **Vector3***
-- **float***
-- **float***
-- **float***
+- **bool**
+- **Vector3*:** southEndNode
+- **Vector3*:** northEndNode
+- **int*:** lanesGoingSouth
+- **int*:** lanesGoingNorth
+- **float*:** centralReservationWidth
 
 ## Description
+Will return if can the closest road segment of a certein length with a certain number of lanes.
