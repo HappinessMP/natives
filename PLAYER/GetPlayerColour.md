@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x25270A4B
-uint GET_PLAYER_COLOUR(int Player);
+int GET_PLAYER_COLOUR(int playerIndex);
 ```
 
 ### Arguments
-- **int:** Player
+- **int:** playerIndex
 
 ### Results
-- **uint**
+- **int**
 
 ## Description

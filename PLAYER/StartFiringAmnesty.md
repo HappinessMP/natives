@@ -11,3 +11,4 @@ void START_FIRING_AMNESTY();
 ### Results
 
 ## Description
+Any contributions to the wanted level are blocked for 5 seconds or so.

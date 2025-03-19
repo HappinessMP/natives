@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x2B2E39BB
-void PRINT_BIG_Q(char* gxtentry, int time, int flag);
+void PRINT_BIG_Q(char* textLabel, int duration, int colour);
 ```
 
 ### Arguments
-- **char*:** gxtentry
-- **int:** time
-- **int:** flag
+- **char*:** textLabel
+- **int:** duration
+- **int:** colour
 
 ### Results
 

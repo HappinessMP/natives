@@ -11,3 +11,4 @@ void CLEAR_PRINTS();
 ### Results
 
 ## Description
+Clears the print queue that may have been built up so far.

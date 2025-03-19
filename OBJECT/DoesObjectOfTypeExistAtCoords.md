@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x1F881A88
-boolean DOES_OBJECT_OF_TYPE_EXIST_AT_COORDS(float x, float y, float z, float radius, uint model);
+bool DOES_OBJECT_OF_TYPE_EXIST_AT_COORDS(float x, float y, float z, float radius, int modelHash);
 ```
 
 ### Arguments
@@ -11,9 +11,10 @@ boolean DOES_OBJECT_OF_TYPE_EXIST_AT_COORDS(float x, float y, float z, float rad
 - **float:** y
 - **float:** z
 - **float:** radius
-- **uint:** model
+- **int:** modelHash
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns TRUE if the closest object within radius is a proper object - not a dummy or building.

@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x437D247E
-void SET_CHAR_AMMO(Ped ped, uint weapon, uint ammo);
+void SET_CHAR_AMMO(int charIndex, int weaponType, int ammo);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** weapon
-- **uint:** ammo
+- **int:** charIndex
+- **int:** weaponType
+- **int:** ammo
 
 ### Results
 
 ## Description
+Set the ammo a character has for a certain weapon type.

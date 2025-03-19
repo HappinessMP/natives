@@ -13,3 +13,4 @@ int HOW_LONG_HAS_NETWORK_PLAYER_BEEN_DEAD_FOR(int playerIndex);
 - **int**
 
 ## Description
+Returns the time (in milliseconds) that a specific player has been dead for.

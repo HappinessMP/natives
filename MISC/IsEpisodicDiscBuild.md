@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x511A2EC9
-boolean IS_EPISODIC_DISC_BUILD();
+bool IS_EPISODIC_DISC_BUILD();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

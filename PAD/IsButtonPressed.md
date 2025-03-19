@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x7FF21081
-boolean IS_BUTTON_PRESSED(uint padIndex, uint button);
+bool IS_BUTTON_PRESSED(int padNumber, int buttonNumber);
 ```
 
 ### Arguments
-- **uint:** padIndex
-- **uint:** button
+- **int:** padNumber
+- **int:** buttonNumber
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns TRUE if the specified button on the specified controller is being pressed/used.

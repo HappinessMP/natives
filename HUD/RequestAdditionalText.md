@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x6A9F01AF
-void REQUEST_ADDITIONAL_TEXT(char* textName, uint textIndex);
+void REQUEST_ADDITIONAL_TEXT(char* textBlockName, int slotNumber);
 ```
 
 ### Arguments
-- **char*:** textName
-- **uint:** textIndex
+- **char*:** textBlockName
+- **int:** slotNumber
 
 ### Results
 
 ## Description
+Requests a block of text.

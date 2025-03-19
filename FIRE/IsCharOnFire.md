@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x358E21C5
-boolean IS_CHAR_ON_FIRE(Ped ped);
+bool IS_CHAR_ON_FIRE(int charIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

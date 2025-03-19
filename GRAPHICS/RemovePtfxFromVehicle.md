@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x3FB14EC5
-void REMOVE_PTFX_FROM_VEHICLE(Vehicle veh);
+void REMOVE_PTFX_FROM_VEHICLE(int carIndex);
 ```
 
 ### Arguments
-- **Vehicle:** veh
+- **int:** carIndex
 
 ### Results
 

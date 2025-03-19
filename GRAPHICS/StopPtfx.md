@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0xEAA4429
-void STOP_PTFX(uint ptfx);
+void STOP_PTFX(int ptfxId);
 ```
 
 ### Arguments
-- **uint:** ptfx
+- **int:** ptfxId
 
 ### Results
 
 ## Description
+Stop a previously started particle effect.

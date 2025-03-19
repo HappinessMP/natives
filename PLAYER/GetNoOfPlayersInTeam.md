@@ -13,3 +13,4 @@ int GET_NO_OF_PLAYERS_IN_TEAM(int teamIndex);
 - **int**
 
 ## Description
+Get the number of players in a team.

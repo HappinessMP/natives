@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x4BD4248E
-void DRAW_SPRITE_PHOTO(float x0, float y0, float x1, float y1, float rotation, int r, int g, int b, int a);
+void DRAW_SPRITE_PHOTO(float x, float y, float width, float height, float rotation, int r, int g, int b, int a);
 ```
 
 ### Arguments
-- **float:** x0
-- **float:** y0
-- **float:** x1
-- **float:** y1
+- **float:** x
+- **float:** y
+- **float:** width
+- **float:** height
 - **float:** rotation
 - **int:** r
 - **int:** g
@@ -20,3 +20,4 @@ void DRAW_SPRITE_PHOTO(float x0, float y0, float x1, float y1, float rotation, i
 ### Results
 
 ## Description
+Allows the script to draw the photo somewhere.

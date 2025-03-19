@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x22E91F1F
-void SET_SEQUENCE_TO_REPEAT(int seq, int repeat);
+void SET_SEQUENCE_TO_REPEAT(int sequenceId, int repeatMode);
 ```
 
 ### Arguments
-- **int:** seq
-- **int:** repeat
+- **int:** sequenceId
+- **int:** repeatMode
 
 ### Results
 
 ## Description
+Sets a sequence to repeat.

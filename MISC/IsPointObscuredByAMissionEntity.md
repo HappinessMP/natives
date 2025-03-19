@@ -3,18 +3,19 @@
 ## Declaration
 ```cpp
 // 0x7FBC713E
-boolean IS_POINT_OBSCURED_BY_A_MISSION_ENTITY(float pX, float pY, float pZ, float sizeX, float sizeY, float sizeZ);
+bool IS_POINT_OBSCURED_BY_A_MISSION_ENTITY(float x, float y, float z, float locateX, float locateY, float locateZ);
 ```
 
 ### Arguments
-- **float:** pX
-- **float:** pY
-- **float:** pZ
-- **float:** sizeX
-- **float:** sizeY
-- **float:** sizeZ
+- **float:** x
+- **float:** y
+- **float:** z
+- **float:** locateX
+- **float:** locateY
+- **float:** locateZ
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns TRUE if any mission-created cars, chars or objects are in the defined area.

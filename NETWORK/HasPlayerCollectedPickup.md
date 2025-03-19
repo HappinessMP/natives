@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x25D2170
-boolean HAS_PLAYER_COLLECTED_PICKUP(Player playerIndex, Pickup pikcup);
+bool HAS_PLAYER_COLLECTED_PICKUP(int playerIndex, int pickupIndex);
 ```
 
 ### Arguments
-- **Player:** playerIndex
-- **Pickup:** pikcup
+- **int:** playerIndex
+- **int:** pickupIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns a true if the specified network player has collected the specified pickup.

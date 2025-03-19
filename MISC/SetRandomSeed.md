@@ -12,3 +12,4 @@ void SET_RANDOM_SEED(int seed);
 ### Results
 
 ## Description
+Creates a random seed.

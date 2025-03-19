@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x22545844
-boolean PLAYER_HAS_CHAR(Player playerIndex);
+bool PLAYER_HAS_CHAR(int playerIndex);
 ```
 
 ### Arguments
-- **Player:** playerIndex
+- **int:** playerIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks the player has a vaild character.

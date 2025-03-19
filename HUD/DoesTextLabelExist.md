@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x2A611607
-boolean DOES_TEXT_LABEL_EXIST(char* gxtentry);
+bool DOES_TEXT_LABEL_EXIST(char* textLabel);
 ```
 
 ### Arguments
-- **char*:** gxtentry
+- **char*:** textLabel
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

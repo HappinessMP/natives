@@ -11,3 +11,4 @@ void CLEAR_BRIEF();
 ### Results
 
 ## Description
+Clears any messages that are currently being displayed in the Pause Menu brief screen.

@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x195D582E
-void TRIGGER_VIGILANTE_CRIME(int id, float x, float y, float z);
+void TRIGGER_VIGILANTE_CRIME(int crime, float x, float y, float z);
 ```
 
 ### Arguments
-- **int:** id
+- **int:** crime
 - **float:** x
 - **float:** y
 - **float:** z

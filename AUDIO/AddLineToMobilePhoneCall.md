@@ -14,3 +14,4 @@ void ADD_LINE_TO_MOBILE_PHONE_CALL(int speakerNumber, char* context, char* subti
 ### Results
 
 ## Description
+This command should be called for each line of speech in the conversation.

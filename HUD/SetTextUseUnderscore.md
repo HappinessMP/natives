@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0xAD54D75
-void SET_TEXT_USE_UNDERSCORE(boolean value);
+void SET_TEXT_USE_UNDERSCORE(bool textUnderScoreFlag);
 ```
 
 ### Arguments
-- **boolean:** value
+- **bool:** textUnderScoreFlag
 
 ### Results
 
 ## Description
+Draws a box around/behind the text.

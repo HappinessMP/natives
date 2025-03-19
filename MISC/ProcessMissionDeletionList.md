@@ -11,3 +11,4 @@ void PROCESS_MISSION_DELETION_LIST();
 ### Results
 
 ## Description
+Deletes all chars and cars that have previously been added to this list.

@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x24CC682B
-float TAN(float value);
+float TAN(float x);
 ```
 
 ### Arguments
-- **float:** value
+- **float:** x
 
 ### Results
 - **float**
 
 ## Description
+Caluclates the tan.

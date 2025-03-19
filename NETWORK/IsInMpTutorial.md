@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x13750991
-void IS_IN_MP_TUTORIAL();
+bool IS_IN_MP_TUTORIAL();
 ```
 
 ### Arguments

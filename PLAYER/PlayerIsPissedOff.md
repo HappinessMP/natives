@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x7FA21A1E
-boolean PLAYER_IS_PISSED_OFF(int player);
+bool PLAYER_IS_PISSED_OFF(int playerIndex);
 ```
 
 ### Arguments
-- **int:** player
+- **int:** playerIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns true if the player is currently in a bad mood.

@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x15585A65
-void SET_TEXT_PROPORTIONAL(boolean value);
+void SET_TEXT_PROPORTIONAL(bool textProportionalFlag);
 ```
 
 ### Arguments
-- **boolean:** value
+- **bool:** textProportionalFlag
 
 ### Results
 
 ## Description
+Sets the spacing of the text proporional.

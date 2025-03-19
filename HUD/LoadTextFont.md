@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x2D371601
-void LOAD_TEXT_FONT(uint font);
+void LOAD_TEXT_FONT(int textFont);
 ```
 
 ### Arguments
-- **uint:** font
+- **int:** textFont
 
 ### Results
 
 ## Description
+Loads a font that requires to be streamed.

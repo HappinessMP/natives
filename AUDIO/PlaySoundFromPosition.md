@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x65752C65
-void PLAY_SOUND_FROM_POSITION(int sound_id, char* name, float x, float y, float z);
+void PLAY_SOUND_FROM_POSITION(int soundId, char* soundName, float x, float y, float z);
 ```
 
 ### Arguments
-- **int:** sound_id
-- **char*:** name
+- **int:** soundId
+- **char*:** soundName
 - **float:** x
 - **float:** y
 - **float:** z
@@ -16,3 +16,4 @@ void PLAY_SOUND_FROM_POSITION(int sound_id, char* name, float x, float y, float 
 ### Results
 
 ## Description
+Plays back a sound from an absolute position.

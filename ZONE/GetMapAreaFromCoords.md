@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x5ED33D46
-uint GET_MAP_AREA_FROM_COORDS(float x, float y, float z);
+int GET_MAP_AREA_FROM_COORDS(float x, float y, float z);
 ```
 
 ### Arguments
@@ -12,6 +12,6 @@ uint GET_MAP_AREA_FROM_COORDS(float x, float y, float z);
 - **float:** z
 
 ### Results
-- **uint**
+- **int**
 
 ## Description

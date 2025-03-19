@@ -3,15 +3,15 @@
 ## Declaration
 ```cpp
 // 0x7C6968F8
-boolean GET_MAX_AMMO(Ped ped, uint weapon, uint* pMaxAmmo);
+bool GET_MAX_AMMO(int charIndex, int weaponType, int* maxAmmo);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** weapon
+- **int:** charIndex
+- **int:** weaponType
 
 ### Results
-- **boolean**
-- **uint*:** pMaxAmmo
+- **bool**
+- **int*:** maxAmmo
 
 ## Description

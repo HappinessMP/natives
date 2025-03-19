@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x59B425DA
-void GET_BLIP_COLOUR(Blip blip, ColourIndex* pColour);
+void GET_BLIP_COLOUR(int blipIndex, int* colour);
 ```
 
 ### Arguments
-- **Blip:** blip
+- **int:** blipIndex
 
 ### Results
-- **ColourIndex*:** pColour
+- **int*:** colour
 
 ## Description
+Returns the colour of the blip.

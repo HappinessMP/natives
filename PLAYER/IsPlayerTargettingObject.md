@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x679934F9
-boolean IS_PLAYER_TARGETTING_OBJECT(Player playerIndex, Object obj);
+bool IS_PLAYER_TARGETTING_OBJECT(int playerIndex, int objectIndex);
 ```
 
 ### Arguments
-- **Player:** playerIndex
-- **Object:** obj
+- **int:** playerIndex
+- **int:** objectIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns TRUE if the player is pointing his weapon at the specified object.

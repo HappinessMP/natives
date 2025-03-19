@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x37D022E0
-boolean IS_JAPANESE_VERSION();
+bool IS_JAPANESE_VERSION();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Will eventually return TRUE when running with the Japanese executable.

@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x788026F4
-boolean IS_CLOSEST_OBJECT_OF_TYPE_SMASHED_OR_DAMAGED(float x, float y, float z, float radius, uint type_or_model, boolean flag0, boolean flag1);
+bool IS_CLOSEST_OBJECT_OF_TYPE_SMASHED_OR_DAMAGED(float x, float y, float z, float radius, int modelHash, bool isSmashed, bool isDamaged);
 ```
 
 ### Arguments
@@ -11,11 +11,12 @@ boolean IS_CLOSEST_OBJECT_OF_TYPE_SMASHED_OR_DAMAGED(float x, float y, float z, 
 - **float:** y
 - **float:** z
 - **float:** radius
-- **uint:** type_or_model
-- **boolean:** flag0
-- **boolean:** flag1
+- **int:** modelHash
+- **bool:** isSmashed
+- **bool:** isDamaged
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Gets the closest object (within the defined sphere) with the given modelHash and returns TRUE if it is smashed or damaged.

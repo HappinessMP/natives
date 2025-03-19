@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x7A240412
-boolean IS_OBJECT_ON_FIRE(Object obj);
+bool IS_OBJECT_ON_FIRE(int objectIndex);
 ```
 
 ### Arguments
-- **Object:** obj
+- **int:** objectIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

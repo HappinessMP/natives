@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x5AFE791F
-boolean IS_CAR_DOOR_DAMAGED(Vehicle vehicle, uint door);
+bool IS_CAR_DOOR_DAMAGED(int carIndex, int doorNumber);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
-- **uint:** door
+- **int:** carIndex
+- **int:** doorNumber
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if the car door is intact.

@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x348074B
-void DONT_SUPPRESS_CAR_MODEL(uint model);
+void DONT_SUPPRESS_CAR_MODEL(int modelHash);
 ```
 
 ### Arguments
-- **uint:** model
+- **int:** modelHash
 
 ### Results
 

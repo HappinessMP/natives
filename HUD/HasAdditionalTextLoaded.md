@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x4832644E
-boolean HAS_ADDITIONAL_TEXT_LOADED(uint textIndex);
+bool HAS_ADDITIONAL_TEXT_LOADED(int slotNumber);
 ```
 
 ### Arguments
-- **uint:** textIndex
+- **int:** slotNumber
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks that the text for the slot has loaded.

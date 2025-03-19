@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x456C6096
-void FORWARD_TO_TIME_OF_DAY(uint hour, uint minute);
+void FORWARD_TO_TIME_OF_DAY(int hour, int minute);
 ```
 
 ### Arguments
-- **uint:** hour
-- **uint:** minute
+- **int:** hour
+- **int:** minute
 
 ### Results
 

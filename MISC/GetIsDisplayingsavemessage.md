@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x34F9164D
-boolean GET_IS_DISPLAYINGSAVEMESSAGE();
+bool GET_IS_DISPLAYINGSAVEMESSAGE();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

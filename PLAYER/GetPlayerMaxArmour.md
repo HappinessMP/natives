@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x17265607
-void GET_PLAYER_MAX_ARMOUR(Player playerIndex, uint* pMaxArmour);
+void GET_PLAYER_MAX_ARMOUR(int playerIndex, int* maxArmour);
 ```
 
 ### Arguments
-- **Player:** playerIndex
+- **int:** playerIndex
 
 ### Results
-- **uint*:** pMaxArmour
+- **int*:** maxArmour
 
 ## Description
+Gets the players max armour value.

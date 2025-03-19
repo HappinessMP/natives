@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x602112FC
-void REMOVE_ADDITIONAL_POPULATION_MODEL(uint model);
+void REMOVE_ADDITIONAL_POPULATION_MODEL(int modelHash);
 ```
 
 ### Arguments
-- **uint:** model
+- **int:** modelHash
 
 ### Results
 

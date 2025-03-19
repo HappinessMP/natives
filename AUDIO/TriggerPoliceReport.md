@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x78D01893
-void TRIGGER_POLICE_REPORT(char* name);
+void TRIGGER_POLICE_REPORT(char* reportName);
 ```
 
 ### Arguments
-- **char*:** name
+- **char*:** reportName
 
 ### Results
 
 ## Description
+Plays a police report.

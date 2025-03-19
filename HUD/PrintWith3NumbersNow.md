@@ -3,16 +3,16 @@
 ## Declaration
 ```cpp
 // 0x1A4D0C60
-void PRINT_WITH_3_NUMBERS_NOW(char* gxtentry, int, int, int, int time, int flag);
+void PRINT_WITH_3_NUMBERS_NOW(char* textLabel, int firstNumber, int secondNumber, int thirdNumber, int duration, int colour);
 ```
 
 ### Arguments
-- **char*:** gxtentry
-- **int**
-- **int**
-- **int**
-- **int:** time
-- **int:** flag
+- **char*:** textLabel
+- **int:** firstNumber
+- **int:** secondNumber
+- **int:** thirdNumber
+- **int:** duration
+- **int:** colour
 
 ### Results
 

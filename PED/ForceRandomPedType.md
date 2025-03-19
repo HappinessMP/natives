@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x57E37103
-void FORCE_RANDOM_PED_TYPE(uint type);
+void FORCE_RANDOM_PED_TYPE(int type);
 ```
 
 ### Arguments
-- **uint:** type
+- **int:** type
 
 ### Results
 

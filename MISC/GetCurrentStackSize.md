@@ -12,3 +12,4 @@ int GET_CURRENT_STACK_SIZE();
 - **int**
 
 ## Description
+Gets the size of the calling scripts current stack size.

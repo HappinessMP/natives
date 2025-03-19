@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x5DE43980
-boolean HAS_CUTSCENE_LOADED();
+bool HAS_CUTSCENE_LOADED();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks that the cutscene has been streamed in.

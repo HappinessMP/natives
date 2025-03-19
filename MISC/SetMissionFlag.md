@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x4FE923DC
-void SET_MISSION_FLAG(boolean isMission);
+void SET_MISSION_FLAG(bool missionFlagValue);
 ```
 
 ### Arguments
-- **boolean:** isMission
+- **bool:** missionFlagValue
 
 ### Results
 
 ## Description
+Sets the script as a mission script.

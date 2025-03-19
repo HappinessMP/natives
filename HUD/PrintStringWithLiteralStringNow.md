@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0xCA539D6
-void PRINT_STRING_WITH_LITERAL_STRING_NOW(char* gxtName, char* text, uint timeMS, boolean enable);
+void PRINT_STRING_WITH_LITERAL_STRING_NOW(char* textLabel, char* literalString, int duration, int colour);
 ```
 
 ### Arguments
-- **char*:** gxtName
-- **char*:** text
-- **uint:** timeMS
-- **boolean:** enable
+- **char*:** textLabel
+- **char*:** literalString
+- **int:** duration (milliseconds)
+- **int:** colour
 
 ### Results
 

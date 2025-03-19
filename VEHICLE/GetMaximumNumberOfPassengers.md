@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x554014F1
-void GET_MAXIMUM_NUMBER_OF_PASSENGERS(Vehicle vehicle, uint* pMax);
+void GET_MAXIMUM_NUMBER_OF_PASSENGERS(int carIndex, int* maxNumber);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** carIndex
 
 ### Results
-- **uint*:** pMax
+- **int*:** maxNumber
 
 ## Description
+Get the max number of pasengers a car can have.

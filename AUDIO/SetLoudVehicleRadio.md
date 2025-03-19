@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x34686B92
-void SET_LOUD_VEHICLE_RADIO(Vehicle veh, boolean set);
+void SET_LOUD_VEHICLE_RADIO(int carIndex, bool loud);
 ```
 
 ### Arguments
-- **Vehicle:** veh
-- **boolean:** set
+- **int:** carIndex
+- **bool:** loud
 
 ### Results
 

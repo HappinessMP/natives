@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x61B830BC
-void DISPLAY_FRONTEND_MAP_BLIPS(boolean display);
+void DISPLAY_FRONTEND_MAP_BLIPS(bool display);
 ```
 
 ### Arguments
-- **boolean:** display
+- **bool:** display
 
 ### Results
 
 ## Description
+Displays blips in the frontend map.

@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x64861559
-void GET_DOOR_STATE(Object obj, uint*, float*);
+void GET_DOOR_STATE(int objectId, int* lockState, float* openRatio);
 ```
 
 ### Arguments
-- **Object:** obj
+- **int:** objectId
 
 ### Results
-- **uint***
-- **float***
+- **int*:** lockState
+- **float*:** openRatio
 
 ## Description
+Get the state of a door.

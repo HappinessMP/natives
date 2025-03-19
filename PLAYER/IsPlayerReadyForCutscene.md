@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x29D46FF4
-boolean IS_PLAYER_READY_FOR_CUTSCENE(int player);
+bool IS_PLAYER_READY_FOR_CUTSCENE(int playerIndex);
 ```
 
 ### Arguments
-- **int:** player
+- **int:** playerIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns if the player is in a safe state to trigger a cutscene.

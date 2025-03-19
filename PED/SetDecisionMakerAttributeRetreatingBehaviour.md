@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x67890049
-void SET_DECISION_MAKER_ATTRIBUTE_RETREATING_BEHAVIOUR(DecisionMaker dm, uint value);
+void SET_DECISION_MAKER_ATTRIBUTE_RETREATING_BEHAVIOUR(DecisionMaker dm, int value);
 ```
 
 ### Arguments
 - **DecisionMaker:** dm
-- **uint:** value
+- **int:** value
 
 ### Results
 

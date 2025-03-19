@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x406A035E
-boolean GET_CLOSEST_MAJOR_CAR_NODE(float x, float y, float z, float* pResX, float* pResY, float* pResZ);
+bool GET_CLOSEST_MAJOR_CAR_NODE(float x, float y, float z, float* outX, float* outY, float* outZ);
 ```
 
 ### Arguments
@@ -12,9 +12,10 @@ boolean GET_CLOSEST_MAJOR_CAR_NODE(float x, float y, float z, float* pResX, floa
 - **float:** z
 
 ### Results
-- **boolean**
-- **float*:** pResX
-- **float*:** pResY
-- **float*:** pResZ
+- **bool**
+- **float*:** outX
+- **float*:** outY
+- **float*:** outZ
 
 ## Description
+Will return if can the closest car node even if switched off, to a coord.

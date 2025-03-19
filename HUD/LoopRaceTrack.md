@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x77FD5097
-void LOOP_RACE_TRACK(boolean loop);
+void LOOP_RACE_TRACK(bool loop);
 ```
 
 ### Arguments
-- **boolean:** loop
+- **bool:** loop
 
 ### Results
 

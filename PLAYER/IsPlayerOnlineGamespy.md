@@ -12,3 +12,4 @@ bool IS_PLAYER_ONLINE_GAMESPY();
 - **bool**
 
 ## Description
+Returns true if the player is online wrt Gamespy - implies he is also signed in locally.

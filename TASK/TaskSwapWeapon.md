@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x72AE63C8
-void TASK_SWAP_WEAPON(Ped ped, uint weapon);
+void TASK_SWAP_WEAPON(int charIndex, bool drawWeapon);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** weapon
+- **int:** charIndex
+- **bool:** drawWeapon
 
 ### Results
 
 ## Description
+Tells the char to swap their weapon.

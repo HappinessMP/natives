@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x5D51783
-void DISABLE_PLAYER_VEHICLE_ENTRY(int player, boolean disable);
+void DISABLE_PLAYER_VEHICLE_ENTRY(int playerIndex, bool disable);
 ```
 
 ### Arguments
-- **int:** player
-- **boolean:** disable
+- **int:** playerIndex
+- **bool:** disable
 
 ### Results
 

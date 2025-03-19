@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x19D006EB
-void SET_TEXT_WRAP(float unk1, float unk2);
+void SET_TEXT_WRAP(float wrapStartX, float wrapEndX);
 ```
 
 ### Arguments
-- **float:** unk1
-- **float:** unk2
+- **float:** wrapStartX
+- **float:** wrapEndX
 
 ### Results
 
 ## Description
+Sets points where text will wrap round and displayed on a new line.

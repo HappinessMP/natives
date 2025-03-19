@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x37C85316
-boolean IS_THIS_PED_A_PLAYER(Ped ped);
+bool IS_THIS_PED_A_PLAYER(int charIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

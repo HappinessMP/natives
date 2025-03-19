@@ -3,15 +3,16 @@
 ## Declaration
 ```cpp
 // 0x44640C28
-void LOAD_PATH_NODES_IN_AREA(float x, float y, float z, float radius);
+void LOAD_PATH_NODES_IN_AREA(float minX, float minY, float maxX, float maxY);
 ```
 
 ### Arguments
-- **float:** x
-- **float:** y
-- **float:** z
-- **float:** radius
+- **float:** minX
+- **float:** minY
+- **float:** maxX
+- **float:** maxY
 
 ### Results
 
 ## Description
+Use to load one additional area of the map.

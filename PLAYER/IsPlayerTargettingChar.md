@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x58A6457C
-boolean IS_PLAYER_TARGETTING_CHAR(Player playerIndex, Ped ped);
+bool IS_PLAYER_TARGETTING_CHAR(int playerIndex, int charIndex);
 ```
 
 ### Arguments
-- **Player:** playerIndex
-- **Ped:** ped
+- **int:** playerIndex
+- **int:** charIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns TRUE if the player is pointing his weapon at the specified character.

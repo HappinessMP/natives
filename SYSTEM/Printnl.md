@@ -11,3 +11,4 @@ void PRINTNL();
 ### Results
 
 ## Description
+Procedure that prints a newline to the console (NOT the game screen).

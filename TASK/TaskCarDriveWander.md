@@ -3,15 +3,16 @@
 ## Declaration
 ```cpp
 // 0x1E9635A9
-void TASK_CAR_DRIVE_WANDER(Ped ped, Vehicle vehicle, float speed, uint drivingStyle);
+void TASK_CAR_DRIVE_WANDER(int charIndex, int carIndex, float cruiseSpeed, int drivingMode);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **Vehicle:** vehicle
-- **float:** speed
-- **uint:** drivingStyle
+- **int:** charIndex
+- **int:** carIndex
+- **float:** cruiseSpeed
+- **int:** drivingMode
 
 ### Results
 
 ## Description
+Tells a char to wander about in a car.

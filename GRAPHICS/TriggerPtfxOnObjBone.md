@@ -3,22 +3,23 @@
 ## Declaration
 ```cpp
 // 0x3A2A77F9
-boolean TRIGGER_PTFX_ON_OBJ_BONE(char* name, Object obj, float x, float y, float z, float, float, float, int objbone, uint flags);
+bool TRIGGER_PTFX_ON_OBJ_BONE(char* fxName, int objectId, float x, float y, float z, float rx, float ry, float rz, int boneId, float scale);
 ```
 
 ### Arguments
-- **char*:** name
-- **Object:** obj
+- **char*:** fxName
+- **int:** objectId
 - **float:** x
 - **float:** y
 - **float:** z
-- **float**
-- **float**
-- **float**
-- **int:** objbone
-- **uint:** flags
+- **float:** rx
+- **float:** ry
+- **float:** rz
+- **int:** boneId
+- **float:** scale
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Trigger a particle effect on an object with an offset position and orientation.

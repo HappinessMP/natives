@@ -11,3 +11,4 @@ void RESTART_SCRIPTED_CONVERSATION();
 ### Results
 
 ## Description
+Call this to restart a conversation that you have previously paused with PAUSE_SCRIPTED_CONVERSATION.

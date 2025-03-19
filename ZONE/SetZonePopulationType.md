@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x70582D53
-void SET_ZONE_POPULATION_TYPE(char* zone, int poptype);
+void SET_ZONE_POPULATION_TYPE(char* zoneLabel, int populationType);
 ```
 
 ### Arguments
-- **char*:** zone
-- **int:** poptype
+- **char*:** zoneLabel
+- **int:** populationType
 
 ### Results
 

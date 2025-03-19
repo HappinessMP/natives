@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x4AA86394
-void PLAY_STREAM_FROM_OBJECT(Object obj);
+void PLAY_STREAM_FROM_OBJECT(int objectIndex);
 ```
 
 ### Arguments
-- **Object:** obj
+- **int:** objectIndex
 
 ### Results
 
 ## Description
+Plays a preloaded stream back from a specified object.

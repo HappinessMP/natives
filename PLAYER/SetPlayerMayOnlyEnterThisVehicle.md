@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x6BC05942
-void SET_PLAYER_MAY_ONLY_ENTER_THIS_VEHICLE(int player, Vehicle veh);
+void SET_PLAYER_MAY_ONLY_ENTER_THIS_VEHICLE(int playerIndex, int carIndex);
 ```
 
 ### Arguments
-- **int:** player
-- **Vehicle:** veh
+- **int:** playerIndex
+- **int:** carIndex
 
 ### Results
 
 ## Description
+Set the player can only enter this vehicle, set to null if you want them to enter any vehicle.

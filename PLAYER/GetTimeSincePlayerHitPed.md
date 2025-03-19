@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x40602B66
-uint GET_TIME_SINCE_PLAYER_HIT_PED(Player playerIndex);
+int GET_TIME_SINCE_PLAYER_HIT_PED(int playerIndex);
 ```
 
 ### Arguments
-- **Player:** playerIndex
+- **int:** playerIndex
 
 ### Results
-- **uint**
+- **int**
 
 ## Description
+Returns (in milliseconds) how long ago the player (in a car) last hit a ped.

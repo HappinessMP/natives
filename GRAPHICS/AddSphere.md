@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x42252652
-int ADD_SPHERE(float x, float y, float z, float radius, uint);
+int ADD_SPHERE(float x, float y, float z, float radius, int);
 ```
 
 ### Arguments
@@ -11,7 +11,7 @@ int ADD_SPHERE(float x, float y, float z, float radius, uint);
 - **float:** y
 - **float:** z
 - **float:** radius
-- **uint**
+- **int**
 
 ### Results
 - **int**

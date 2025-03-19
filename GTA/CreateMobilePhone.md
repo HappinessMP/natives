@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x2FEE095B
-void CREATE_MOBILE_PHONE(int);
+void CREATE_MOBILE_PHONE(int mobilePhoneType);
 ```
 
 ### Arguments
-- **int**
+- **int:** mobilePhoneType
 
 ### Results
 

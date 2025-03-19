@@ -11,3 +11,4 @@ void NEW_MOBILE_PHONE_CALL();
 ### Results
 
 ## Description
+Sets up the script for a new call.

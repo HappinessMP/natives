@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x64B9757E
-void SET_GROUP_FOLLOW_STATUS(Group group, uint status);
+void SET_GROUP_FOLLOW_STATUS(int groupIndex, int status);
 ```
 
 ### Arguments
-- **Group:** group
-- **uint:** status
+- **int:** groupIndex
+- **int:** status
 
 ### Results
 

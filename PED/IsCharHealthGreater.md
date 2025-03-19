@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x7B75036E
-boolean IS_CHAR_HEALTH_GREATER(Ped ped, uint health);
+bool IS_CHAR_HEALTH_GREATER(int charIndex, int health);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** health
+- **int:** charIndex
+- **int:** health
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x472E65D6
-void COPY_GROUP_CHAR_DECISION_MAKER(uint type, DecisionMaker* pDM);
+void COPY_GROUP_CHAR_DECISION_MAKER(int type, DecisionMaker* pDM);
 ```
 
 ### Arguments
-- **uint:** type
+- **int:** type
 
 ### Results
 - **DecisionMaker*:** pDM

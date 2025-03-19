@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x2B670CD0
-boolean PLAYER_HAS_GREYED_OUT_STARS(Player playerIndex);
+bool PLAYER_HAS_GREYED_OUT_STARS(int playerIndex);
 ```
 
 ### Arguments
-- **Player:** playerIndex
+- **int:** playerIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

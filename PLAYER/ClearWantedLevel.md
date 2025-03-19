@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x205622AC
-void CLEAR_WANTED_LEVEL(Player playerIndex);
+void CLEAR_WANTED_LEVEL(int playerIndex);
 ```
 
 ### Arguments
-- **Player:** playerIndex
+- **int:** playerIndex
 
 ### Results
 
 ## Description
+Clears the players wanted level immediately.

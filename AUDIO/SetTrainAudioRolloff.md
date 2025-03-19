@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x1C21158
-void SET_TRAIN_AUDIO_ROLLOFF(Vehicle train, float rolloff);
+void SET_TRAIN_AUDIO_ROLLOFF(int trainIndex, float rolloff);
 ```
 
 ### Arguments
-- **Vehicle:** train
+- **int:** trainIndex
 - **float:** rolloff
 
 ### Results

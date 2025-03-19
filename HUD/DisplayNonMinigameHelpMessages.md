@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x73F56AC5
-void DISPLAY_NON_MINIGAME_HELP_MESSAGES(boolean);
+void DISPLAY_NON_MINIGAME_HELP_MESSAGES(bool display);
 ```
 
 ### Arguments
-- **boolean**
+- **bool:** display
 
 ### Results
 
 ## Description
+Allows help messages from other scripts to be displayed.

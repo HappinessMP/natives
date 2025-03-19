@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x601A5770
-boolean IS_AUTO_SAVE_IN_PROGRESS();
+bool IS_AUTO_SAVE_IN_PROGRESS();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if an auto save is happening.

@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x754E1999
-boolean REQUEST_AMBIENT_AUDIO_BANK(char* name);
+bool REQUEST_AMBIENT_AUDIO_BANK(char* bankName);
 ```
 
 ### Arguments
-- **char*:** name
+- **char*:** bankName
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Requests and checks that a ambient audio bank has loaded.

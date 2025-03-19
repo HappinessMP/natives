@@ -12,3 +12,4 @@ int NETWORK_GET_NUM_UNFILLED_RESERVATIONS();
 - **int**
 
 ## Description
+Returns the number of reserved but unfilled slots in the session.

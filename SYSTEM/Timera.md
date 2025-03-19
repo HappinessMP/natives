@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x75706300
-uint TIMERA();
+int TIMERA();
 ```
 
 ### Arguments
 
 ### Results
-- **uint**
+- **int**
 
 ## Description
+Gets the current value for the timer A.

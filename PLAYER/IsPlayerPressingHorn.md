@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x583A7A8B
-boolean IS_PLAYER_PRESSING_HORN(Player playerIndex);
+bool IS_PLAYER_PRESSING_HORN(int playerIndex);
 ```
 
 ### Arguments
-- **Player:** playerIndex
+- **int:** playerIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns TRUE if the specified Player is in a car and is pressing the Horn button.

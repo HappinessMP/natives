@@ -3,11 +3,12 @@
 ## Declaration
 ```cpp
 // 0x6289239F
-void NETWORK_CLEAR_SUMMONS();
+bool NETWORK_CLEAR_SUMMONS();
 ```
 
 ### Arguments
 
 ### Results
+- **bool**
 
 ## Description

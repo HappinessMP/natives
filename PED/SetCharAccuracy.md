@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x1958471A
-void SET_CHAR_ACCURACY(Ped ped, uint value);
+void SET_CHAR_ACCURACY(int charIndex, int newAccuracy);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** value
+- **int:** charIndex
+- **int:** newAccuracy
 
 ### Results
 
 ## Description
+Sets the chars shooting accuracy, between 0 to 100.

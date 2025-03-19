@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x6D05484F
-void SET_GROUP_FORMATION(Group group, uint formation);
+void SET_GROUP_FORMATION(int groupIndex, int formation);
 ```
 
 ### Arguments
-- **Group:** group
-- **uint:** formation
+- **int:** groupIndex
+- **int:** formation
 
 ### Results
 
 ## Description
+Sets the formation a group can take.

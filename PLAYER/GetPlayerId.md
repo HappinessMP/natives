@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x62E319C6
-uint GET_PLAYER_ID();
+int GET_PLAYER_ID();
 ```
 
 ### Arguments
 
 ### Results
-- **uint**
+- **int**
 
 ## Description
+Gets the player index for the main player.

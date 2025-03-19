@@ -12,3 +12,4 @@ void CELL_CAM_SET_ZOOM(float zoom);
 ### Results
 
 ## Description
+Zoom 0 to 1....

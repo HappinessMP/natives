@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x27E421EA
-void GET_CURRENT_WEATHER(uint* pWeather);
+void GET_CURRENT_WEATHER(int* weather);
 ```
 
 ### Arguments
 
 ### Results
-- **uint*:** pWeather
+- **int*:** weather
 
 ## Description

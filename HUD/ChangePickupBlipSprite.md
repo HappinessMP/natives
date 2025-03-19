@@ -12,3 +12,4 @@ void CHANGE_PICKUP_BLIP_SPRITE(int sprite);
 ### Results
 
 ## Description
+Set the blip sprite to be rendered to the radar.

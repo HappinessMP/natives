@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x4A4F2699
-void CLEAR_THIS_BIG_PRINT(char* gxtentry);
+void CLEAR_THIS_BIG_PRINT(char* textLabel);
 ```
 
 ### Arguments
-- **char*:** gxtentry
+- **char*:** textLabel
 
 ### Results
 

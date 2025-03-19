@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0xA9D695E
-void CHANGE_BLIP_NAME_FROM_TEXT_FILE(Blip blip, char* gxtName);
+void CHANGE_BLIP_NAME_FROM_TEXT_FILE(int blipIndex, char* textLabel);
 ```
 
 ### Arguments
-- **Blip:** blip
-- **char*:** gxtName
+- **int:** blipIndex
+- **char*:** textLabel
 
 ### Results
 
 ## Description
+Change radar blip name with text from text file.

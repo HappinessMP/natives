@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x613510D0
-boolean IS_PLAYER_PERFORMING_WHEELIE(int player);
+bool IS_PLAYER_PERFORMING_WHEELIE(int playerIndex);
 ```
 
 ### Arguments
-- **int:** player
+- **int:** playerIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

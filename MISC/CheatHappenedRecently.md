@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x7488454D
-boolean CHEAT_HAPPENED_RECENTLY(int cheat, int time);
+bool CHEAT_HAPPENED_RECENTLY(int cheat, int time);
 ```
 
 ### Arguments
@@ -11,6 +11,6 @@ boolean CHEAT_HAPPENED_RECENTLY(int cheat, int time);
 - **int:** time
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

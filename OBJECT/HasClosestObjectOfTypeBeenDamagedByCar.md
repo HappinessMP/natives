@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x4D6B3E20
-boolean HAS_CLOSEST_OBJECT_OF_TYPE_BEEN_DAMAGED_BY_CAR(float x, float y, float z, float radius, uint type_or_model, Car car);
+bool HAS_CLOSEST_OBJECT_OF_TYPE_BEEN_DAMAGED_BY_CAR(float x, float y, float z, float radius, int modelHash, int carId);
 ```
 
 ### Arguments
@@ -11,10 +11,11 @@ boolean HAS_CLOSEST_OBJECT_OF_TYPE_BEEN_DAMAGED_BY_CAR(float x, float y, float z
 - **float:** y
 - **float:** z
 - **float:** radius
-- **uint:** type_or_model
-- **Car:** car
+- **int:** modelHash
+- **int:** carId
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if the closest object of type has been damaged by a specific car.

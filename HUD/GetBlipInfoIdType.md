@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x6A9E5CE5
-uint GET_BLIP_INFO_ID_TYPE(Blip blip);
+int GET_BLIP_INFO_ID_TYPE(int blipId);
 ```
 
 ### Arguments
-- **Blip:** blip
+- **int:** blipId
 
 ### Results
-- **uint**
+- **int**
 
 ## Description

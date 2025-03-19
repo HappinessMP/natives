@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x446F74E5
-void CELL_CAM_ACTIVATE(boolean, boolean);
+void CELL_CAM_ACTIVATE(bool enablePhotoUpdate, bool goFirstPerson);
 ```
 
 ### Arguments
-- **boolean**
-- **boolean**
+- **bool:** enablePhotoUpdate
+- **bool:** goFirstPerson
 
 ### Results
 
 ## Description
+Turn on/off the camera for the cell phone.

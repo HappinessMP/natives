@@ -11,3 +11,4 @@ void NETWORK_CLEAR_INVITE_ARRIVAL();
 ### Results
 
 ## Description
+Clears the flag indicating the presence of a new invitation.

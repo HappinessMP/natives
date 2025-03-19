@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x619D51D3
-void SET_POLICE_IGNORE_PLAYER(Player playerIndex, boolean value);
+void SET_POLICE_IGNORE_PLAYER(int playerIndex, bool ignorePlayer);
 ```
 
 ### Arguments
-- **Player:** playerIndex
-- **boolean:** value
+- **int:** playerIndex
+- **bool:** ignorePlayer
 
 ### Results
 
 ## Description
+Use this to stop the police arresting the player.

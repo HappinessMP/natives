@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x2BC64736
-boolean GET_MISSION_FLAG();
+bool GET_MISSION_FLAG();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x52100540
-void SET_TIME_OF_DAY(uint hour, uint minute);
+void SET_TIME_OF_DAY(int hour, int minute);
 ```
 
 ### Arguments
-- **uint:** hour
-- **uint:** minute
+- **int:** hour
+- **int:** minute
 
 ### Results
 

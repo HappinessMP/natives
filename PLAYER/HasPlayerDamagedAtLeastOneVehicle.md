@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x674849B5
-boolean HAS_PLAYER_DAMAGED_AT_LEAST_ONE_VEHICLE(Player playerIndex);
+bool HAS_PLAYER_DAMAGED_AT_LEAST_ONE_VEHICLE(int playerIndex);
 ```
 
 ### Arguments
-- **Player:** playerIndex
+- **int:** playerIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns TRUE if the player has damaged any vehicles since the last time that CLEAR_PLAYER_HAS_DAMAGED_AT_LEAST_ONE_VEHICLE was called.

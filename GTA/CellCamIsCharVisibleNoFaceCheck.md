@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x770600CF
-boolean CELL_CAM_IS_CHAR_VISIBLE_NO_FACE_CHECK(Ped ped);
+bool CELL_CAM_IS_CHAR_VISIBLE_NO_FACE_CHECK(int charIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Is this character visible?.. but disregard if we can see his/her face or not.

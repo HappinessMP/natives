@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x7F7B4FC5
-void LOAD_CHAR_DECISION_MAKER(uint type, DecisionMaker* pDM);
+void LOAD_CHAR_DECISION_MAKER(int type, int* decisionMakerIndex);
 ```
 
 ### Arguments
-- **uint:** type
+- **int:** type
 
 ### Results
-- **DecisionMaker*:** pDM
+- **int*:** decisionMakerIndex
 
 ## Description

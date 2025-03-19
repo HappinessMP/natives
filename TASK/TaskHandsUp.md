@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x68232D31
-void TASK_HANDS_UP(Ped ped, uint duration);
+void TASK_HANDS_UP(int charIndex, int time);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** duration
+- **int:** charIndex
+- **int:** time
 
 ### Results
 
 ## Description
+Gives the char a put hands up task.

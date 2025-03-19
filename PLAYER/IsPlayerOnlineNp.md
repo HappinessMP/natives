@@ -12,3 +12,4 @@ bool IS_PLAYER_ONLINE_NP();
 - **bool**
 
 ## Description
+Returns true if the player is online wrt Sony NP - implies he is also signed in locally.

@@ -3,16 +3,17 @@
 ## Declaration
 ```cpp
 // 0x49763A4F
-void FIND_STREET_NAME_AT_POSITION(float pX, float pY, float pZ, uint* strHash0, uint* strHash1);
+void FIND_STREET_NAME_AT_POSITION(float x, float y, float z, int* hashName1, int* hashName2);
 ```
 
 ### Arguments
-- **float:** pX
-- **float:** pY
-- **float:** pZ
+- **float:** x
+- **float:** y
+- **float:** z
 
 ### Results
-- **uint*:** strHash0
-- **uint*:** strHash1
+- **int*:** hashName1
+- **int*:** hashName2
 
 ## Description
+Finds the two nearest nodes that have a road name set up for them.

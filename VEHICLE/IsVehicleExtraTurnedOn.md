@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x4B920E81
-boolean IS_VEHICLE_EXTRA_TURNED_ON(Vehicle vehicle, uint extra);
+bool IS_VEHICLE_EXTRA_TURNED_ON(int carIndex, int extra);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
-- **uint:** extra
+- **int:** carIndex
+- **int:** extra
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if a vehicle extra is turned on.

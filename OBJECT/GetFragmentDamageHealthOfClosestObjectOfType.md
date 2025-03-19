@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x52803D0
-float GET_FRAGMENT_DAMAGE_HEALTH_OF_CLOSEST_OBJECT_OF_TYPE(float x, float y, float z, float radius, uint, boolean flag);
+float GET_FRAGMENT_DAMAGE_HEALTH_OF_CLOSEST_OBJECT_OF_TYPE(float x, float y, float z, float radius, int modelHash, bool flag);
 ```
 
 ### Arguments
@@ -11,8 +11,8 @@ float GET_FRAGMENT_DAMAGE_HEALTH_OF_CLOSEST_OBJECT_OF_TYPE(float x, float y, flo
 - **float:** y
 - **float:** z
 - **float:** radius
-- **uint**
-- **boolean:** flag
+- **int:** modelHash
+- **bool:** flag
 
 ### Results
 - **float**

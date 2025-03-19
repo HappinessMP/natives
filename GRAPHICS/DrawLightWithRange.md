@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x30D27EB1
-void DRAW_LIGHT_WITH_RANGE(float x, float y, float z, int r, int g, int b, float, float);
+void DRAW_LIGHT_WITH_RANGE(float x, float y, float z, int r, int g, int b, float range, float intensity);
 ```
 
 ### Arguments
@@ -13,9 +13,10 @@ void DRAW_LIGHT_WITH_RANGE(float x, float y, float z, int r, int g, int b, float
 - **int:** r
 - **int:** g
 - **int:** b
-- **float**
-- **float**
+- **float:** range
+- **float:** intensity
 
 ### Results
 
 ## Description
+Adds a light with the scene.

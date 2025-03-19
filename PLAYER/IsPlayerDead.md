@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x12AE0E27
-boolean IS_PLAYER_DEAD(Player playerIndex);
+bool IS_PLAYER_DEAD(int playerIndex);
 ```
 
 ### Arguments
-- **Player:** playerIndex
+- **int:** playerIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns TRUE if the given player is dead.

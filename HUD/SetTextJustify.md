@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x49D23F9
-void SET_TEXT_JUSTIFY(boolean value);
+void SET_TEXT_JUSTIFY(bool textJustifyFlag);
 ```
 
 ### Arguments
-- **boolean:** value
+- **bool:** textJustifyFlag
 
 ### Results
 
 ## Description
+Fully justifies the text to the coordinates specified by SET_TEXT_WRAP.

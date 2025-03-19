@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x69B53ADA
-boolean IS_FONT_LOADED(uint font);
+bool IS_FONT_LOADED(int textFont);
 ```
 
 ### Arguments
-- **uint:** font
+- **int:** textFont
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns TRUE or FALSE depending if the passed streamed font is already loaded.

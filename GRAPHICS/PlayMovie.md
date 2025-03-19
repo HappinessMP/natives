@@ -11,3 +11,4 @@ void PLAY_MOVIE();
 ### Results
 
 ## Description
+Plays a loaded movie.

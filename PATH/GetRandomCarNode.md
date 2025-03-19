@@ -3,17 +3,17 @@
 ## Declaration
 ```cpp
 // 0x588E1506
-bool GET_RANDOM_CAR_NODE(float centrePointX, float centrePointY, float centrePointZ, float radius, int minLanes, bool bAvoidDeadEnds, bool bAvoidHighways, Vector3* vecReturn, int* nodeId);
+bool GET_RANDOM_CAR_NODE(float x, float y, float z, float radius, int minLanes, bool avoidDeadEnds, bool avoidHighways, Vector3* vecReturn, int* nodeId);
 ```
 
 ### Arguments
-- **float:** centrePointX
-- **float:** centrePointY
-- **float:** centrePointZ
+- **float:** x
+- **float:** y
+- **float:** z
 - **float:** radius
 - **int:** minLanes
-- **bool:** bAvoidDeadEnds
-- **bool:** bAvoidHighways
+- **bool:** avoidDeadEnds
+- **bool:** avoidHighways
 
 ### Results
 - **bool**
@@ -21,3 +21,4 @@ bool GET_RANDOM_CAR_NODE(float centrePointX, float centrePointY, float centrePoi
 - **int*:** nodeId
 
 ## Description
+Will return a random node to satisfy the specified conditions.

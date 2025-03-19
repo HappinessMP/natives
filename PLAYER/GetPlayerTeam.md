@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x4C2879AD
-int GET_PLAYER_TEAM(int Player);
+int GET_PLAYER_TEAM(int playerIndex);
 ```
 
 ### Arguments
-- **int:** Player
+- **int:** playerIndex
 
 ### Results
 - **int**
 
 ## Description
+Gets the team the player is in.

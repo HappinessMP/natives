@@ -12,3 +12,4 @@ void PRINTSTRING(char* value);
 ### Results
 
 ## Description
+Procedure that prints a string to the console (NOT the game screen).

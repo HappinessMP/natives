@@ -3,17 +3,18 @@
 ## Declaration
 ```cpp
 // 0x67D908DF
-void SWITCH_PED_PATHS_ON(float x0, float y0, float z0, float x1, float y1, float z1);
+void SWITCH_PED_PATHS_ON(float minX, float minY, float minZ, float maxX, float maxY, float maxZ);
 ```
 
 ### Arguments
-- **float:** x0
-- **float:** y0
-- **float:** z0
-- **float:** x1
-- **float:** y1
-- **float:** z1
+- **float:** minX
+- **float:** minY
+- **float:** minZ
+- **float:** maxX
+- **float:** maxY
+- **float:** maxZ
 
 ### Results
 
 ## Description
+Switch the ped paths on in the given area.

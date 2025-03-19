@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x9FD7668
-boolean IS_FRONTEND_FADING();
+bool IS_FRONTEND_FADING();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Only returns FALSE if no frontend fade is running.

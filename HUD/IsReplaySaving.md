@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x78021D03
-boolean IS_REPLAY_SAVING();
+bool IS_REPLAY_SAVING();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

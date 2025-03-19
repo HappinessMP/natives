@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0xFDA7965
-void FIX_CAR_TYRE(Vehicle vehicle, uint tyre);
+void FIX_CAR_TYRE(int carIndex, int wheelNumber);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
-- **uint:** tyre
+- **int:** carIndex
+- **int:** wheelNumber
 
 ### Results
 
 ## Description
+Fixes a cars burts tyre.

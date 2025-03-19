@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x3B0C6738
-boolean HAS_DEATHARREST_EXECUTED();
+bool HAS_DEATHARREST_EXECUTED();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

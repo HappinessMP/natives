@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x2C6564F2
-void INCREMENT_FLOAT_STAT_NO_MESSAGE(uint stat, float value);
+void INCREMENT_FLOAT_STAT_NO_MESSAGE(int stat, float value);
 ```
 
 ### Arguments
-- **uint:** stat
+- **int:** stat
 - **float:** value
 
 ### Results

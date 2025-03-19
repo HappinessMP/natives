@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x2ED90276
-void SET_BLIP_AS_SHORT_RANGE(Blip blip, boolean value);
+void SET_BLIP_AS_SHORT_RANGE(int blipIndex, bool onOff);
 ```
 
 ### Arguments
-- **Blip:** blip
-- **boolean:** value
+- **int:** blipIndex
+- **bool:** onOff
 
 ### Results
 
 ## Description
+Set a blip as short range.

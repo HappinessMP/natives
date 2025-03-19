@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x768F5140
-void SET_TEXT_BACKGROUND(boolean value);
+void SET_TEXT_BACKGROUND(bool textBackgroundFlag);
 ```
 
 ### Arguments
-- **boolean:** value
+- **bool:** textBackgroundFlag
 
 ### Results
 

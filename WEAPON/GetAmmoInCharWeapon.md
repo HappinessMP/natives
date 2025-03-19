@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x23E140A9
-void GET_AMMO_IN_CHAR_WEAPON(Ped ped, uint weapon, uint* pAmmo);
+void GET_AMMO_IN_CHAR_WEAPON(int charIndex, int weaponType, int* ammo);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** weapon
+- **int:** charIndex
+- **int:** weaponType
 
 ### Results
-- **uint*:** pAmmo
+- **int*:** ammo
 
 ## Description
+Return the amount of ammo a character has for a weapon.

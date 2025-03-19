@@ -13,3 +13,4 @@ bool NETWORK_IS_PLAYER_TALKING(int playerIndex);
 - **bool**
 
 ## Description
+Returns true if the given player is currently voice chatting.

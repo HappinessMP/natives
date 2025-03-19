@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x4ECE1AD2
-boolean HAS_CUTSCENE_FINISHED();
+bool HAS_CUTSCENE_FINISHED();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if the cutscene has finished.

@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x6DB26E07
-boolean HAS_CHAR_BEEN_DAMAGED_BY_WEAPON(Ped ped, uint weapon);
+bool HAS_CHAR_BEEN_DAMAGED_BY_WEAPON(int charIndex, int weaponType);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** weapon
+- **int:** charIndex
+- **int:** weaponType
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Return if a character has been damaged by a certain weapon.

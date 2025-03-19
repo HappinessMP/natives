@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x1DF623F9
-boolean IS_CAR_TYRE_BURST(Vehicle vehicle, uint tyre);
+bool IS_CAR_TYRE_BURST(int carIndex, int wheelNumber);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
-- **uint:** tyre
+- **int:** carIndex
+- **int:** wheelNumber
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if a cars tyre is burst.

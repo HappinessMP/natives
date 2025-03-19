@@ -3,19 +3,20 @@
 ## Declaration
 ```cpp
 // 0x676B6BCA
-boolean IS_EXPLOSION_IN_AREA(int expnum, float x0, float y0, float z0, float x1, float y1, float z1);
+bool IS_EXPLOSION_IN_AREA(int explosionTag, float minX, float minY, float minZ, float maxX, float maxY, float maxZ);
 ```
 
 ### Arguments
-- **int:** expnum
-- **float:** x0
-- **float:** y0
-- **float:** z0
-- **float:** x1
-- **float:** y1
-- **float:** z1
+- **int:** explosionTag
+- **float:** minX
+- **float:** minY
+- **float:** minZ
+- **float:** maxX
+- **float:** maxY
+- **float:** maxZ
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if an explosion is in a area.

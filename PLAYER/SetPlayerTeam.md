@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x3E733990
-void SET_PLAYER_TEAM(int Player, int);
+void SET_PLAYER_TEAM(int playerIndex, int team);
 ```
 
 ### Arguments
-- **int:** Player
-- **int**
+- **int:** playerIndex
+- **int:** team
 
 ### Results
 
 ## Description
+Set the players current team.

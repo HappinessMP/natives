@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0xAF378D5
-uint GET_MODEL_PED_IS_HOLDING(Ped ped);
+int GET_MODEL_PED_IS_HOLDING(int charIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **uint**
+- **int:** modelHash
 
 ## Description

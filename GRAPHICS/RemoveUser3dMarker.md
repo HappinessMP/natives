@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0xC607EB8
-void REMOVE_USER_3D_MARKER(uint marker);
+void REMOVE_USER_3D_MARKER(int markerId);
 ```
 
 ### Arguments
-- **uint:** marker
+- **int:** markerId
 
 ### Results
 

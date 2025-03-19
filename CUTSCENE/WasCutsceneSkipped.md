@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x18F01E80
-boolean WAS_CUTSCENE_SKIPPED();
+bool WAS_CUTSCENE_SKIPPED();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if the player has skipped the cutscene.

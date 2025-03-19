@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x68664078
-void ENABLE_CHASE_AUDIO(boolean enable);
+void ENABLE_CHASE_AUDIO(bool enable);
 ```
 
 ### Arguments
-- **boolean:** enable
+- **bool:** enable
 
 ### Results
 

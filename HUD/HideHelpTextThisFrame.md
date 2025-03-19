@@ -11,3 +11,4 @@ void HIDE_HELP_TEXT_THIS_FRAME();
 ### Results
 
 ## Description
+Hides help text this frame.

@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x5996315E
-uint CONVERT_INT_TO_PLAYERINDEX(uint playerId);
+int CONVERT_INT_TO_PLAYERINDEX(int playerIndex);
 ```
 
 ### Arguments
-- **uint:** playerId
+- **int:** playerIndex
 
 ### Results
-- **uint**
+- **int**
 
 ## Description
+Converts an int to a player index.

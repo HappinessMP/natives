@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x71F965B4
-void SET_REDUCE_VEHICLE_MODEL_BUDGET(boolean set);
+void SET_REDUCE_VEHICLE_MODEL_BUDGET(bool reduce);
 ```
 
 ### Arguments
-- **boolean:** set
+- **bool:** reduce
 
 ### Results
 
 ## Description
+Can be called to reduce the number of vehicle models streamed.

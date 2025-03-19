@@ -3,17 +3,18 @@
 ## Declaration
 ```cpp
 // 0x2FA55669
-void SAY_AMBIENT_SPEECH_WITH_VOICE(Ped ped, char* SpeechName, char* VoiceName, boolean flag0, boolean flag1, int style);
+void SAY_AMBIENT_SPEECH_WITH_VOICE(int charIndex, char* context, char* voiceName, bool forcePlay, bool allowRepeat, int volume);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **char*:** SpeechName
-- **char*:** VoiceName
-- **boolean:** flag0
-- **boolean:** flag1
-- **int:** style
+- **int:** charIndex
+- **char*:** context
+- **char*:** voiceName
+- **bool:** forcePlay
+- **bool:** allowRepeat
+- **int:** volume
 
 ### Results
 
 ## Description
+Plays a line of ambient dialogue in a different char's voice.

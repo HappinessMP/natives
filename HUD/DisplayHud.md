@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x52632919
-void DISPLAY_HUD(boolean display);
+void DISPLAY_HUD(bool display);
 ```
 
 ### Arguments
-- **boolean:** display
+- **bool:** display
 
 ### Results
 
 ## Description
+Displays the hud.

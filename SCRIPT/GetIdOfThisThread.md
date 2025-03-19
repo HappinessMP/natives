@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x51A131D
-uint GET_ID_OF_THIS_THREAD();
+int GET_ID_OF_THIS_THREAD();
 ```
 
 ### Arguments
 
 ### Results
-- **uint**
+- **int**
 
 ## Description
+Returns the ID of this thread.

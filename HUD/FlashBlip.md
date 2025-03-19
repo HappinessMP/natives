@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x4DFE09D6
-void FLASH_BLIP(Blip blip, boolean on);
+void FLASH_BLIP(int blipIndex, bool onOff);
 ```
 
 ### Arguments
-- **Blip:** blip
-- **boolean:** on
+- **int:** blipIndex
+- **bool:** onOff
 
 ### Results
 
 ## Description
+Flash a radar blip.

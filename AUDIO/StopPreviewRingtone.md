@@ -11,3 +11,4 @@ void STOP_PREVIEW_RINGTONE();
 ### Results
 
 ## Description
+Stops the preview playing.

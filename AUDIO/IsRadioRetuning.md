@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x45C344AA
-boolean IS_RADIO_RETUNING();
+bool IS_RADIO_RETUNING();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if the radio is tuning to a station.

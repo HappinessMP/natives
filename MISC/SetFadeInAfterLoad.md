@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x5384065B
-void SET_FADE_IN_AFTER_LOAD(boolean set);
+void SET_FADE_IN_AFTER_LOAD(bool set);
 ```
 
 ### Arguments
-- **boolean:** set
+- **bool:** set
 
 ### Results
 

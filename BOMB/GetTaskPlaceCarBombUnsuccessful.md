@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0xA4608E9
-boolean GET_TASK_PLACE_CAR_BOMB_UNSUCCESSFUL();
+bool GET_TASK_PLACE_CAR_BOMB_UNSUCCESSFUL();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

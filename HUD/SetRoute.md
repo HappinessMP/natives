@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x7B8D68E7
-void SET_ROUTE(Blip blip, boolean value);
+void SET_ROUTE(int blipIndex, bool onOff);
 ```
 
 ### Arguments
-- **Blip:** blip
-- **boolean:** value
+- **int:** blipIndex
+- **bool:** onOff
 
 ### Results
 
 ## Description
+Set a route for this blip.

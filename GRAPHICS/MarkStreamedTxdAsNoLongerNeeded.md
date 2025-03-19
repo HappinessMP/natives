@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x70EA2B89
-void MARK_STREAMED_TXD_AS_NO_LONGER_NEEDED(char* txdName);
+void MARK_STREAMED_TXD_AS_NO_LONGER_NEEDED(char* textureDictionaryName);
 ```
 
 ### Arguments
-- **char*:** txdName
+- **char*:** textureDictionaryName
 
 ### Results
 

@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x12A909C9
-void REMOVE_SPHERE(uint sphere);
+void REMOVE_SPHERE(int sphereId);
 ```
 
 ### Arguments
-- **uint:** sphere
+- **int:** sphereId
 
 ### Results
 

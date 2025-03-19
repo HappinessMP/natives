@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x5E5E4252
-void SET_ZONE_SCUMMINESS(char* zone, int scumminess);
+void SET_ZONE_SCUMMINESS(char* zoneLabel, int scumminess);
 ```
 
 ### Arguments
-- **char*:** zone
+- **char*:** zoneLabel
 - **int:** scumminess
 
 ### Results

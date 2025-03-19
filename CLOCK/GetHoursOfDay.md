@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0xA9F7BA1
-uint GET_HOURS_OF_DAY();
+int GET_HOURS_OF_DAY();
 ```
 
 ### Arguments
 
 ### Results
-- **uint**
+- **int**
 
 ## Description

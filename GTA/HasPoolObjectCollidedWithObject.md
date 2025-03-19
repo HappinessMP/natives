@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x24D70069
-boolean HAS_POOL_OBJECT_COLLIDED_WITH_OBJECT(Object obj, Object otherObj);
+bool HAS_POOL_OBJECT_COLLIDED_WITH_OBJECT(int obj, int otherObjectIndex);
 ```
 
 ### Arguments
-- **Object:** obj
-- **Object:** otherObj
+- **int:** objectIndex
+- **int:** otherObjectIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

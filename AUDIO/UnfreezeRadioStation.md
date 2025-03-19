@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x3E5B7E59
-void UNFREEZE_RADIO_STATION(char* radiostation);
+void UNFREEZE_RADIO_STATION(char* radioStationName);
 ```
 
 ### Arguments
-- **char*:** radiostation
+- **char*:** radioStationName
 
 ### Results
 

@@ -11,3 +11,4 @@ void RELEASE_MOVIE();
 ### Results
 
 ## Description
+Frees the memory allocated to the movie.

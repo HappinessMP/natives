@@ -10,6 +10,6 @@ int GET_BLIP_INFO_ID_PICKUP_INDEX(int blipIndex);
 - **int:** blipIndex
 
 ### Results
-- **int**
+- **int:** pickupIndex
 
 ## Description

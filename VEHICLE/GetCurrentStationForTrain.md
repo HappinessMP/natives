@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x10FE0FE9
-uint GET_CURRENT_STATION_FOR_TRAIN(Train train);
+int GET_CURRENT_STATION_FOR_TRAIN(int trainIndex);
 ```
 
 ### Arguments
-- **Train:** train
+- **int:** trainIndex
 
 ### Results
-- **uint**
+- **int:** stationId
 
 ## Description

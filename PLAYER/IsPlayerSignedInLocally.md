@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x547523EE
-boolean IS_PLAYER_SIGNED_IN_LOCALLY();
+bool IS_PLAYER_SIGNED_IN_LOCALLY();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

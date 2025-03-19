@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x8A015CF
-void FREEZE_RADIO_STATION(char* stationName);
+void FREEZE_RADIO_STATION(char* radioStationName);
 ```
 
 ### Arguments
-- **char*:** stationName
+- **char*:** radioStationName
 
 ### Results
 

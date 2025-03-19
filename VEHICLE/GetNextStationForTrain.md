@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x4835637D
-uint GET_NEXT_STATION_FOR_TRAIN(Train train);
+int GET_NEXT_STATION_FOR_TRAIN(int trainIndex);
 ```
 
 ### Arguments
-- **Train:** train
+- **int:** trainIndex
 
 ### Results
-- **uint**
+- **int:** stationId
 
 ## Description

@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x6C4568A7
-boolean IS_PAUSE_MENU_ACTIVE();
+bool IS_PAUSE_MENU_ACTIVE();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if the pause menu is active.

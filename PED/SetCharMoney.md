@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x7B44224F
-void SET_CHAR_MONEY(Ped ped, uint amount);
+void SET_CHAR_MONEY(int charIndex, int money);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** amount
+- **int:** charIndex
+- **int:** money
 
 ### Results
 
 ## Description
+Sets the chars money.

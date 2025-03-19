@@ -3,17 +3,18 @@
 ## Declaration
 ```cpp
 // 0x4C3C1F3C
-void SWITCH_ROADS_OFF(float x0, float y0, float z0, float x1, float y1, float z1);
+void SWITCH_ROADS_OFF(float minX, float minY, float minZ, float maxX, float maxY, float maxZ);
 ```
 
 ### Arguments
-- **float:** x0
-- **float:** y0
-- **float:** z0
-- **float:** x1
-- **float:** y1
-- **float:** z1
+- **float:** minX
+- **float:** minY
+- **float:** minZ
+- **float:** maxX
+- **float:** maxY
+- **float:** maxZ
 
 ### Results
 
 ## Description
+Switch the road node off in the given area.

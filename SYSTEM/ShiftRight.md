@@ -3,13 +3,15 @@
 ## Declaration
 ```cpp
 // 0x64DD173C
-int SHIFT_RIGHT(int val);
+int SHIFT_RIGHT(int value, int count);
 ```
 
 ### Arguments
-- **int:** val
+- **int:** value
+- **int:** count
 
 ### Results
 - **int**
 
 ## Description
+Implements C++ operator >> (shift right).

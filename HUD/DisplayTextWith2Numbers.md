@@ -3,16 +3,17 @@
 ## Declaration
 ```cpp
 // 0x337957AF
-void DISPLAY_TEXT_WITH_2_NUMBERS(float x, float y, char* gxtName, int number1, int number2);
+void DISPLAY_TEXT_WITH_2_NUMBERS(float x, float y, char* textLabel, int firstNumber, int secondNumber);
 ```
 
 ### Arguments
 - **float:** x
 - **float:** y
-- **char*:** gxtName
-- **int:** number1
-- **int:** number2
+- **char*:** textLabel
+- **int:** firstNumber
+- **int:** secondNumber
 
 ### Results
 
 ## Description
+Displays text with 2 numbers onscreen.

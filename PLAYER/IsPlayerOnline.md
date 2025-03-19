@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x61C65FDE
-boolean IS_PLAYER_ONLINE();
+bool IS_PLAYER_ONLINE();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns true if the player is online - implies he is also signed in locally.

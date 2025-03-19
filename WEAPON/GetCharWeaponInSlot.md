@@ -3,16 +3,16 @@
 ## Declaration
 ```cpp
 // 0x74EC7580
-void GET_CHAR_WEAPON_IN_SLOT(Ped ped, uint slot, uint* pWeapon, uint* pAmmo0, uint* pAmmo1);
+void GET_CHAR_WEAPON_IN_SLOT(int charIndex, int weaponSlot, int* pWeapon, int* pAmmo0, int* pAmmo1);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** slot
+- **int:** charIndex
+- **int:** weaponSlot
 
 ### Results
-- **uint*:** pWeapon
-- **uint*:** pAmmo0
-- **uint*:** pAmmo1
+- **int*:** pWeapon
+- **int*:** pAmmo0
+- **int*:** pAmmo1
 
 ## Description

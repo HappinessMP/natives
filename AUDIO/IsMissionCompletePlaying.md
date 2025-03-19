@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x6C3B5917
-boolean IS_MISSION_COMPLETE_PLAYING();
+bool IS_MISSION_COMPLETE_PLAYING();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if the mission complete audio is playing.

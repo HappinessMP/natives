@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x1D6D767E
-void GET_CURRENT_TAXI_CAR_MODEL(uint* pModel);
+void GET_CURRENT_TAXI_CAR_MODEL(int* modelHash);
 ```
 
 ### Arguments
 
 ### Results
-- **uint*:** pModel
+- **int*:** modelHash
 
 ## Description
+Gets the current taxi model loaded.

@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0xEE34390
-boolean HAS_CAR_BEEN_DAMAGED_BY_WEAPON(Vehicle vehicle, uint weapon);
+bool HAS_CAR_BEEN_DAMAGED_BY_WEAPON(int carIndex, int weaponType);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
-- **uint:** weapon
+- **int:** carIndex
+- **int:** weaponType
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x6A9B79D8
-void USE_MASK(boolean use);
+void USE_MASK(bool useMask);
 ```
 
 ### Arguments
-- **boolean:** use
+- **bool:** useMask
 
 ### Results
 
 ## Description
+Sets a mask active.

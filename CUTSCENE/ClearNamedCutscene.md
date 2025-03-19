@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x62EF058E
-void CLEAR_NAMED_CUTSCENE(char* name);
+void CLEAR_NAMED_CUTSCENE(char* cutName);
 ```
 
 ### Arguments
-- **char*:** name
+- **char*:** cutName
 
 ### Results
 
 ## Description
+Clears everything asscoiated with the cutscene.

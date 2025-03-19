@@ -13,3 +13,4 @@ int NETWORK_GET_UNACCEPTED_INVITE_EPISODE(int inviteIndex);
 - **int**
 
 ## Description
+Returns the episode being used in the invited session.

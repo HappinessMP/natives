@@ -11,3 +11,4 @@ void DO_AUTO_SAVE();
 ### Results
 
 ## Description
+Runs an auto save.

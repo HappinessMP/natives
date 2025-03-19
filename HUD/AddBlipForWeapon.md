@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x4CA708B9
-void ADD_BLIP_FOR_WEAPON(float x, float y, float z, int* blip);
+void ADD_BLIP_FOR_WEAPON(float x, float y, float z, int* blipIndex);
 ```
 
 ### Arguments
@@ -12,6 +12,6 @@ void ADD_BLIP_FOR_WEAPON(float x, float y, float z, int* blip);
 - **float:** z
 
 ### Results
-- **int*:** blip
+- **int*:** blipIndex
 
 ## Description

@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x69804B35
-boolean PLAYER_HAS_FLASHING_STARS_ABOUT_TO_DROP(Player playerIndex);
+bool PLAYER_HAS_FLASHING_STARS_ABOUT_TO_DROP(int playerIndex);
 ```
 
 ### Arguments
-- **Player:** playerIndex
+- **int:** playerIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

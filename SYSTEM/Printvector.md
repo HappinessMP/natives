@@ -3,14 +3,13 @@
 ## Declaration
 ```cpp
 // 0x61965EB3
-void PRINTVECTOR(float x, float y, float z);
+void PRINTVECTOR(scrVector& value);
 ```
 
 ### Arguments
-- **float:** x
-- **float:** y
-- **float:** z
+- **scrVector&:** value
 
 ### Results
 
 ## Description
+Procedure that prints a vector to the console (NOT the game screen).

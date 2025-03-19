@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x59DA4975
-void PICKUPS_PASS_TIME(uint time);
+void PICKUPS_PASS_TIME(int time);
 ```
 
 ### Arguments
-- **uint:** time
+- **int:** time (milliseconds)
 
 ### Results
 

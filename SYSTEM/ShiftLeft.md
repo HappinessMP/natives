@@ -3,13 +3,15 @@
 ## Declaration
 ```cpp
 // 0x102A0A6C
-int SHIFT_LEFT(int val);
+int SHIFT_LEFT(int value, int count);
 ```
 
 ### Arguments
-- **int:** val
+- **int:** value
+- **int:** count
 
 ### Results
 - **int**
 
 ## Description
+Implements C++ operator << (shift left).

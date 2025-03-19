@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x74C626EB
-void GENERATE_RANDOM_FLOAT_IN_RANGE(float min, float max, float* pValue);
+void GENERATE_RANDOM_FLOAT_IN_RANGE(float min, float max, float* randomFloat);
 ```
 
 ### Arguments
@@ -11,6 +11,7 @@ void GENERATE_RANDOM_FLOAT_IN_RANGE(float min, float max, float* pValue);
 - **float:** max
 
 ### Results
-- **float*:** pValue
+- **float*:** randomFloat
 
 ## Description
+Gets a random float from the range passed in.

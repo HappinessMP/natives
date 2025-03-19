@@ -7,9 +7,9 @@ void ADD_POINT_TO_GPS_RACE_TRACK(scrVector& vPosition);
 ```
 
 ### Arguments
+- **scrVector&:** vPosition
 
 ### Results
-- **scrVector&:** vPosition
 
 ## Description
 Adds a point to a gps race track at the given vector.

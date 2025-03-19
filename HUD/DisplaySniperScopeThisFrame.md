@@ -11,3 +11,4 @@ void DISPLAY_SNIPER_SCOPE_THIS_FRAME();
 ### Results
 
 ## Description
+Displays the sniper scope this frame.

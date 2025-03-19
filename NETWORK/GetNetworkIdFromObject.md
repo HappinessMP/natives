@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x50424095
-void GET_NETWORK_ID_FROM_OBJECT(Object obj, int* id);
+void GET_NETWORK_ID_FROM_OBJECT(int objectIndex, int* networkId);
 ```
 
 ### Arguments
-- **Object:** obj
+- **int:** objectIndex
 
 ### Results
-- **int*:** id
+- **int*:** networkId
 
 ## Description
+Returns the network ID of the object with the specified index.

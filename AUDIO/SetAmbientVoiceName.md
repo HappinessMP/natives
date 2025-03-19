@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x426A4ED8
-void SET_AMBIENT_VOICE_NAME(Ped ped, char* name);
+void SET_AMBIENT_VOICE_NAME(int charIndex, char* voiceName);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **char*:** name
+- **int:** charIndex
+- **char*:** voiceName
 
 ### Results
 
 ## Description
+Sets a character to use a specific voice different to the one associated with their model.

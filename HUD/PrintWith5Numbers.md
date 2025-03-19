@@ -3,18 +3,18 @@
 ## Declaration
 ```cpp
 // 0x2CC356D0
-void PRINT_WITH_5_NUMBERS(char* gxtentry, int, int, int, int, int, int time, int flag);
+void PRINT_WITH_5_NUMBERS(char* textLabel, int firstNumber, int secondNumber, int thirdNumber, int fourthNumber, int fifthNumber, int duration, int colour);
 ```
 
 ### Arguments
-- **char*:** gxtentry
-- **int**
-- **int**
-- **int**
-- **int**
-- **int**
-- **int:** time
-- **int:** flag
+- **char*:** textLabel
+- **int:** firstNumber
+- **int:** secondNumber
+- **int:** thirdNumber
+- **int:** fourthNumber
+- **int:** fifthNumber
+- **int:** duration
+- **int:** colour
 
 ### Results
 

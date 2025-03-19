@@ -3,16 +3,16 @@
 ## Declaration
 ```cpp
 // 0x68966670
-void GET_OFFSET_FROM_INTERIOR_IN_WORLD_COORDS(Interior interior, float x, float y, float z, float* pOffset);
+void GET_OFFSET_FROM_INTERIOR_IN_WORLD_COORDS(int interiorIndex, float x, float y, float z, Vector3* offset);
 ```
 
 ### Arguments
-- **Interior:** interior
+- **int:** interiorIndex
 - **float:** x
 - **float:** y
 - **float:** z
 
 ### Results
-- **float*:** pOffset
+- **Vector3*:** offset
 
 ## Description

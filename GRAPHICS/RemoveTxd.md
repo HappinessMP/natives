@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x44C27071
-void REMOVE_TXD(TextureDict txd);
+void REMOVE_TXD(int textureDictionaryIndex);
 ```
 
 ### Arguments
-- **TextureDict:** txd
+- **int:** textureDictionaryIndex
 
 ### Results
 

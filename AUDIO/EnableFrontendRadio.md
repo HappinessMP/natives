@@ -11,3 +11,4 @@ void ENABLE_FRONTEND_RADIO();
 ### Results
 
 ## Description
+Allows radio to be played in the frontend.

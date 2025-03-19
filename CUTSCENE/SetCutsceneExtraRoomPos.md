@@ -14,3 +14,4 @@ void SET_CUTSCENE_EXTRA_ROOM_POS(float x, float y, float z);
 ### Results
 
 ## Description
+Probe the world at the specified point in space and if there is an interior there.

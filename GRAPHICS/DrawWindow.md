@@ -3,16 +3,16 @@
 ## Declaration
 ```cpp
 // 0x232642DE
-void DRAW_WINDOW(float, float, float, float, char* str, uint alpha);
+void DRAW_WINDOW(float x, float y, float width, float height, char* str, int alpha);
 ```
 
 ### Arguments
-- **float**
-- **float**
-- **float**
-- **float**
+- **float:** x
+- **float:** y
+- **float:** width
+- **float:** height
 - **char*:** str
-- **uint:** alpha
+- **int:** alpha
 
 ### Results
 

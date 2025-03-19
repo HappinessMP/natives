@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x570F5725
-char* GET_PLAYER_NAME(Player playerIndex);
+char* GET_PLAYER_NAME(int playerIndex);
 ```
 
 ### Arguments
-- **Player:** playerIndex
+- **int:** playerIndex
 
 ### Results
-- **char***
+- **char*:** playerName
 
 ## Description
+Returns the name of the player.

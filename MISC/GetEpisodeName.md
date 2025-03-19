@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x6004431B
-char* GET_EPISODE_NAME(uint episodeIndex);
+char* GET_EPISODE_NAME(int episode);
 ```
 
 ### Arguments
-- **uint:** episodeIndex
+- **int:** episode
 
 ### Results
 - **char***
 
 ## Description
+Return an episode name.

@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x60C80EC9
-void ALTER_WANTED_LEVEL(Player playerIndex, uint level);
+void ALTER_WANTED_LEVEL(int playerIndex, int level);
 ```
 
 ### Arguments
-- **Player:** playerIndex
-- **uint:** level
+- **int:** playerIndex
+- **int:** level
 
 ### Results
 
 ## Description
+Sets the wanted level for the player.

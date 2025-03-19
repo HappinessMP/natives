@@ -3,11 +3,14 @@
 ## Declaration
 ```cpp
 // 0x1031625F
-void IS_NETWORK_PLAYER_VISIBLE();
+bool IS_NETWORK_PLAYER_VISIBLE(int playerIndex);
 ```
 
 ### Arguments
+- **int:** playerIndex
 
 ### Results
+- **bool**
 
 ## Description
+Returns true if the given player is visible on screen, and not occluded. Can be called every frame.

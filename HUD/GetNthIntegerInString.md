@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x301545FD
-char* GET_NTH_INTEGER_IN_STRING(char* gxtName, uint index);
+int GET_NTH_INTEGER_IN_STRING(char* textLabel, int characterIndex);
 ```
 
 ### Arguments
-- **char*:** gxtName
-- **uint:** index
+- **char*:** textLabel
+- **int:** characterIndex
 
 ### Results
-- **char***
+- **int**
 
 ## Description

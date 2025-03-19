@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x31B64D2B
-boolean HAS_FRAGMENT_ROOT_OF_CLOSEST_OBJECT_OF_TYPE_BEEN_DAMAGED(float x, float y, float z, float radius, uint);
+bool HAS_FRAGMENT_ROOT_OF_CLOSEST_OBJECT_OF_TYPE_BEEN_DAMAGED(float x, float y, float z, float radius, int modelHash);
 ```
 
 ### Arguments
@@ -11,9 +11,10 @@ boolean HAS_FRAGMENT_ROOT_OF_CLOSEST_OBJECT_OF_TYPE_BEEN_DAMAGED(float x, float 
 - **float:** y
 - **float:** z
 - **float:** radius
-- **uint**
+- **int:** modelHash
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+This command works in a similar manner to HAS_OBJECT_FRAGMENT_ROOT_BEEN_DAMAGED but first finds the closest object with the given modelHash within the specified range.

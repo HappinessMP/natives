@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x4B6C2256
-void GET_CHAR_HEALTH(Ped ped, uint* pHealth);
+void GET_CHAR_HEALTH(int charId, int* health);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charId
 
 ### Results
-- **uint*:** pHealth
+- **int*:** health
 
 ## Description

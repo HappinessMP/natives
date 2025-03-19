@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x6702757C
-void LOCK_CAR_DOORS(Vehicle vehicle, uint value);
+void LOCK_CAR_DOORS(int carIndex, int newLockState);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
-- **uint:** value
+- **int:** carIndex
+- **int:** newLockState
 
 ### Results
 
 ## Description
+Set the car doors to a certain locked state.

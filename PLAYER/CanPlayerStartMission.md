@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x2A235D0
-boolean CAN_PLAYER_START_MISSION(int player);
+bool CAN_PLAYER_START_MISSION(int playerIndex);
 ```
 
 ### Arguments
-- **int:** player
+- **int:** playerIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns TRUE if it is safe for the player to start a mission.

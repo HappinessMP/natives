@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x6CFD0610
-void SET_TEXT_DRAW_BEFORE_FADE(boolean value);
+void SET_TEXT_DRAW_BEFORE_FADE(bool textDrawBeforeFadeFlag);
 ```
 
 ### Arguments
-- **boolean:** value
+- **bool:** textDrawBeforeFadeFlag
 
 ### Results
 
 ## Description
+Sets the text will to draw before the fade.

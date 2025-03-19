@@ -11,3 +11,4 @@ void THIS_SCRIPT_SHOULD_BE_SAVED();
 ### Results
 
 ## Description
+Only scripts that call this command will be stored on the memory card.

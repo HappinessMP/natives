@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x698F6172
-boolean IS_MOBILE_PHONE_CALL_ONGOING();
+bool IS_MOBILE_PHONE_CALL_ONGOING();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if a mobile phone call is currently happening.

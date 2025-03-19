@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x4D155EE8
-boolean IS_THIS_HELP_MESSAGE_WITH_STRING_BEING_DISPLAYED(char* gxtentry, char* str);
+bool IS_THIS_HELP_MESSAGE_WITH_STRING_BEING_DISPLAYED(char* textLabel, char* subStringTextLabel);
 ```
 
 ### Arguments
-- **char*:** gxtentry
-- **char*:** str
+- **char*:** textLabel
+- **char*:** subStringTextLabel
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if a help text with a string is being displayed.

@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x19A64C5D
-void ADD_BLIP_FOR_CHAR(Ped ped, Blip* pBlip);
+void ADD_BLIP_FOR_CHAR(int charIndex, int* blipIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **Blip*:** pBlip
+- **int*:** blipIndex
 
 ## Description
+Add radar blip for an character.

@@ -3,11 +3,13 @@
 ## Declaration
 ```cpp
 // 0x2BEB02D6
-void GET_PLAYER_LCPD_SCORE();
+int GET_PLAYER_LCPD_SCORE(int playerIndex);
 ```
 
 ### Arguments
+- **int:** playerIndex
 
 ### Results
+- **int**
 
 ## Description

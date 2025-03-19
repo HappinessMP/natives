@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x318F65E6
-boolean IS_REPLAY_SYSTEM_SAVING();
+bool IS_REPLAY_SYSTEM_SAVING();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

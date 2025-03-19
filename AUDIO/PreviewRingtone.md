@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x79660015
-void PREVIEW_RINGTONE(int RingtoneId);
+void PREVIEW_RINGTONE(int ringtoneId);
 ```
 
 ### Arguments
-- **int:** RingtoneId
+- **int:** ringtoneId
 
 ### Results
 
 ## Description
+Plays a preview of a ringtone.

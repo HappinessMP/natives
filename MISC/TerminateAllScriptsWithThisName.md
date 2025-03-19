@@ -12,3 +12,4 @@ void TERMINATE_ALL_SCRIPTS_WITH_THIS_NAME(char* name);
 ### Results
 
 ## Description
+Terminates all scripts with the specified name.

@@ -12,3 +12,4 @@ void NETWORK_SHOW_FRIEND_PROFILE_UI(char* friendName);
 ### Results
 
 ## Description
+Displays a UI showing a friend's profile info (gamer card on Xbox).

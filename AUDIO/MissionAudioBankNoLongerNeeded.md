@@ -11,3 +11,4 @@ void MISSION_AUDIO_BANK_NO_LONGER_NEEDED();
 ### Results
 
 ## Description
+Unloads a mission audio bank.

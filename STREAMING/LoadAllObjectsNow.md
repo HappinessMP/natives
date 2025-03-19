@@ -11,3 +11,4 @@ void LOAD_ALL_OBJECTS_NOW();
 ### Results
 
 ## Description
+Load all the objects on the streaming request list.

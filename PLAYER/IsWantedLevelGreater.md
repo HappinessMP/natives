@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x7DA4736D
-boolean IS_WANTED_LEVEL_GREATER(Player playerIndex, uint level);
+bool IS_WANTED_LEVEL_GREATER(int playerIndex, int level);
 ```
 
 ### Arguments
-- **Player:** playerIndex
-- **uint:** level
+- **int:** playerIndex
+- **int:** level
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

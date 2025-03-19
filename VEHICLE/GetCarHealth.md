@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x4D417CD3
-void GET_CAR_HEALTH(Vehicle vehicle, uint* pValue);
+void GET_CAR_HEALTH(int carIndex, int* health);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** carIndex
 
 ### Results
-- **uint*:** pValue
+- **int*:** health
 
 ## Description

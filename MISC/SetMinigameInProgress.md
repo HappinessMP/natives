@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x3ED135AD
-void SET_MINIGAME_IN_PROGRESS(boolean set);
+void SET_MINIGAME_IN_PROGRESS(bool newState);
 ```
 
 ### Arguments
-- **boolean:** set
+- **bool:** newState
 
 ### Results
 
 ## Description
+Informs the game of a mini-games status.

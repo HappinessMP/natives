@@ -11,3 +11,4 @@ void STOP_MOBILE_PHONE_RINGING();
 ### Results
 
 ## Description
+Stops a mobile phone ringing.

@@ -3,16 +3,17 @@
 ## Declaration
 ```cpp
 // 0xAA202B0
-void TASK_AIM_GUN_AT_COORD(Ped ped, float tX, float tY, float tZ, uint duration);
+void TASK_AIM_GUN_AT_COORD(int charIndex, float x, float y, float z, int duration);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **float:** tX
-- **float:** tY
-- **float:** tZ
-- **uint:** duration
+- **int:** charIndex
+- **float:** x
+- **float:** y
+- **float:** z
+- **int:** duration
 
 ### Results
 
 ## Description
+Tells the ped to aim a gun at the coord.

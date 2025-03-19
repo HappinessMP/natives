@@ -13,3 +13,4 @@ int FLOOR(float value);
 - **int**
 
 ## Description
+Returns input number rounded down toward negative infinity.

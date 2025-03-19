@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x23B00129
-boolean IS_STREAMING_ADDITIONAL_TEXT(uint textIndex);
+bool IS_STREAMING_ADDITIONAL_TEXT(int slotNumber);
 ```
 
 ### Arguments
-- **uint:** textIndex
+- **int:** slotNumber
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+The text slot streaming the text.

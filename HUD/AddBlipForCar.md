@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x6D21564D
-void ADD_BLIP_FOR_CAR(Vehicle vehicle, Blip* pBlip);
+void ADD_BLIP_FOR_CAR(int carIndex, int* blipIndex);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** carIndex
 
 ### Results
-- **Blip*:** pBlip
+- **int*:** blipIndex
 
 ## Description
+Add radar blip for an car.

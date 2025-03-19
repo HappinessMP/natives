@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x521D0D5B
-void FORCE_RANDOM_CAR_MODEL(uint hash);
+void FORCE_RANDOM_CAR_MODEL(int modelHash);
 ```
 
 ### Arguments
-- **uint:** hash
+- **int:** modelHash
 
 ### Results
 

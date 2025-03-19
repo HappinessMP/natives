@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x7DC061F5
-void SET_MESSAGES_WAITING(boolean set);
+void SET_MESSAGES_WAITING(bool waiting);
 ```
 
 ### Arguments
-- **boolean:** set
+- **bool:** waiting
 
 ### Results
 
 ## Description
+Displays the envelope icon near radar to say you have unread text messages waiting.

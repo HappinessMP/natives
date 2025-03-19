@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x5785181B
-void ANCHOR_OBJECT(Object obj, boolean anchor, uint flags);
+void ANCHOR_OBJECT(int objectId, bool anchor, int flags);
 ```
 
 ### Arguments
-- **Object:** obj
-- **boolean:** anchor
-- **uint:** flags
+- **int:** objectId
+- **bool:** anchor
+- **int:** flags
 
 ### Results
 

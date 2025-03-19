@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x58E53B06
-void GET_PED_GROUP_INDEX(Ped ped, uint* pIndex);
+void GET_PED_GROUP_INDEX(int charIndex, int* groupIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **uint*:** pIndex
+- **int*:** groupIndex
 
 ## Description
+Get the group index form the ped.

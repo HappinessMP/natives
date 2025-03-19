@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x46A4720
-boolean IS_CHAR_ARMED(Ped ped, uint slot);
+bool IS_CHAR_ARMED(int charIndex, int weaponCheckFlags);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** slot
+- **int:** charIndex
+- **int:** weaponCheckFlags
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Queries the characters armament using the flags passed.

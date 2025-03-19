@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x53216168
-uint GET_NUM_STREAMING_REQUESTS();
+int GET_NUM_STREAMING_REQUESTS();
 ```
 
 ### Arguments
 
 ### Results
-- **uint**
+- **int**
 
 ## Description
+Return how many objects are on the streaming request list.

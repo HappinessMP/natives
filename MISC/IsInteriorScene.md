@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x61DA102E
-boolean IS_INTERIOR_SCENE();
+bool IS_INTERIOR_SCENE();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if the game is in an interior.

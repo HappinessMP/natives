@@ -3,18 +3,18 @@
 ## Declaration
 ```cpp
 // 0x7DF45001
-uint REGISTER_SAVE_HOUSE(float x, float y, float z, float unkf, char* name, uint unku);
+int REGISTER_SAVE_HOUSE(float x, float y, float z, float heading, char* roomName, int mapAreaName);
 ```
 
 ### Arguments
 - **float:** x
 - **float:** y
 - **float:** z
-- **float:** unkf
-- **char*:** name
-- **uint:** unku
+- **float:** heading
+- **char*:** roomName
+- **int:** mapAreaName
 
 ### Results
-- **uint**
+- **int:** saveHouseId
 
 ## Description

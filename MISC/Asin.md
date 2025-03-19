@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x590A6F04
-float ASIN(float value);
+float ASIN(float x);
 ```
 
 ### Arguments
-- **float:** value
+- **float:** x
 
 ### Results
 - **float**
 
 ## Description
+Caluclates the arcsin.

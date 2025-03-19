@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x5CD32071
-void MODIFY_CHAR_MOVE_STATE(Ped ped, uint state);
+void MODIFY_CHAR_MOVE_STATE(int charIndex, int moveState);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** state
+- **int:** charIndex
+- **int:** moveState
 
 ### Results
 
 ## Description
+Modify chars move state.

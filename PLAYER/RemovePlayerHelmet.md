@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x5CF1303D
-void REMOVE_PLAYER_HELMET(Player playerIndex, boolean remove);
+void REMOVE_PLAYER_HELMET(int playerIndex, bool forceRemove);
 ```
 
 ### Arguments
-- **Player:** playerIndex
-- **boolean:** remove
+- **int:** playerIndex
+- **bool:** forceRemove
 
 ### Results
 
 ## Description
+Will remove the players helmet if they have one.

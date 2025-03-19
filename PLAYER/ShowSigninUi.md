@@ -11,3 +11,4 @@ void SHOW_SIGNIN_UI();
 ### Results
 
 ## Description
+Shows the system sign-in UI.

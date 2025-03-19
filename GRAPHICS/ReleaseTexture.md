@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x58524B04
-void RELEASE_TEXTURE(Texture texture);
+void RELEASE_TEXTURE(int textureIndex);
 ```
 
 ### Arguments
-- **Texture:** texture
+- **int:** textureIndex
 
 ### Results
 

@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x62E0076
-void COPY_COMBAT_DECISION_MAKER(uint type, DecisionMaker* pDM);
+void COPY_COMBAT_DECISION_MAKER(int type, DecisionMaker* pDM);
 ```
 
 ### Arguments
-- **uint:** type
+- **int:** type
 
 ### Results
 - **DecisionMaker*:** pDM

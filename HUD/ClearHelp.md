@@ -11,3 +11,4 @@ void CLEAR_HELP();
 ### Results
 
 ## Description
+Call to stop displaying the current help message.

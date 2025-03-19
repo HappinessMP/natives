@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x204A6AA4
-void SET_TEXT_CENTRE(boolean value);
+void SET_TEXT_CENTRE(bool textCentreFlag);
 ```
 
 ### Arguments
-- **boolean:** value
+- **bool:** textCentreFlag
 
 ### Results
 
 ## Description
+Centre justifies the text.

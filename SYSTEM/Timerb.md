@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x62984AB7
-uint TIMERB();
+int TIMERB();
 ```
 
 ### Arguments
 
 ### Results
-- **uint**
+- **int**
 
 ## Description
+Gets the current value for the timer B.

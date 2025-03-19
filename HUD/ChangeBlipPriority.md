@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x69EC0E70
-void CHANGE_BLIP_PRIORITY(Blip blip, uint priority);
+void CHANGE_BLIP_PRIORITY(int blipId, int priority);
 ```
 
 ### Arguments
-- **Blip:** blip
-- **uint:** priority
+- **int:** blipId
+- **int:** priority
 
 ### Results
 
 ## Description
+Change priority for radar blip.

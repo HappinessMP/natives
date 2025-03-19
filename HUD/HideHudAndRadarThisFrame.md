@@ -11,3 +11,4 @@ void HIDE_HUD_AND_RADAR_THIS_FRAME();
 ### Results
 
 ## Description
+Hides the radar AND the hud this frame ONLY.

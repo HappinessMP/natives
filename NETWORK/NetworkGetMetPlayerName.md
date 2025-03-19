@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x1F35F5C
-char* NETWORK_GET_MET_PLAYER_NAME(int);
+char* NETWORK_GET_MET_PLAYER_NAME(int playerMetIndex);
 ```
 
 ### Arguments
-- **int**
+- **int:** playerMetIndex
 
 ### Results
 - **char***
 
 ## Description
+Given an index into the player history, returns the name of the player.

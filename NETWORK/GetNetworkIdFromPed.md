@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x7BEE5003
-void GET_NETWORK_ID_FROM_PED(uint ped, int* networkID);
+void GET_NETWORK_ID_FROM_PED(int charId, int* networkId);
 ```
 
 ### Arguments
-- **uint:** ped
+- **int:** charId
 
 ### Results
-- **int*:** networkID
+- **int*:** networkId
 
 ## Description
+Returns the network ID of the character with the specified index.

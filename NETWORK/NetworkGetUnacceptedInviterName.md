@@ -13,3 +13,4 @@ char* NETWORK_GET_UNACCEPTED_INVITER_NAME(int inviteIndex);
 - **char***
 
 ## Description
+Returns the name of the inviting player at the given index.

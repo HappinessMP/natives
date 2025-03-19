@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x38F61531
-boolean IS_MEMORY_CARD_IN_USE();
+bool IS_MEMORY_CARD_IN_USE();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if a memory card is in use.

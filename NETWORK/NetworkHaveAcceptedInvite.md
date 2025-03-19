@@ -12,3 +12,4 @@ bool NETWORK_HAVE_ACCEPTED_INVITE();
 - **bool**
 
 ## Description
+Returns true if the local player has accepted an invitation.

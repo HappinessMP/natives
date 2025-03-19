@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x63B87EBE
-void DONT_DISPATCH_COPS_FOR_PLAYER(int player, boolean dont);
+void DONT_DISPATCH_COPS_FOR_PLAYER(int playerIndex, bool flag);
 ```
 
 ### Arguments
-- **int:** player
-- **boolean:** dont
+- **int:** playerIndex
+- **bool:** flag
 
 ### Results
 
 ## Description
+Sets if the cops will be dispatched for the player.

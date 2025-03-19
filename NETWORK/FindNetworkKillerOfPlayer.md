@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x766E78A3
-uint FIND_NETWORK_KILLER_OF_PLAYER(uint playerID);
+int FIND_NETWORK_KILLER_OF_PLAYER(int playerId);
 ```
 
 ### Arguments
-- **uint:** playerID
+- **int:** playerId
 
 ### Results
-- **uint**
+- **int:** killerPlayerId
 
 ## Description
+Returns the player that has killed the other player last.

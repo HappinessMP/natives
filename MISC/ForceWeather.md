@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x7EFB5077
-void FORCE_WEATHER(uint weather);
+void FORCE_WEATHER(int weather);
 ```
 
 ### Arguments
-- **uint:** weather
+- **int:** weather
 
 ### Results
 

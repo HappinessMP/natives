@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x26810BE3
-void DRAW_CHECKPOINT_WITH_ALPHA(float x, float y, float z, float radius, int r, int g, int b, int a);
+void DRAW_CHECKPOINT_WITH_ALPHA(float x, float y, float z, float size, int r, int g, int b, int a);
 ```
 
 ### Arguments
 - **float:** x
 - **float:** y
 - **float:** z
-- **float:** radius
+- **float:** size
 - **int:** r
 - **int:** g
 - **int:** b
@@ -19,3 +19,4 @@ void DRAW_CHECKPOINT_WITH_ALPHA(float x, float y, float z, float radius, int r, 
 ### Results
 
 ## Description
+Draws a cylinder marker with an alpha value.

@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x563F4CC2
-boolean IS_AMBIENT_SPEECH_DISABLED(Ped ped);
+bool IS_AMBIENT_SPEECH_DISABLED(int charIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if ambient speech for char has been disabled.

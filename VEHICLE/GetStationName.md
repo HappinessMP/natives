@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x46F87F55
-char* GET_STATION_NAME(Train train, uint station);
+char* GET_STATION_NAME(int trainIndex, int stationId);
 ```
 
 ### Arguments
-- **Train:** train
-- **uint:** station
+- **int:** trainIndex
+- **int:** stationId
 
 ### Results
-- **char***
+- **char*:** stationName
 
 ## Description

@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x661B239A
-void DISPLAY_TEXT_WITH_LITERAL_STRING(float x, float y, char* gxtName, char* literalStr);
+void DISPLAY_TEXT_WITH_LITERAL_STRING(float x, float y, char* textLabel, char* literalString);
 ```
 
 ### Arguments
 - **float:** x
 - **float:** y
-- **char*:** gxtName
-- **char*:** literalStr
+- **char*:** textLabel
+- **char*:** literalString
 
 ### Results
 

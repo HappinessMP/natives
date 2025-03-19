@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x7CF256D0
-void DONT_SUPPRESS_PED_MODEL(uint model);
+void DONT_SUPPRESS_PED_MODEL(int modelHash);
 ```
 
 ### Arguments
-- **uint:** model
+- **int:** modelHash
 
 ### Results
 

@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x5C3248B5
-boolean STRING_TO_INT(char* str, int* intval);
+bool STRING_TO_INT(char* stringToConvert, int* returnInteger);
 ```
 
 ### Arguments
-- **char*:** str
+- **char*:** stringToConvert
 
 ### Results
-- **boolean**
-- **int*:** intval
+- **bool**
+- **int*:** returnInteger
 
 ## Description
+Converts a string to an int.

@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x30B1316B
-uint GET_BLIP_SPRITE(Blip blip);
+int GET_BLIP_SPRITE(int blipId);
 ```
 
 ### Arguments
-- **Blip:** blip
+- **int:** blipId
 
 ### Results
-- **uint**
+- **int**
 
 ## Description

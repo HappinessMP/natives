@@ -13,3 +13,4 @@ int NETWORK_GET_UNACCEPTED_INVITE_GAME_MODE(int inviteIndex);
 - **int**
 
 ## Description
+Returns the game mode being used in the invited session.

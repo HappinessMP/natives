@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x593A553B
-boolean IS_POS_IN_CUTSCENE_BLOCKING_BOUNDS(float x, float y, float z);
+bool IS_POS_IN_CUTSCENE_BLOCKING_BOUNDS(float x, float y, float z);
 ```
 
 ### Arguments
@@ -12,6 +12,7 @@ boolean IS_POS_IN_CUTSCENE_BLOCKING_BOUNDS(float x, float y, float z);
 - **float:** z
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Tests to see if a given coord is inside a blocking bound.

@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x170F7E75
-boolean IS_ANY_SPEECH_PLAYING(Ped ped);
+bool IS_ANY_SPEECH_PLAYING(int charIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if any type of speech is playing.

@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x29D91F3D
-void SET_FAKE_WANTED_LEVEL(int lvl);
+void SET_FAKE_WANTED_LEVEL(int level);
 ```
 
 ### Arguments
-- **int:** lvl
+- **int:** level
 
 ### Results
 
 ## Description
+Draws a fake number of wanted stars.

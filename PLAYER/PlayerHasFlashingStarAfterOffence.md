@@ -3,11 +3,13 @@
 ## Declaration
 ```cpp
 // 0x70F287A
-void PLAYER_HAS_FLASHING_STAR_AFTER_OFFENCE();
+bool PLAYER_HAS_FLASHING_STAR_AFTER_OFFENCE(int playerIndex);
 ```
 
 ### Arguments
+- **int:** playerIndex
 
 ### Results
+- **bool**
 
 ## Description

@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x1A75F0C
-void GET_TEXTURE_RESOLUTION(uint texture, float* x, float* y);
+void GET_TEXTURE_RESOLUTION(int textureId, float* x, float* y);
 ```
 
 ### Arguments
-- **uint:** texture
+- **int:** textureId
 
 ### Results
 - **float*:** x
 - **float*:** y
 
 ## Description
+Gets the resolution of a texture.

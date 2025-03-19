@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x126F1175
-void SET_ROMANS_MOOD(int moood);
+void SET_ROMANS_MOOD(int mood);
 ```
 
 ### Arguments
-- **int:** moood
+- **int:** mood
 
 ### Results
 

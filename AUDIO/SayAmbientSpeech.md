@@ -3,16 +3,17 @@
 ## Declaration
 ```cpp
 // 0x5CF149C8
-void SAY_AMBIENT_SPEECH(Ped ped, char* phraseName, boolean flag0, boolean flag1, int style);
+void SAY_AMBIENT_SPEECH(int charIndex, char* context, bool forcePlay, bool allowRepeat, int volume);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **char*:** phraseName
-- **boolean:** flag0
-- **boolean:** flag1
-- **int:** style
+- **int:** charIndex
+- **char*:** context
+- **bool:** forcePlay
+- **bool:** allowRepeat
+- **int:** volume
 
 ### Results
 
 ## Description
+Plays a line of a char's ambient dialogue.

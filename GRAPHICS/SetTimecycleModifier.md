@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x3C997E4C
-void SET_TIMECYCLE_MODIFIER(char* name);
+void SET_TIMECYCLE_MODIFIER(char* modifierName);
 ```
 
 ### Arguments
-- **char*:** name
+- **char*:** modifierName
 
 ### Results
 
 ## Description
+Forces the timecycle modifier to be used for 100%.

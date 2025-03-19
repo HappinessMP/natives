@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x580462A
-void SET_BLIP_AS_FRIENDLY(Blip blip, boolean value);
+void SET_BLIP_AS_FRIENDLY(int blipIndex, bool friendly);
 ```
 
 ### Arguments
-- **Blip:** blip
-- **boolean:** value
+- **int:** blipIndex
+- **bool:** friendly
 
 ### Results
 
 ## Description
+Set blip as a friendly or threat.

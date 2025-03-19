@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x52C83902
-void SET_MOBILE_PHONE_RADIO_STATE(boolean state);
+void SET_MOBILE_PHONE_RADIO_STATE(bool isActive);
 ```
 
 ### Arguments
-- **boolean:** state
+- **bool:** isActive
 
 ### Results
 
 ## Description
+Sets if the phone radio is active.

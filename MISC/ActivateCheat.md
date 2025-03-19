@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x69E742FC
-void ACTIVATE_CHEAT(uint cheat);
+void ACTIVATE_CHEAT(int cheat);
 ```
 
 ### Arguments
-- **uint:** cheat
+- **int:** cheat
 
 ### Results
 
 ## Description
+Activate a cheat.

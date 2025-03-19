@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x7ED1DBF
-void DISABLE_PAUSE_MENU(boolean disabled);
+void DISABLE_PAUSE_MENU(bool disabled);
 ```
 
 ### Arguments
-- **boolean:** disabled
+- **bool:** disabled
 
 ### Results
 

@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x4437501B
-void TASK_AIM_GUN_AT_CHAR(Ped ped, Ped targetPed, uint duration);
+void TASK_AIM_GUN_AT_CHAR(int charIndex, int targetCharIndex, int duration);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **Ped:** targetPed
-- **uint:** duration
+- **int:** charIndex
+- **int:** targetCharIndex
+- **int:** duration
 
 ### Results
 

@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x472C710B
-boolean IS_OBJECT_WITHIN_BRAIN_ACTIVATION_RANGE(Object obj);
+bool IS_OBJECT_WITHIN_BRAIN_ACTIVATION_RANGE(int objectIndex);
 ```
 
 ### Arguments
-- **Object:** obj
+- **int:** objectIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks that script brain is with a specific range of the player.

@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x11F759DE
-boolean HAS_CHAR_GOT_WEAPON(Ped ped, uint weapon);
+bool HAS_CHAR_GOT_WEAPON(int charIndex, int weaponType);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** weapon
+- **int:** charIndex
+- **int:** weaponType
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Return if character has a weapon.

@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x69491CFA
-void WASH_VEHICLE_TEXTURES(Vehicle vehicle, uint intensity);
+void WASH_VEHICLE_TEXTURES(int carId, int intensity);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
-- **uint:** intensity
+- **int:** carId
+- **int:** intensity
 
 ### Results
 

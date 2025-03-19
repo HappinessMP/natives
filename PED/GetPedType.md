@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x18F477E1
-void GET_PED_TYPE(Ped ped, uint* pType);
+void GET_PED_TYPE(int charIndex, int* type);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **uint*:** pType
+- **int*:** type
 
 ## Description
+Returns the type of the char.

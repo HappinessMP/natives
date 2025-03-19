@@ -3,17 +3,18 @@
 ## Declaration
 ```cpp
 // 0x6251618F
-void SWITCH_ROADS_BACK_TO_ORIGINAL(float x0, float y0, float z0, float x1, float y1, float z1);
+void SWITCH_ROADS_BACK_TO_ORIGINAL(float minX, float minY, float minZ, float maxX, float maxY, float maxZ);
 ```
 
 ### Arguments
-- **float:** x0
-- **float:** y0
-- **float:** z0
-- **float:** x1
-- **float:** y1
-- **float:** z1
+- **float:** minX
+- **float:** minY
+- **float:** minZ
+- **float:** maxX
+- **float:** maxY
+- **float:** maxZ
 
 ### Results
 
 ## Description
+Sets all car nodes back to their original state. (as per the map data).

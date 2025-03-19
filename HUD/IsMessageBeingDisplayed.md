@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x68EA6EBE
-boolean IS_MESSAGE_BEING_DISPLAYED();
+bool IS_MESSAGE_BEING_DISPLAYED();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if any message is being displayed at the bottom of the screen.

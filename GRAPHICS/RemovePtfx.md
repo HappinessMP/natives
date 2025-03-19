@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x4AF643D5
-void REMOVE_PTFX(uint ptfx);
+void REMOVE_PTFX(int ptfxId);
 ```
 
 ### Arguments
-- **uint:** ptfx
+- **int:** ptfxId
 
 ### Results
 
 ## Description
+Remove a particle effect.

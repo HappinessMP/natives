@@ -3,19 +3,19 @@
 ## Declaration
 ```cpp
 // 0x3A01F39
-void PRINT_WITH_6_NUMBERS(char* gxtentry, int, int, int, int, int, int, int time, int flag);
+void PRINT_WITH_6_NUMBERS(char* textLabel, int firstNumber, int secondNumber, int thirdNumber, int fourthNumber, int fifthNumber, int sixthNumber, int duration, int colour);
 ```
 
 ### Arguments
-- **char*:** gxtentry
-- **int**
-- **int**
-- **int**
-- **int**
-- **int**
-- **int**
-- **int:** time
-- **int:** flag
+- **char*:** textLabel
+- **int:** firstNumber
+- **int:** secondNumber
+- **int:** thirdNumber
+- **int:** fourthNumber
+- **int:** fifthNumber
+- **int:** sixthNumber
+- **int:** duration
+- **int:** colour
 
 ### Results
 

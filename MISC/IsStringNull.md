@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x49A75618
-boolean IS_STRING_NULL(char* str);
+bool IS_STRING_NULL(char* str);
 ```
 
 ### Arguments
 - **char*:** str
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if the string is NULL.

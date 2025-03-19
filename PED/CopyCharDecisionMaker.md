@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x1BB41B75
-void COPY_CHAR_DECISION_MAKER(uint type, DecisionMaker* pDM);
+void COPY_CHAR_DECISION_MAKER(int sourceDecisionMaker, int* decisionMaker);
 ```
 
 ### Arguments
-- **uint:** type
+- **int:** sourceDecisionMaker
 
 ### Results
-- **DecisionMaker*:** pDM
+- **int*:** decisionMaker
 
 ## Description
+Creates a copy of a already loaded decision maker.

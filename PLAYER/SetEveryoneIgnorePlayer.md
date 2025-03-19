@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x59901B9
-void SET_EVERYONE_IGNORE_PLAYER(Player playerIndex, boolean value);
+void SET_EVERYONE_IGNORE_PLAYER(int playerIndex, bool ignorePlayer);
 ```
 
 ### Arguments
-- **Player:** playerIndex
-- **boolean:** value
+- **int:** playerIndex
+- **bool:** ignorePlayer
 
 ### Results
 
 ## Description
+Sets all peds (including police) will ignore the player.

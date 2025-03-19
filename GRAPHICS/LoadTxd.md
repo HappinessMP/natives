@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x52FC763A
-uint LOAD_TXD(char* txdName);
+int LOAD_TXD(char* textureDictionaryName);
 ```
 
 ### Arguments
-- **char*:** txdName
+- **char*:** textureDictionaryName
 
 ### Results
-- **uint**
+- **int:** textureDictionaryIndex
 
 ## Description

@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x63E7509E
-boolean IS_PLAYER_FREE_FOR_AMBIENT_TASK(Player playerIndex);
+bool IS_PLAYER_FREE_FOR_AMBIENT_TASK(int playerIndex);
 ```
 
 ### Arguments
-- **Player:** playerIndex
+- **int:** playerIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns TRUE if the player is currently not in combat, climbing, jumping or firing a gun.

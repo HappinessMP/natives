@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x14D242D9
-void INCREMENT_INT_STAT(uint stat, uint value);
+void INCREMENT_INT_STAT(int stat, int value);
 ```
 
 ### Arguments
-- **uint:** stat
-- **uint:** value
+- **int:** stat
+- **int:** value
 
 ### Results
 

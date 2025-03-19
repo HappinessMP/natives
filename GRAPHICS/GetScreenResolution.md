@@ -13,3 +13,4 @@ void GET_SCREEN_RESOLUTION(int* x, int* y);
 - **int*:** y
 
 ## Description
+Returns the screen resolution.

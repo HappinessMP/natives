@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x3A7B78C5
-uint GET_CHAR_TEXTURE_VARIATION(Ped ped, uint component);
+int GET_CHAR_TEXTURE_VARIATION(int charIndex, int componentNumber);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** component
+- **int:** charIndex
+- **int:** componentNumber
 
 ### Results
-- **uint**
+- **int**
 
 ## Description
+Gets the index of the current texture variation for the specified char component (part of the body).

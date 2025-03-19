@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x32C75195
-void MUTE_POSITIONED_RADIO(boolean mute);
+void MUTE_POSITIONED_RADIO(bool mute);
 ```
 
 ### Arguments
-- **boolean:** mute
+- **bool:** mute
 
 ### Results
 

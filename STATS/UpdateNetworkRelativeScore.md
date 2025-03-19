@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x384E3F3A
-void UPDATE_NETWORK_RELATIVE_SCORE(int playerIndex, int, int teamIndex);
+void UPDATE_NETWORK_RELATIVE_SCORE(int playerIndex, int relativeScore, int gamerTeam);
 ```
 
 ### Arguments
 - **int:** playerIndex
-- **int:**
-- **int:** teamIndex
+- **int:** relativeScore
+- **int:** gamerTeam
 
 ### Results
 

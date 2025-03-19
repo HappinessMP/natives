@@ -3,11 +3,12 @@
 ## Declaration
 ```cpp
 // 0x6C82562E
-void LCPD_FIRST_TIME();
+bool LCPD_FIRST_TIME();
 ```
 
 ### Arguments
 
 ### Results
+- **bool**
 
 ## Description

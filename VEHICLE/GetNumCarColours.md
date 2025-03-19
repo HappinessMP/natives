@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x5AA025C2
-void GET_NUM_CAR_COLOURS(Vehicle vehicle, uint* pNumColours);
+void GET_NUM_CAR_COLOURS(int carIndex, int* numColours);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** carIndex
 
 ### Results
-- **uint*:** pNumColours
+- **int*:** numColours
 
 ## Description
+Gets the number of car colours.

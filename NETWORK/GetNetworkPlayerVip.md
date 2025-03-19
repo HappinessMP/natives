@@ -3,11 +3,12 @@
 ## Declaration
 ```cpp
 // 0xB6B0C10
-void GET_NETWORK_PLAYER_VIP();
+bool GET_NETWORK_PLAYER_VIP();
 ```
 
 ### Arguments
 
 ### Results
+- **bool**
 
 ## Description

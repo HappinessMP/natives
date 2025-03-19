@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0xA7E36E5
-void GET_RANDOM_CAR_IN_SPHERE_NO_SAVE(float x, float y, float z, float radius, uint model, boolean flag, Car* car);
+void GET_RANDOM_CAR_IN_SPHERE_NO_SAVE(float x, float y, float z, float radius, int modelHash, bool flag, int* carIndex);
 ```
 
 ### Arguments
@@ -11,10 +11,10 @@ void GET_RANDOM_CAR_IN_SPHERE_NO_SAVE(float x, float y, float z, float radius, u
 - **float:** y
 - **float:** z
 - **float:** radius
-- **uint:** model
-- **boolean:** flag
+- **int:** modelHash
+- **bool:** flag
 
 ### Results
-- **Car*:** car
+- **int*:** carIndex
 
 ## Description

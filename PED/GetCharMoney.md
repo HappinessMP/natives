@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x7D675993
-uint GET_CHAR_MONEY(Ped ped);
+int GET_CHAR_MONEY(int charId);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charId
 
 ### Results
-- **uint**
+- **int**
 
 ## Description
+Gets the char current money.

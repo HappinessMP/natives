@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x3ACC1794
-void CHANGE_BLIP_DISPLAY(Blip blip, uint display);
+void CHANGE_BLIP_DISPLAY(int blipId, int display);
 ```
 
 ### Arguments
-- **Blip:** blip
-- **uint:** display
+- **int:** blipId
+- **int:** display
 
 ### Results
 
 ## Description
+Change display mode for radar blip.

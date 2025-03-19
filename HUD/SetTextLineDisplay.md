@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x1F6A54B6
-void SET_TEXT_LINE_DISPLAY(uint unk1, uint unk2);
+void SET_TEXT_LINE_DISPLAY(int startLine, int endLine);
 ```
 
 ### Arguments
-- **uint:** unk1
-- **uint:** unk2
+- **int:** startLine
+- **int:** endLine
 
 ### Results
 
 ## Description
+Sets which line the text will display on.

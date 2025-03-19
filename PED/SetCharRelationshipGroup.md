@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x61822A3C
-void SET_CHAR_RELATIONSHIP_GROUP(Ped ped, uint relationshipGroup);
+void SET_CHAR_RELATIONSHIP_GROUP(int charIndex, int relationshipGroup);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** relationshipGroup
+- **int:** charIndex
+- **int:** relationshipGroup
 
 ### Results
 

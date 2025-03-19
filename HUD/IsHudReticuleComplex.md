@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x4DDB5D59
-boolean IS_HUD_RETICULE_COMPLEX();
+bool IS_HUD_RETICULE_COMPLEX();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

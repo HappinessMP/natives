@@ -11,3 +11,4 @@ void CLEAR_NEWS_SCROLLBAR();
 ### Results
 
 ## Description
+Clears the text that is currently displayed on the news scrollbar.

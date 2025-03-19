@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x1D801FC0
-float GET_FLOAT_STAT(uint stat);
+float GET_FLOAT_STAT(int stat);
 ```
 
 ### Arguments
-- **uint:** stat
+- **int:** stat
 
 ### Results
 - **float**

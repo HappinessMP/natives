@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x19610E35
-uint GET_TIME_SINCE_PLAYER_DROVE_ON_PAVEMENT(Player playerIndex);
+int GET_TIME_SINCE_PLAYER_DROVE_ON_PAVEMENT(int playerIndex);
 ```
 
 ### Arguments
-- **Player:** playerIndex
+- **int:** playerIndex
 
 ### Results
-- **uint**
+- **int**
 
 ## Description
+Returns (in milliseconds) how long ago the player drove on the pavement.

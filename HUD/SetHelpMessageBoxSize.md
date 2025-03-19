@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x4FB069ED
-void SET_HELP_MESSAGE_BOX_SIZE(float);
+void SET_HELP_MESSAGE_BOX_SIZE(float boxSize);
 ```
 
 ### Arguments
-- **float**
+- **float:** boxSize
 
 ### Results
 
 ## Description
+Set the help text box size.

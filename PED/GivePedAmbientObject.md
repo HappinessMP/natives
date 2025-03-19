@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x44AA71F9
-void GIVE_PED_AMBIENT_OBJECT(Ped ped, uint model);
+void GIVE_PED_AMBIENT_OBJECT(int charIndex, int modelHash);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** model
+- **int:** charIndex
+- **int:** modelHash
 
 ### Results
 

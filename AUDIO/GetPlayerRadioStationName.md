@@ -12,3 +12,4 @@ char* GET_PLAYER_RADIO_STATION_NAME();
 - **char***
 
 ## Description
+Gets the name the players radio station.

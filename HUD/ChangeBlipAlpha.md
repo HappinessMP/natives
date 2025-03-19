@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x2FB14E41
-void CHANGE_BLIP_ALPHA(Blip blip, int alpha);
+void CHANGE_BLIP_ALPHA(int blipIndex, int alpha);
 ```
 
 ### Arguments
-- **Blip:** blip
+- **int:** blipIndex
 - **int:** alpha
 
 ### Results
 
 ## Description
+Change radar blip alpha.

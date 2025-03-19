@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x2C8A5404
-void PRINT_BIG(char* gxtName, int timeMS, int flag);
+void PRINT_BIG(char* textLabel, int duration, int colour);
 ```
 
 ### Arguments
-- **char*:** gxtName
-- **int:** timeMS
-- **int:** flag
+- **char*:** textLabel
+- **int:** duration
+- **int:** colour
 
 ### Results
 

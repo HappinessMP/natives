@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x3D916E4
-void SET_RELATIONSHIP(uint relationshipLevel, uint relationshipGroup1, uint relationshipGroup2);
+void SET_RELATIONSHIP(int relationshipType, int relGroup, int otherRelGroup);
 ```
 
 ### Arguments
-- **uint:** relationshipLevel
-- **uint:** relationshipGroup1
-- **uint:** relationshipGroup2
+- **int:** relationshipType
+- **int:** relGroup
+- **int:** otherRelGroup
 
 ### Results
 
 ## Description
+Set the relationship between rel groups.

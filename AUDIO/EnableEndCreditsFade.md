@@ -11,3 +11,4 @@ void ENABLE_END_CREDITS_FADE();
 ### Results
 
 ## Description
+Sets the end of credits fade.

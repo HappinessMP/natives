@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x35694DDC
-uint TIMESTEP();
+float TIMESTEP();
 ```
 
 ### Arguments
 
 ### Results
-- **uint**
+- **float**
 
 ## Description

@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x2A171915
-boolean HAS_SCRIPT_LOADED(char* scriptName);
+bool HAS_SCRIPT_LOADED(char* scriptName);
 ```
 
 ### Arguments
 - **char*:** scriptName
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns TRUE if the script program is in memory.

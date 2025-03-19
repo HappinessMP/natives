@@ -3,15 +3,16 @@
 ## Declaration
 ```cpp
 // 0x767B7EC9
-boolean GET_PAD_PITCH_ROLL(uint padIndex, float* pPitch, float* pRoll);
+bool GET_PAD_PITCH_ROLL(int padNumber, float* pitch, float* roll);
 ```
 
 ### Arguments
-- **uint:** padIndex
+- **int:** padNumber
 
 ### Results
-- **boolean**
-- **float*:** pPitch
-- **float*:** pRoll
+- **bool**
+- **float*:** pitch
+- **float*:** roll
 
 ## Description
+Returns True/false if motion controls are enabled / disabled.

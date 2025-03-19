@@ -12,3 +12,4 @@ bool NETWORK_IS_SESSION_ADVERTISE();
 - **bool**
 
 ## Description
+Returns true if the session is currently advertised.

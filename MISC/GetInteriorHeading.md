@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x73245AB3
-void GET_INTERIOR_HEADING(Interior interior, float* pHeading);
+void GET_INTERIOR_HEADING(int interiorIndex, float* heading);
 ```
 
 ### Arguments
-- **Interior:** interior
+- **int:** interiorIndex
 
 ### Results
-- **float*:** pHeading
+- **float*:** heading
 
 ## Description
+Gets the offest point returned in world coords.

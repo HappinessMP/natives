@@ -12,3 +12,4 @@ bool IS_GERMAN_VERSION();
 - **bool**
 
 ## Description
+Returns TRUE when running with the German executable - no blood etc.

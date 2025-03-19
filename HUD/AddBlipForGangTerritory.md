@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x2C1B52CE
-void ADD_BLIP_FOR_GANG_TERRITORY(float x0, float y0, float x1, float y1, int colour, int* blip);
+void ADD_BLIP_FOR_GANG_TERRITORY(float x0, float y0, float x1, float y1, int colour, int* blipIndex);
 ```
 
 ### Arguments
@@ -14,6 +14,7 @@ void ADD_BLIP_FOR_GANG_TERRITORY(float x0, float y0, float x1, float y1, int col
 - **int:** colour
 
 ### Results
-- **int*:** blip
+- **int*:** blipIndex
 
 ## Description
+Add radar blip for gang territory.

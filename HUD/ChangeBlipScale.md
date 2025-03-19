@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x44D349D9
-void CHANGE_BLIP_SCALE(Blip blip, float scale);
+void CHANGE_BLIP_SCALE(int blipIndex, float scale);
 ```
 
 ### Arguments
-- **Blip:** blip
+- **int:** blipIndex
 - **float:** scale
 
 ### Results
 
 ## Description
+Change radar blip scale.

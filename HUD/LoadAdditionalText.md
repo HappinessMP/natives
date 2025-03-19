@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x28897EBD
-void LOAD_ADDITIONAL_TEXT(char* textName, uint textIndex);
+void LOAD_ADDITIONAL_TEXT(char* textBlockName, int slotNumber);
 ```
 
 ### Arguments
-- **char*:** textName
-- **uint:** textIndex
+- **char*:** textBlockName
+- **int:** slotNumber
 
 ### Results
 
 ## Description
+Loads text into a specific text slot.

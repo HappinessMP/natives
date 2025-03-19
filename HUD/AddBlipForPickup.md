@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x4F567FB
-void ADD_BLIP_FOR_PICKUP(Pickup pickup, Blip* pBlip);
+void ADD_BLIP_FOR_PICKUP(int pickupIndex, int* blipIndex);
 ```
 
 ### Arguments
-- **Pickup:** pickup
+- **int:** pickupIndex
 
 ### Results
-- **Blip*:** pBlip
+- **int*:** blipIndex
 
 ## Description
+Add radar blip for pickup object.

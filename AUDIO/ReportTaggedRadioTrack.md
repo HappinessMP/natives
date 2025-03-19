@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0xED8621F
-void REPORT_TAGGED_RADIO_TRACK(int TrackTextId);
+void REPORT_TAGGED_RADIO_TRACK(int trackId);
 ```
 
 ### Arguments
-- **int:** TrackTextId
+- **int:** trackId
 
 ### Results
 

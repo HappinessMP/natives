@@ -12,3 +12,4 @@ int GET_CUTSCENE_TIME();
 - **int**
 
 ## Description
+Gets the time in milliseconds that the cutscene has played.

@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x1E87298A
-void DISPLAY_AREA_NAME(boolean display);
+void DISPLAY_AREA_NAME(bool display);
 ```
 
 ### Arguments
-- **boolean:** display
+- **bool:** display
 
 ### Results
 
 ## Description
+Displays the area name.

@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x56A70F57
-void FORCE_PED_PINNED_DOWN(Ped ped, boolean force, uint timerMaybe);
+void FORCE_PED_PINNED_DOWN(int charId, bool pinned, int time);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **boolean:** force
-- **uint:** timerMaybe
+- **int:** charId
+- **bool:** pinned
+- **int:** time
 
 ### Results
 
 ## Description
+Sets the character to be pinned down for time in milliseconds.

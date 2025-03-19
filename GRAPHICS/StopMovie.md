@@ -11,3 +11,4 @@ void STOP_MOVIE();
 ### Results
 
 ## Description
+Stops a movie playing.

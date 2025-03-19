@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x740C4C84
-uint GET_MINUTES_TO_TIME_OF_DAY(uint hour, uint minute);
+int GET_MINUTES_TO_TIME_OF_DAY(int hour, int minute);
 ```
 
 ### Arguments
-- **uint:** hour
-- **uint:** minute
+- **int:** hour
+- **int:** minute
 
 ### Results
-- **uint**
+- **int**
 
 ## Description

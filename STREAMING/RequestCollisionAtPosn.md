@@ -14,3 +14,4 @@ void REQUEST_COLLISION_AT_POSN(float x, float y, float z);
 ### Results
 
 ## Description
+Tell streaming to request collision about point.

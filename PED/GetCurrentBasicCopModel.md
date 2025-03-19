@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x1B305900
-void GET_CURRENT_BASIC_COP_MODEL(uint* pModel);
+void GET_CURRENT_BASIC_COP_MODEL(int* modelHash);
 ```
 
 ### Arguments
 
 ### Results
-- **uint*:** pModel
+- **int*:** modelHash
 
 ## Description
+Gets the current model as used by the game, ignores wanted level.

@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x7EDE120F
-void ADD_ADDITIONAL_POPULATION_MODEL(uint model);
+void ADD_ADDITIONAL_POPULATION_MODEL(int modelHash);
 ```
 
 ### Arguments
-- **uint:** model
+- **int:** modelHash
 
 ### Results
 

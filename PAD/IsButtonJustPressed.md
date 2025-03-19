@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x16C37CD
-boolean IS_BUTTON_JUST_PRESSED(uint padIndex, uint button);
+bool IS_BUTTON_JUST_PRESSED(int padNumber, int buttonNumber);
 ```
 
 ### Arguments
-- **uint:** padIndex
-- **uint:** button
+- **int:** padNumber
+- **int:** buttonNumber
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns TRUE if the specified button on the specified controller is has been pressed this frame.

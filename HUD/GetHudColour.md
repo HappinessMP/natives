@@ -3,16 +3,17 @@
 ## Declaration
 ```cpp
 // 0x7533EC9
-void GET_HUD_COLOUR(uint type, uint* pR, uint* pG, uint* pB, uint* pA);
+void GET_HUD_COLOUR(int hudColour, int* r, int* g, int* b, int* a);
 ```
 
 ### Arguments
-- **uint:** type
+- **int:** hudColour
 
 ### Results
-- **uint*:** pR
-- **uint*:** pG
-- **uint*:** pB
-- **uint*:** pA
+- **int*:** r
+- **int*:** g
+- **int*:** b
+- **int*:** a
 
 ## Description
+Returns the red, green, blue and alpha components of the hudColour passed in.

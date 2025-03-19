@@ -11,3 +11,4 @@ void CLEAR_SMALL_PRINTS();
 ### Results
 
 ## Description
+This is the same as CLEAR_PRINTS except that it doesn’t clear big messages.

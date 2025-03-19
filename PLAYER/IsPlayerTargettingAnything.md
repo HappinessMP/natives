@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x665F6BB7
-boolean IS_PLAYER_TARGETTING_ANYTHING(Player playerIndex);
+bool IS_PLAYER_TARGETTING_ANYTHING(int playerIndex);
 ```
 
 ### Arguments
-- **Player:** playerIndex
+- **int:** playerIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns TRUE if the player is pointing his weapon at any entity.

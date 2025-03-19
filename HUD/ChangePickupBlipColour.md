@@ -12,3 +12,4 @@ void CHANGE_PICKUP_BLIP_COLOUR(int colour);
 ### Results
 
 ## Description
+Change the colur of the pickup blips.

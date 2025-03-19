@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x283821D2
-uint GET_NUMBER_OF_FIRES_IN_RANGE(float x, float y, float z, float radius);
+int GET_NUMBER_OF_FIRES_IN_RANGE(float x, float y, float z, float radius);
 ```
 
 ### Arguments
@@ -13,6 +13,7 @@ uint GET_NUMBER_OF_FIRES_IN_RANGE(float x, float y, float z, float radius);
 - **float:** radius
 
 ### Results
-- **uint**
+- **int**
 
 ## Description
+Gets the number of non script fires within radius metres of the given coord.

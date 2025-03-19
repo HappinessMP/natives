@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x1B086D33
-void ADD_NEXT_MESSAGE_TO_PREVIOUS_BRIEFS(boolean add);
+void ADD_NEXT_MESSAGE_TO_PREVIOUS_BRIEFS(bool addToPrevBriefsFlag);
 ```
 
 ### Arguments
-- **boolean:** add
+- **bool:** addToPrevBriefsFlag
 
 ### Results
 
 ## Description
+Will add/remove the next message from the previous briefs.

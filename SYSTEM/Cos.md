@@ -13,3 +13,4 @@ float COS(float value);
 - **float**
 
 ## Description
+Cosine (input is in degrees).

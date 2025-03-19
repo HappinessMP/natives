@@ -3,18 +3,19 @@
 ## Declaration
 ```cpp
 // 0x7BB35FCF
-boolean IS_PROJECTILE_IN_AREA(float x0, float y0, float z0, float x1, float y1, float z1);
+bool IS_PROJECTILE_IN_AREA(float minX, float minY, float minZ, float maxX, float maxY, float maxZ);
 ```
 
 ### Arguments
-- **float:** x0
-- **float:** y0
-- **float:** z0
-- **float:** x1
-- **float:** y1
-- **float:** z1
+- **float:** minX
+- **float:** minY
+- **float:** minZ
+- **float:** maxX
+- **float:** maxY
+- **float:** maxZ
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks that a projectile object is in the area.

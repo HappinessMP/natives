@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0xD6C0836
-boolean CELL_CAM_IS_CHAR_VISIBLE(Ped ped);
+bool CELL_CAM_IS_CHAR_VISIBLE(int charIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Is this character visible?

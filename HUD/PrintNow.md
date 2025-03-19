@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x73B01573
-void PRINT_NOW(char* gxtName, uint timeMS, boolean enable);
+void PRINT_NOW(char* textLabel, int duration, int colour);
 ```
 
 ### Arguments
-- **char*:** gxtName
-- **uint:** timeMS
-- **boolean:** enable
+- **char*:** textLabel
+- **int:** duration (milliseconds)
+- **int:** colour
 
 ### Results
 
 ## Description
+Overwrites any current message with the message.

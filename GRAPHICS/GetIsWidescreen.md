@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0xF0269B5
-boolean GET_IS_WIDESCREEN();
+bool GET_IS_WIDESCREEN();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns if running widescreen.

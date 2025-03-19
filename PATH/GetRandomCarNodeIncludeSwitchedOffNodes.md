@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x2D1A5F8C
-boolean GET_RANDOM_CAR_NODE_INCLUDE_SWITCHED_OFF_NODES(float x, float y, float z, float radius, boolean flag0, boolean flag1, boolean flag2, float* pX, float* pY, float* pZ, float* heading);
+bool GET_RANDOM_CAR_NODE_INCLUDE_SWITCHED_OFF_NODES(float x, float y, float z, float radius, int minLanes, bool avoidDeadEnds, bool avoidHighways, Vector3* vecReturn, int* nodeId);
 ```
 
 ### Arguments
@@ -11,15 +11,13 @@ boolean GET_RANDOM_CAR_NODE_INCLUDE_SWITCHED_OFF_NODES(float x, float y, float z
 - **float:** y
 - **float:** z
 - **float:** radius
-- **boolean:** flag0
-- **boolean:** flag1
-- **boolean:** flag2
+- **int:** minLanes
+- **bool:** avoidDeadEnds
+- **bool:** avoidHighways
 
 ### Results
-- **boolean**
-- **float*:** pX
-- **float*:** pY
-- **float*:** pZ
-- **float*:** heading
+- **bool**
+- **Vector3*:** vecReturn
+- **int*:** nodeId
 
 ## Description

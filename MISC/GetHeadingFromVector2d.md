@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x9DD61E1
-void GET_HEADING_FROM_VECTOR_2D(float x, float y, float* pHeading);
+void GET_HEADING_FROM_VECTOR_2D(float x, float y, float* heading);
 ```
 
 ### Arguments
@@ -11,6 +11,7 @@ void GET_HEADING_FROM_VECTOR_2D(float x, float y, float* pHeading);
 - **float:** y
 
 ### Results
-- **float*:** pHeading
+- **float*:** heading
 
 ## Description
+Gets a heading in degrees between the x and y vector components.

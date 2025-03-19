@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x2485231E
-void REMOVE_WEAPON_FROM_CHAR(Ped ped, uint weapon);
+void REMOVE_WEAPON_FROM_CHAR(int charIndex, int weaponType);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** weapon
+- **int:** charIndex
+- **int:** weaponType
 
 ### Results
 
 ## Description
+Remove a weapon a character has.

@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x8274BA4
-boolean IS_PLAYER_PLAYING(Player playerIndex);
+bool IS_PLAYER_PLAYING(int playerIndex);
 ```
 
 ### Arguments
-- **Player:** playerIndex
+- **int:** playerIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns TRUE if the player is in control.

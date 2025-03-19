@@ -12,3 +12,4 @@ void REMOVE_IPL(char* iplName);
 ### Results
 
 ## Description
+Remove a streamable IPL.

@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x22AB641D
-boolean CAN_START_MISSION_PASSED_TUNE();
+bool CAN_START_MISSION_PASSED_TUNE();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Will return TRUE if autosave is switched off in frontend or the saving spinning disc help message is being displayed.

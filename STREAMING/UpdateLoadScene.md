@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x513D68DB
-boolean UPDATE_LOAD_SCENE();
+bool UPDATE_LOAD_SCENE();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Continue a load scene that was started with START_LOAD_SCENE. Return TRUE if the load scene has finished.

@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x4BAF0213
-void TRIGGER_MISSION_COMPLETE_AUDIO(int id);
+void TRIGGER_MISSION_COMPLETE_AUDIO(int missionCompleteId);
 ```
 
 ### Arguments
-- **int:** id
+- **int:** missionCompleteId
 
 ### Results
 

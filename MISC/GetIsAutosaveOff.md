@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x551C6295
-boolean GET_IS_AUTOSAVE_OFF();
+bool GET_IS_AUTOSAVE_OFF();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

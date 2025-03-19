@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x6E4E1BEC
-boolean IS_HELP_MESSAGE_BEING_DISPLAYED();
+bool IS_HELP_MESSAGE_BEING_DISPLAYED();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if a help message is being displayed.

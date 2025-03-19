@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x5D622498
-void SET_MAX_WANTED_LEVEL(uint lvl);
+void SET_MAX_WANTED_LEVEL(int maxLevel);
 ```
 
 ### Arguments
-- **uint:** lvl
+- **int:** maxLevel
 
 ### Results
 
 ## Description
+Sets the max wanted level the player can get.

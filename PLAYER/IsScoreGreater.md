@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x517B7068
-boolean IS_SCORE_GREATER(Player playerIndex, uint score);
+bool IS_SCORE_GREATER(int playerIndex, int score);
 ```
 
 ### Arguments
-- **Player:** playerIndex
-- **uint:** score
+- **int:** playerIndex
+- **int:** score
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

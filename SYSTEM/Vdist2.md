@@ -18,3 +18,4 @@ float VDIST2(float x0, float y0, float z0, float x1, float y1, float z1);
 - **float**
 
 ## Description
+Square of distance between two points (much less costly to compute).

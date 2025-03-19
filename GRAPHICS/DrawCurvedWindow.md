@@ -3,16 +3,17 @@
 ## Declaration
 ```cpp
 // 0x4B684D0B
-void DRAW_CURVED_WINDOW(float, float, float, float, uint alpha);
+void DRAW_CURVED_WINDOW(float topLeftX, float topLeftY, float bottomRightX, float bottomRightY, int alpha);
 ```
 
 ### Arguments
-- **float**
-- **float**
-- **float**
-- **float**
-- **uint:** alpha
+- **float:** topLeftX
+- **float:** topLeftY
+- **float:** bottomRightX
+- **float:** bottomRightY
+- **int:** alpha
 
 ### Results
 
 ## Description
+Draws a curved window.

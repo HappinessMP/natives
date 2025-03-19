@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x3AE77439
-void WARP_CHAR_FROM_CAR_TO_CAR(Ped ped, Vehicle vehicle, uint seatIndex);
+void WARP_CHAR_FROM_CAR_TO_CAR(int charIndex, int carIndex, int seat);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **Vehicle:** vehicle
-- **uint:** seatIndex
+- **int:** charIndex
+- **int:** carIndex
+- **int:** seat
 
 ### Results
 

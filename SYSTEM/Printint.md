@@ -12,3 +12,4 @@ void PRINTINT(int value);
 ### Results
 
 ## Description
+Procedure that prints an integer to the console (NOT the game screen).

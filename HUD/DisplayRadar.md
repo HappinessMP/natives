@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x17920FA7
-void DISPLAY_RADAR(boolean display);
+void DISPLAY_RADAR(bool display);
 ```
 
 ### Arguments
-- **boolean:** display
+- **bool:** display
 
 ### Results
 
 ## Description
+Displays the radar.

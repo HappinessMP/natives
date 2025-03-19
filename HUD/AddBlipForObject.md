@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x70CC1487
-void ADD_BLIP_FOR_OBJECT(Object obj, Blip* pBlip);
+void ADD_BLIP_FOR_OBJECT(int objectIndex, int* blipIndex);
 ```
 
 ### Arguments
-- **Object:** obj
+- **int:** objectIndex
 
 ### Results
-- **Blip*:** pBlip
+- **int*:** blipIndex
 
 ## Description
+Add radar blip for an object.

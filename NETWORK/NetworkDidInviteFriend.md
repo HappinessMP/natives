@@ -13,3 +13,4 @@ bool NETWORK_DID_INVITE_FRIEND(char* friendName);
 - **bool**
 
 ## Description
+Returns true if an invitation was sent to the friend during the current session.

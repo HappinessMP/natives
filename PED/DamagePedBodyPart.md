@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x744307B
-void DAMAGE_PED_BODY_PART(Ped ped, uint part, uint hitPoints);
+void DAMAGE_PED_BODY_PART(int charId, int part, int hitPoints);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** part
-- **uint:** hitPoints
+- **int:** charId
+- **int:** part
+- **int:** hitPoints
 
 ### Results
 

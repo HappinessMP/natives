@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x62ED1551
-void DISPLAY_CASH(boolean display);
+void DISPLAY_CASH(bool display);
 ```
 
 ### Arguments
-- **boolean:** display
+- **bool:** display
 
 ### Results
 
 ## Description
+Displays the players cash.

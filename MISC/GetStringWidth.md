@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x64660709
-float GET_STRING_WIDTH(char* gxtName);
+float GET_STRING_WIDTH(char* textLabel);
 ```
 
 ### Arguments
-- **char*:** gxtName
+- **char*:** textLabel
 
 ### Results
 - **float**
 
 ## Description
+Gets the width of a string.

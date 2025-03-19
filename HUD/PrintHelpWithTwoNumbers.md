@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x76D157A
-void PRINT_HELP_WITH_TWO_NUMBERS(char* gxtentry, int, int);
+void PRINT_HELP_WITH_TWO_NUMBERS(char* textLabel, int firstNumber, int secondNumber);
 ```
 
 ### Arguments
-- **char*:** gxtentry
-- **int**
-- **int**
+- **char*:** textLabel
+- **int:** firstNumber
+- **int:** secondNumber
 
 ### Results
 

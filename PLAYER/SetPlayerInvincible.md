@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x7E9E02E1
-void SET_PLAYER_INVINCIBLE(Player playerIndex, boolean value);
+void SET_PLAYER_INVINCIBLE(int playerIndex, bool invincible);
 ```
 
 ### Arguments
-- **Player:** playerIndex
-- **boolean:** value
+- **int:** playerIndex
+- **bool:** invincible
 
 ### Results
 
 ## Description
+Set the player invincible to all damage types.

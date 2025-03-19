@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0xF002557
-void DISPLAY_TEXT(float x, float y, char* gxtName);
+void DISPLAY_TEXT(float x, float y, char* textLabel);
 ```
 
 ### Arguments
 - **float:** x
 - **float:** y
-- **char*:** gxtName
+- **char*:** textLabel
 
 ### Results
 
 ## Description
+Displays text to main render target.

@@ -13,3 +13,4 @@ void CELL_CAM_SET_CENTRE_POS(float x, float y);
 ### Results
 
 ## Description
+0.5,0.5 by default

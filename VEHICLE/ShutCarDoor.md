@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x5E7A620E
-void SHUT_CAR_DOOR(Vehicle vehicle, uint door);
+void SHUT_CAR_DOOR(int carIndex, int doorNumber);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
-- **uint:** door
+- **int:** carIndex
+- **int:** doorNumber
 
 ### Results
 
 ## Description
+Shuts a car door.

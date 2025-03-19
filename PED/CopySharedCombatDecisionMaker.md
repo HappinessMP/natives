@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x13DE5C59
-void COPY_SHARED_COMBAT_DECISION_MAKER(uint type, DecisionMaker* pDM);
+void COPY_SHARED_COMBAT_DECISION_MAKER(int type, DecisionMaker* pDM);
 ```
 
 ### Arguments
-- **uint:** type
+- **int:** type
 
 ### Results
 - **DecisionMaker*:** pDM

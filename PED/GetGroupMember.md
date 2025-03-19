@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x2FF90FF5
-void GET_GROUP_MEMBER(Group group, uint index, Ped* pPed);
+void GET_GROUP_MEMBER(int groupIndex, int memberNumber, int* charIndex);
 ```
 
 ### Arguments
-- **Group:** group
-- **uint:** index
+- **int:** groupIndex
+- **int:** memberNumber
 
 ### Results
-- **Ped*:** pPed
+- **int*:** charIndex
 
 ## Description
+Gets the charIndex from the group member.

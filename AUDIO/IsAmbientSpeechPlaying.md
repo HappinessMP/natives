@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x32F24CB
-boolean IS_AMBIENT_SPEECH_PLAYING(Ped ped);
+bool IS_AMBIENT_SPEECH_PLAYING(int charIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if ambient speech is currently playing.

@@ -12,3 +12,4 @@ char* GET_SPEECH_FOR_EMERGENCY_SERVICE_CALL();
 - **char***
 
 ## Description
+Returns a zone name for the emergency service call.

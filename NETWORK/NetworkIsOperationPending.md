@@ -12,3 +12,4 @@ bool NETWORK_IS_OPERATION_PENDING();
 - **bool**
 
 ## Description
+Returns true if an asynchronous operation is pending. (e.g. NETWORK_HOST_GAME_PENDING(), etc.)

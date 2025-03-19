@@ -12,3 +12,4 @@ int TIMERC();
 - **int**
 
 ## Description
+Gets the current value for the timer C.

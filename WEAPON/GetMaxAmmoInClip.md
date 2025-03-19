@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x1794A3C
-void GET_MAX_AMMO_IN_CLIP(Ped ped, uint weapon, uint* pMaxAmmo);
+void GET_MAX_AMMO_IN_CLIP(int charIndex, int weaponType, int* maxAmmoInClip);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** weapon
+- **int:** charIndex
+- **int:** weaponType
 
 ### Results
-- **uint*:** pMaxAmmo
+- **int*:** maxAmmoInClip
 
 ## Description
+Returns the maximum number of bullets allowed in one clip.

@@ -12,3 +12,4 @@ void START_STREAMING_REQUEST_LIST(char* name);
 ### Results
 
 ## Description
+Set the start point for a streaming request list.

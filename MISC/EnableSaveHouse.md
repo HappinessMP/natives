@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x208C03C9
-void ENABLE_SAVE_HOUSE(uint savehouse, boolean enable);
+void ENABLE_SAVE_HOUSE(int saveHouseId, bool enable);
 ```
 
 ### Arguments
-- **uint:** savehouse
-- **boolean:** enable
+- **int:** saveHouseId
+- **bool:** enable
 
 ### Results
 

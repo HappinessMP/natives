@@ -12,3 +12,4 @@ bool NETWORK_CHECK_INVITE_ARRIVAL();
 - **bool**
 
 ## Description
+Returns true if a new invitation has arrived.

@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x2E746E53
-float ACOS(float);
+float ACOS(float x);
 ```
 
 ### Arguments
-- **float**
+- **float:** x
 
 ### Results
 - **float**
 
 ## Description
+Caluclates the arccos.

@@ -11,3 +11,4 @@ void RELEASE_PATH_NODES();
 ### Results
 
 ## Description
+Allows any nodes loaded by LOAD_PATH_NODES_IN_AREA to be unloaded.

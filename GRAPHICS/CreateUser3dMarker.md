@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x77513211
-uint CREATE_USER_3D_MARKER(float x, float y, float z);
+int CREATE_USER_3D_MARKER(float x, float y, float z);
 ```
 
 ### Arguments
@@ -12,6 +12,6 @@ uint CREATE_USER_3D_MARKER(float x, float y, float z);
 - **float:** z
 
 ### Results
-- **uint**
+- **int**
 
 ## Description

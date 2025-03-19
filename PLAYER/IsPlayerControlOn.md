@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x30CD2F1F
-boolean IS_PLAYER_CONTROL_ON(Player playerIndex);
+bool IS_PLAYER_CONTROL_ON(int playerIndex);
 ```
 
 ### Arguments
-- **Player:** playerIndex
+- **int:** playerIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if the players control is on.

@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x32C24491
-int GET_TEXTURE_FROM_STREAMED_TXD(char* dictionary, char* textureName);
+int GET_TEXTURE_FROM_STREAMED_TXD(char* textureDictionaryName, char* textureName);
 ```
 
 ### Arguments
-- **char*:** dictionary
+- **char*:** textureDictionaryName
 - **char*:** textureName
 
 ### Results
-- **int**
+- **int:** textureIndex
 
 ## Description

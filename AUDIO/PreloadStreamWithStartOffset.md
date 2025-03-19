@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x2B8836A6
-boolean PRELOAD_STREAM_WITH_START_OFFSET(char* StreamName, int StartOffset);
+bool PRELOAD_STREAM_WITH_START_OFFSET(char* StreamName, int startOffset);
 ```
 
 ### Arguments
-- **char*:** StreamName
-- **int:** StartOffset
+- **char*:** streamName
+- **int:** startOffset
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

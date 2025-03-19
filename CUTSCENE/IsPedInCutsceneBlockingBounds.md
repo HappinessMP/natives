@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x55916D7A
-boolean IS_PED_IN_CUTSCENE_BLOCKING_BOUNDS(Ped ped);
+bool IS_PED_IN_CUTSCENE_BLOCKING_BOUNDS(int charIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Tests to see if a given ped is inside a blocking bound.

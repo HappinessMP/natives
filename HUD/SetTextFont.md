@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x75363BB5
-void SET_TEXT_FONT(uint font);
+void SET_TEXT_FONT(int textFont);
 ```
 
 ### Arguments
-- **uint:** font
+- **int:** textFont
 
 ### Results
 
 ## Description
+Set the text font.

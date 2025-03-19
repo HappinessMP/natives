@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x32765F37
-boolean HAS_ACHIEVEMENT_BEEN_PASSED(uint achievement);
+bool HAS_ACHIEVEMENT_BEEN_PASSED(int achievementId);
 ```
 
 ### Arguments
-- **uint:** achievement
+- **int:** achievementId
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Verify if an achievement has been completed.

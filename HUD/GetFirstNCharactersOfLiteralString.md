@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x42D249E3
-char* GET_FIRST_N_CHARACTERS_OF_LITERAL_STRING(char* literalString, uint chars);
+char* GET_FIRST_N_CHARACTERS_OF_LITERAL_STRING(char* literalString, int numberOfCharacters);
 ```
 
 ### Arguments
 - **char*:** literalString
-- **uint:** chars
+- **int:** numberOfCharacters
 
 ### Results
 - **char***

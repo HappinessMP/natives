@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x5BE30681
-void GET_NUMBER_OF_PASSENGERS(Vehicle vehicle, uint* pNumPassengers);
+void GET_NUMBER_OF_PASSENGERS(int carIndex, int* numPassengers);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** carIndex
 
 ### Results
-- **uint*:** pNumPassengers
+- **int*:** numPassengers
 
 ## Description
+Get the number of passengers in a car.

@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x50DC54B3
-boolean IS_SNIPER_INVERTED();
+bool IS_SNIPER_INVERTED();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if the sniper rifle control is inverted.

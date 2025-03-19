@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x50C72493
-boolean NETWORK_IS_GAME_RANKED();
+bool NETWORK_IS_GAME_RANKED();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns true if the game is ranked.

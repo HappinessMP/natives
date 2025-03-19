@@ -3,20 +3,21 @@
 ## Declaration
 ```cpp
 // 0x21C44026
-boolean TRIGGER_PTFX(char* name, float x, float y, float z, float, float, float, uint flags);
+bool TRIGGER_PTFX(char* fxName, float x, float y, float z, float rx, float ry, float rz, float scale);
 ```
 
 ### Arguments
-- **char*:** name
+- **char*:** fxName
 - **float:** x
 - **float:** y
 - **float:** z
-- **float**
-- **float**
-- **float**
-- **uint:** flags
+- **float:** rx
+- **float:** ry
+- **float:** rz
+- **float:** scale
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Trigger a particle effect at a world position and orientation.

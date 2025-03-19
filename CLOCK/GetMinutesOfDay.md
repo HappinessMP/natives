@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x3DFE691D
-uint GET_MINUTES_OF_DAY();
+int GET_MINUTES_OF_DAY();
 ```
 
 ### Arguments
 
 ### Results
-- **uint**
+- **int**
 
 ## Description

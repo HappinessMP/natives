@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x356C2DDB
-uint LOAD_ALL_PATH_NODES(boolean value);
+bool LOAD_ALL_PATH_NODES(bool set);
 ```
 
 ### Arguments
-- **boolean:** value
+- **bool:** set
 
 ### Results
-- **uint**
+- **bool**
 
 ## Description
+Loads/unloads all path nodes on the map.

@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x44E14770
-void DRAW_FRONTEND_HELPER_TEXT(char*, char*, boolean);
+void DRAW_FRONTEND_HELPER_TEXT(char* descText, char* buttonText, bool newLine);
 ```
 
 ### Arguments
-- **char***
-- **char***
-- **boolean**
+- **char*:** descText
+- **char*:** buttonText
+- **bool:** newLine
 
 ### Results
 

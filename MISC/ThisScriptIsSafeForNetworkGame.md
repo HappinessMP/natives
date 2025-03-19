@@ -11,3 +11,4 @@ void THIS_SCRIPT_IS_SAFE_FOR_NETWORK_GAME();
 ### Results
 
 ## Description
+Tell the game not to remove this script when TERMINATE_ALL_SCRIPTS_FOR_NETWORK_GAME is called.

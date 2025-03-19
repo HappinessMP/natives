@@ -3,15 +3,16 @@
 ## Declaration
 ```cpp
 // 0x19C967B5
-void SET_TEXT_COLOUR(uint r, uint g, uint b, uint a);
+void SET_TEXT_COLOUR(int r, int g, int b, int a);
 ```
 
 ### Arguments
-- **uint:** r
-- **uint:** g
-- **uint:** b
-- **uint:** a
+- **int:** r
+- **int:** g
+- **int:** b
+- **int:** a
 
 ### Results
 
 ## Description
+Sets the colour of the text.

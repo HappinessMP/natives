@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x11162A93
-uint GET_TIME_SINCE_LAST_DEATH();
+int GET_TIME_SINCE_LAST_DEATH();
 ```
 
 ### Arguments
 
 ### Results
-- **uint**
+- **int**
 
 ## Description
+Returns the time in milliseconds since the player died.

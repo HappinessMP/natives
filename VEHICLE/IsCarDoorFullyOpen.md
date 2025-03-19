@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x55444602
-boolean IS_CAR_DOOR_FULLY_OPEN(Vehicle vehicle, uint door);
+bool IS_CAR_DOOR_FULLY_OPEN(int carIndex, int doorNumber);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
-- **uint:** door
+- **int:** carIndex
+- **int:** doorNumber
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if a car door is open.

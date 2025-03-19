@@ -12,3 +12,4 @@ bool NETWORK_IS_SESSION_INVITABLE();
 - **bool**
 
 ## Description
+Returns true if invites can be sent.

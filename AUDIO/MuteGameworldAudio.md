@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x446677C6
-void MUTE_GAMEWORLD_AUDIO(boolean mute);
+void MUTE_GAMEWORLD_AUDIO(bool mute);
 ```
 
 ### Arguments
-- **boolean:** mute
+- **bool:** mute
 
 ### Results
 
 ## Description
+Mutes the game world audio.

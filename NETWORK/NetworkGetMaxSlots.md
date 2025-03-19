@@ -12,3 +12,4 @@ int NETWORK_GET_MAX_SLOTS();
 - **int**
 
 ## Description
+Returns the maximum available slots.

@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x4804149
-void SCRIPT_IS_MOVING_MOBILE_PHONE_OFFSCREEN(boolean set);
+void SCRIPT_IS_MOVING_MOBILE_PHONE_OFFSCREEN(bool set);
 ```
 
 ### Arguments
-- **boolean:** set
+- **bool:** set
 
 ### Results
 

@@ -3,21 +3,22 @@
 ## Declaration
 ```cpp
 // 0xA76502F
-boolean TRIGGER_PTFX_ON_PED(char* name, Ped ped, float x, float y, float z, float, float, float, uint flags);
+bool TRIGGER_PTFX_ON_PED(char* fxName, int charId, float x, float y, float z, float rx, float ry, float rz, float scale);
 ```
 
 ### Arguments
-- **char*:** name
-- **Ped:** ped
+- **char*:** fxName
+- **int:** charId
 - **float:** x
 - **float:** y
 - **float:** z
-- **float**
-- **float**
-- **float**
-- **uint:** flags
+- **float:** rx
+- **float:** ry
+- **float:** rz
+- **float:** scale
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Trigger a particle effect on an character with an offset position and orientation.

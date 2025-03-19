@@ -3,10 +3,12 @@
 ## Declaration
 ```cpp
 // 0x320B3D0C
-void SET_NETWORK_ID_STOP_CLONING_FOR_ENEMIES();
+void SET_NETWORK_ID_STOP_CLONING_FOR_ENEMIES(int networkId, bool stopCloning);
 ```
 
 ### Arguments
+- **int:** networkId
+- **bool:** stopCloning
 
 ### Results
 

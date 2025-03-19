@@ -12,3 +12,4 @@ int GET_CUTSCENE_SECTION_PLAYING();
 - **int**
 
 ## Description
+Gets the current cutscene section playing.

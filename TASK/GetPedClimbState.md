@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x391822A7
-uint GET_PED_CLIMB_STATE(Ped ped);
+int GET_PED_CLIMB_STATE(int charIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **uint**
+- **int**
 
 ## Description
+Gets the peds climb state.

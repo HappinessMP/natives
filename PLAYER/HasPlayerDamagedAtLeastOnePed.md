@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x64E06CBB
-boolean HAS_PLAYER_DAMAGED_AT_LEAST_ONE_PED(Player playerIndex);
+bool HAS_PLAYER_DAMAGED_AT_LEAST_ONE_PED(int playerIndex);
 ```
 
 ### Arguments
-- **Player:** playerIndex
+- **int:** playerIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns TRUE if the player has damaged any peds since the last time that CLEAR_PLAYER_HAS_DAMAGED_AT_LEAST_ONE_PED was called.

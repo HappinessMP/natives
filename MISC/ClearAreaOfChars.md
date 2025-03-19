@@ -15,3 +15,4 @@ void CLEAR_AREA_OF_CHARS(float x, float y, float z, float radius);
 ### Results
 
 ## Description
+Clears all non-mission chars within the defined sphere.

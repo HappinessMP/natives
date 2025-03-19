@@ -13,3 +13,4 @@ bool NETWORK_IS_PLAYER_MUTED_BY_ME(int playerIndex);
 - **bool**
 
 ## Description
+Returns true if the given player is muted by the local player.

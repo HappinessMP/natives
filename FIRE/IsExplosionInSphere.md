@@ -3,17 +3,18 @@
 ## Declaration
 ```cpp
 // 0x47A77D2E
-boolean IS_EXPLOSION_IN_SPHERE(int expnum, float x, float y, float z, float radius);
+bool IS_EXPLOSION_IN_SPHERE(int explosionTag, float x, float y, float z, float radius);
 ```
 
 ### Arguments
-- **int:** expnum
+- **int:** explosionTag
 - **float:** x
 - **float:** y
 - **float:** z
 - **float:** radius
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if an explosion is in a sphere area.

@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x46D01849
-void CREATE_RANDOM_CHAR_AS_PASSENGER(Vehicle vehicle, uint seat, Ped* pPed);
+void CREATE_RANDOM_CHAR_AS_PASSENGER(int carId, int seat, int* charId);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
-- **uint:** seat
+- **int:** carId
+- **int:** seat
 
 ### Results
-- **Ped*:** pPed
+- **int*:** charId
 
 ## Description

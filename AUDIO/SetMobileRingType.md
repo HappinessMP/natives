@@ -12,3 +12,4 @@ void SET_MOBILE_RING_TYPE(int type);
 ### Results
 
 ## Description
+Sets the mobile ring type.

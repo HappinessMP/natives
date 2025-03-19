@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x12AA6D71
-void STORE_WANTED_LEVEL(Player playerIndex, uint* value);
+void STORE_WANTED_LEVEL(int playerIndex, int* level);
 ```
 
 ### Arguments
-- **Player:** playerIndex
+- **int:** playerIndex
 
 ### Results
-- **uint*:** value
+- **int*:** level
 
 ## Description

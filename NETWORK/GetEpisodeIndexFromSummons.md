@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x704E638F
-uint GET_EPISODE_INDEX_FROM_SUMMONS();
+int GET_EPISODE_INDEX_FROM_SUMMONS();
 ```
 
 ### Arguments
 
 ### Results
-- **uint**
+- **int**
 
 ## Description
+Returns the index of the episode for the summons that has just been received.

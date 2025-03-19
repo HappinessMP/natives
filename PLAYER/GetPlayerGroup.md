@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x41AB3C30
-void GET_PLAYER_GROUP(Player playerIndex, Group* pGroup);
+void GET_PLAYER_GROUP(int playerIndex, int* groupIndex);
 ```
 
 ### Arguments
-- **Player:** playerIndex
+- **int:** playerIndex
 
 ### Results
-- **Group*:** pGroup
+- **int*:** groupIndex
 
 ## Description
+Gets the players group.

@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x64342B55
-boolean IS_STREAMING_PRIORITY_REQUESTS();
+bool IS_STREAMING_PRIORITY_REQUESTS();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Return if the streaming system is prioritising certain objects because it needs them in now.

@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x38861F3A
-boolean IS_PLAYER_SCRIPT_CONTROL_ON(int player);
+bool IS_PLAYER_SCRIPT_CONTROL_ON(int playerIndex);
 ```
 
 ### Arguments
-- **int:** player
+- **int:** playerIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns FALSE if the player control has been turned off by a script.

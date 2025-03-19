@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x8A453C9
-void SET_CHAR_MAX_HEALTH(Ped ped, uint value);
+void SET_CHAR_MAX_HEALTH(int charIndex, int maxHealth);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** value
+- **int:** charIndex
+- **int:** maxHealth
 
 ### Results
 
 ## Description
+Sets the chars max health.

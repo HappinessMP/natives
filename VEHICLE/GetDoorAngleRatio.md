@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x44EA2669
-void GET_DOOR_ANGLE_RATIO(Vehicle vehicle, uint door, float* pAngleRatio);
+void GET_DOOR_ANGLE_RATIO(int carIndex, int doorNumber, float* angleRatio);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
-- **uint:** door
+- **int:** carIndex
+- **int:** doorNumber
 
 ### Results
-- **float*:** pAngleRatio
+- **float*:** angleRatio
 
 ## Description
+Gets the door angle of a car door between 0.0 and 1.0.

@@ -12,3 +12,4 @@ bool NETWORK_HAVE_SUMMONS();
 - **bool**
 
 ## Description
+Returns true if we've accepted an invitation or received a summons to join a session.

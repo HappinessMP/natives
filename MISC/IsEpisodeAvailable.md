@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x232800BD
-boolean IS_EPISODE_AVAILABLE(int episode);
+bool IS_EPISODE_AVAILABLE(int episode);
 ```
 
 ### Arguments
 - **int:** episode
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Return if episode is available.

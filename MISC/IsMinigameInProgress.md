@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x68F06A02
-boolean IS_MINIGAME_IN_PROGRESS();
+bool IS_MINIGAME_IN_PROGRESS();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if a minigame is in progress.

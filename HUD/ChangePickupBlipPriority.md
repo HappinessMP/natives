@@ -12,3 +12,4 @@ void CHANGE_PICKUP_BLIP_PRIORITY(int priority);
 ### Results
 
 ## Description
+Change the pickup blip priority.

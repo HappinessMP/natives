@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x1D1B266B
-boolean DOES_SCRIPT_EXIST(char* name);
+bool DOES_SCRIPT_EXIST(char* scriptName);
 ```
 
 ### Arguments
-- **char*:** name
+- **char*:** scriptName
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns TRUE if the script file can be found on disc.

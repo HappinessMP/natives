@@ -3,22 +3,23 @@
 ## Declaration
 ```cpp
 // 0x1B9A44D4
-void SET_OBJECT_PHYSICS_PARAMS(Object obj, float, float, float v0x, float v0y, float v0z, float v1x, float v1y, float v1z, uint flag0, uint flag1);
+void SET_OBJECT_PHYSICS_PARAMS(int objectId, float mass, float gravityFactor, float translationalDampingX, float translationalDampingY, float translationalDampingZ, float rotationalDampingX, float rotationalDampingY, float rotationalDampingZ, float collisionMargin, float maxAngularSpeed);
 ```
 
 ### Arguments
-- **Object:** obj
-- **float**
-- **float**
-- **float:** v0x
-- **float:** v0y
-- **float:** v0z
-- **float:** v1x
-- **float:** v1y
-- **float:** v1z
-- **uint:** flag0
-- **uint:** flag1
+- **int:** objectId
+- **float:** mass
+- **float:** gravityFactor
+- **float:** translationalDampingX
+- **float:** translationalDampingY
+- **float:** translationalDampingZ
+- **float:** rotationalDampingX
+- **float:** rotationalDampingY
+- **float:** rotationalDampingZ
+- **float:** collisionMargin
+- **float:** maxAngularSpeed
 
 ### Results
 
 ## Description
+Set physics parameters on this instance of an object.

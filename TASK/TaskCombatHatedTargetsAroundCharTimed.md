@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x15012850
-void TASK_COMBAT_HATED_TARGETS_AROUND_CHAR_TIMED(Ped ped, float radius, uint duration);
+void TASK_COMBAT_HATED_TARGETS_AROUND_CHAR_TIMED(int charIndex, float range, int time);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **float:** radius
-- **uint:** duration
+- **int:** charIndex
+- **float:** range
+- **int:** time
 
 ### Results
 
 ## Description
+Tells the char to combat all hated targets in the radius about the char for a time period.

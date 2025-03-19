@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x4E237943
-bool IS_NETWORK_PLAYER_ACTIVE(uint playerIndex);
+bool IS_NETWORK_PLAYER_ACTIVE(int playerId);
 ```
 
 ### Arguments
-- **uint:** playerIndex
+- **int:** playerId
 
 ### Results
 - **bool**

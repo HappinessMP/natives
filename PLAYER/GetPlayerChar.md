@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x511454A9
-void GET_PLAYER_CHAR(Player playerIndex, Ped* pPed);
+void GET_PLAYER_CHAR(int playerIndex, int* charIndex);
 ```
 
 ### Arguments
-- **Player:** playerIndex
+- **int:** playerIndex
 
 ### Results
-- **Ped*:** pPed
+- **int*:** charIndex
 
 ## Description
+Gets the char index from the players index.

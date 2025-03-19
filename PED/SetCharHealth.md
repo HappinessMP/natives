@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x575E2880
-void SET_CHAR_HEALTH(Ped ped, uint health);
+void SET_CHAR_HEALTH(int charIndex, int health);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** health
+- **int:** charIndex
+- **int:** health
 
 ### Results
 

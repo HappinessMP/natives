@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x67CC007C
-void SET_PED_IS_DRUNK(Ped ped, boolean value);
+void SET_PED_IS_DRUNK(int charIndex, bool isDrunk);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **boolean:** value
+- **int:** charIndex
+- **bool:** isDrunk
 
 ### Results
 
 ## Description
+Sets the ped so they sound drunk.

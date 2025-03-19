@@ -13,3 +13,4 @@ bool NETWORK_PLAYER_HAS_KEYBOARD(int playerIndex);
 - **bool**
 
 ## Description
+Returns true if the given player has a keyboard connected.

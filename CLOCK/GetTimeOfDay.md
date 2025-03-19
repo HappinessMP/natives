@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x384B3876
-void GET_TIME_OF_DAY(uint* hour, uint* minute);
+void GET_TIME_OF_DAY(int* hour, int* minute);
 ```
 
 ### Arguments
 
 ### Results
-- **uint*:** hour
-- **uint*:** minute
+- **int*:** hour
+- **int*:** minute
 
 ## Description

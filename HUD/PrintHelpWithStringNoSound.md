@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x15734852
-void PRINT_HELP_WITH_STRING_NO_SOUND(char* gxtName, char* gxtText);
+void PRINT_HELP_WITH_STRING_NO_SOUND(char* textLabel, char* subStringTextLabel);
 ```
 
 ### Arguments
-- **char*:** gxtName
-- **char*:** gxtText
+- **char*:** textLabel
+- **char*:** subStringTextLabel
 
 ### Results
 
 ## Description
+Prints a help text with a string without sound.

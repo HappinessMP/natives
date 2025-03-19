@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x52A30F7
-boolean IS_THREAD_ACTIVE(uint threadId);
+bool IS_THREAD_ACTIVE(int threadId);
 ```
 
 ### Arguments
-- **uint:** threadId
+- **int:** threadId
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns TRUE if the thread is still running.

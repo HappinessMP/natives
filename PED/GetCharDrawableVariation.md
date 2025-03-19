@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x1A1A6D83
-uint GET_CHAR_DRAWABLE_VARIATION(Ped ped, uint component);
+int GET_CHAR_DRAWABLE_VARIATION(int charId, int componentNumber);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** component
+- **int:** charId
+- **int:** componentNumber
 
 ### Results
-- **uint**
+- **int**
 
 ## Description
+Gets the index of the current drawable for the specified part of the character's body (component).

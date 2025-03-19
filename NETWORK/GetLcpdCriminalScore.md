@@ -3,11 +3,12 @@
 ## Declaration
 ```cpp
 // 0x1207025C
-void GET_LCPD_CRIMINAL_SCORE();
+int GET_LCPD_CRIMINAL_SCORE();
 ```
 
 ### Arguments
 
 ### Results
+- **int**
 
 ## Description

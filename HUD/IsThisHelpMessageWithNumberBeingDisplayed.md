@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x9E878A4
-boolean IS_THIS_HELP_MESSAGE_WITH_NUMBER_BEING_DISPLAYED(char* gxtentry, int number);
+bool IS_THIS_HELP_MESSAGE_WITH_NUMBER_BEING_DISPLAYED(char* textLabel, int number);
 ```
 
 ### Arguments
-- **char*:** gxtentry
+- **char*:** textLabel
 - **int:** number
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if this help text with number is being displayed.

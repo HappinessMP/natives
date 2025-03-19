@@ -12,3 +12,4 @@ int GET_LOCAL_PLAYER_MP_CASH();
 - **int**
 
 ## Description
+Return the player total cash earned in all ranked multiplayer games.

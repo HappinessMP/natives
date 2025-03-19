@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x62A507A
-uint GET_DAMAGE_TO_PED_BODY_PART(Ped ped, uint part);
+int GET_DAMAGE_TO_PED_BODY_PART(int charIndex, int part);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** part
+- **int:** charIndex
+- **int:** part
 
 ### Results
-- **uint**
+- **int**
 
 ## Description

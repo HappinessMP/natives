@@ -3,17 +3,18 @@
 ## Declaration
 ```cpp
 // 0x7939764F
-void START_MOBILE_PHONE_CALL(Ped callfrom, char* callfromvoice, Ped callto, char* calltovoice, boolean flag0, boolean flag1);
+void START_MOBILE_PHONE_CALL(int firstCharIndex, char* firstVoiceName, int secondCharIndex, char* secondVoiceName, bool displaySubtitles, bool addToBriefing);
 ```
 
 ### Arguments
-- **Ped:** callfrom
-- **char*:** callfromvoice
-- **Ped:** callto
-- **char*:** calltovoice
-- **boolean:** flag0
-- **boolean:** flag1
+- **int:** firstCharIndex
+- **char*:** firstVoiceName
+- **int:** secondCharIndex
+- **char*:** secondVoiceName
+- **bool:** displaySubtitles
+- **bool:** addToBriefing
 
 ### Results
 
 ## Description
+Starts the actual mobile phone dialogue playing.

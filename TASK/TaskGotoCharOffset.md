@@ -3,16 +3,17 @@
 ## Declaration
 ```cpp
 // 0x658028BA
-void TASK_GOTO_CHAR_OFFSET(Ped ped, Ped target, uint duration, float offsetRight, float offsetFront);
+void TASK_GOTO_CHAR_OFFSET(int charIndex, int targetCharIndex, int time, float seekRadius, float seekAngle);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **Ped:** target
-- **uint:** duration
-- **float:** offsetRight
-- **float:** offsetFront
+- **int:** charIndex
+- **int:** targetCharIndex
+- **int:** time
+- **float:** seekRadius
+- **float:** seekAngle
 
 ### Results
 
 ## Description
+Tells the char to go to an offset from the target char.

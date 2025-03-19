@@ -12,3 +12,4 @@ void CHANGE_PICKUP_BLIP_DISPLAY(int display);
 ### Results
 
 ## Description
+Change how the pickup blips get rendered to the radar.

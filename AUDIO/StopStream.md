@@ -11,3 +11,4 @@ void STOP_STREAM();
 ### Results
 
 ## Description
+Stops a stream that is being played by the script.

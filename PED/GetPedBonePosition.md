@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x43475BB3
-void GET_PED_BONE_POSITION(Ped ped, uint bone, float x, float y, float z, Vector3* pPosition);
+void GET_PED_BONE_POSITION(int charIndex, int bone, float x, float y, float z, Vector3* pPosition);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** bone
+- **int:** charIndex
+- **int:** bone
 - **float:** x
 - **float:** y
 - **float:** z

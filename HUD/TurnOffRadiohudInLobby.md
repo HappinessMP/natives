@@ -11,3 +11,4 @@ void TURN_OFF_RADIOHUD_IN_LOBBY();
 ### Results
 
 ## Description
+Turn Off Lobby RadioHud. If the player is not in the Lobby does not do anything.

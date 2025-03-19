@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x3998154E
-void NETWORK_SET_HEALTH_RETICULE_OPTION(bool);
+void NETWORK_SET_HEALTH_RETICULE_OPTION(bool healthReticule);
 ```
 
 ### Arguments
-- **bool**
+- **bool:** healthReticule
 
 ### Results
 

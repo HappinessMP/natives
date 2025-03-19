@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x56F04A05
-void TASK_COMBAT_TIMED(Ped ped, Char target, uint duration);
+void TASK_COMBAT_TIMED(int charIndex, int targetCharIndex, int time);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **Char:** target
-- **uint:** duration
+- **int:** charIndex
+- **int:** targetCharIndex
+- **int:** time
 
 ### Results
 
 ## Description
+Tells a char to combat another char for a timed period.

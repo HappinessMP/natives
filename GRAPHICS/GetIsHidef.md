@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x19976813
-boolean GET_IS_HIDEF();
+bool GET_IS_HIDEF();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns if running in hidef.

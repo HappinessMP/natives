@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x335E603B
-boolean REQUEST_MISSION_AUDIO_BANK(char* name);
+bool REQUEST_MISSION_AUDIO_BANK(char* bankName);
 ```
 
 ### Arguments
-- **char*:** name
+- **char*:** bankName
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Requests and checks that a mission audio bank has loaded.

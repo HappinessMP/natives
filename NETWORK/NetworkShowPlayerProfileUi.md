@@ -12,3 +12,4 @@ void NETWORK_SHOW_PLAYER_PROFILE_UI(int playerIndex);
 ### Results
 
 ## Description
+Displays a UI showing a player's profile info (gamer card on Xbox).

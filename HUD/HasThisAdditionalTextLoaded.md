@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x6CF248FD
-boolean HAS_THIS_ADDITIONAL_TEXT_LOADED(char* textName, uint textIndex);
+bool HAS_THIS_ADDITIONAL_TEXT_LOADED(char* textBlockName, int slotNumber);
 ```
 
 ### Arguments
-- **char*:** textName
-- **uint:** textIndex
+- **char*:** textBlockName
+- **int:** slotNumber
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks that the text block for the slot has loaded.

@@ -3,10 +3,11 @@
 ## Declaration
 ```cpp
 // 0x3E4233F7
-void SET_INVINCIBILITY_TIMER_DURATION();
+void SET_INVINCIBILITY_TIMER_DURATION(int duration);
 ```
 
 ### Arguments
+- **int:** duration
 
 ### Results
 

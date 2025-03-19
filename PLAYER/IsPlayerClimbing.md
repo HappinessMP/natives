@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x3BF5404E
-boolean IS_PLAYER_CLIMBING(Player playerIndex);
+bool IS_PLAYER_CLIMBING(int playerIndex);
 ```
 
 ### Arguments
-- **Player:** playerIndex
+- **int:** playerIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if the player is climbing.

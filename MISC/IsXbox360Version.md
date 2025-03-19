@@ -12,3 +12,4 @@ bool IS_XBOX360_VERSION();
 - **bool**
 
 ## Description
+Returns TRUE when running with the Xbox360 executable.

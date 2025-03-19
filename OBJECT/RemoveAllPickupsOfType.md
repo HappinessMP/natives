@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x3622640
-void REMOVE_ALL_PICKUPS_OF_TYPE(uint type);
+void REMOVE_ALL_PICKUPS_OF_TYPE(int type);
 ```
 
 ### Arguments
-- **uint:** type
+- **int:** type
 
 ### Results
 
 ## Description
+Remove objects of certain pickup type.

@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x2A491A70
-void PAUSE_SCRIPTED_CONVERSATION(boolean pause);
+void PAUSE_SCRIPTED_CONVERSATION(bool finishCurrentLine);
 ```
 
 ### Arguments
-- **boolean:** pause
+- **bool:** finishCurrentLine
 
 ### Results
 

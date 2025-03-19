@@ -3,18 +3,19 @@
 ## Declaration
 ```cpp
 // 0x2F877E8A
-boolean SMASH_GLASS_ON_OBJECT(float x, float y, float z, float, uint model, float);
+bool SMASH_GLASS_ON_OBJECT(float x, float y, float z, float radius, int modelHash, float force);
 ```
 
 ### Arguments
 - **float:** x
 - **float:** y
 - **float:** z
-- **float**
-- **uint:** model
-- **float**
+- **float:** radius
+- **int:** modelHash
+- **float:** force
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Smashes all of the glass on an object.

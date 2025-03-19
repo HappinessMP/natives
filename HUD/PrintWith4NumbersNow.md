@@ -3,17 +3,17 @@
 ## Declaration
 ```cpp
 // 0x5CCD150B
-void PRINT_WITH_4_NUMBERS_NOW(char* gxtentry, int, int, int, int, int time, int flag);
+void PRINT_WITH_4_NUMBERS_NOW(char* textLabel, int firstNumber, int secondNumber, int thirdNumber, int fourthNumber, int duration, int colour);
 ```
 
 ### Arguments
-- **char*:** gxtentry
-- **int**
-- **int**
-- **int**
-- **int**
-- **int:** time
-- **int:** flag
+- **char*:** textLabel
+- **int:** firstNumber
+- **int:** secondNumber
+- **int:** thirdNumber
+- **int:** fourthNumber
+- **int:** duration
+- **int:** colour
 
 ### Results
 

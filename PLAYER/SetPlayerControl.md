@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x1A6203EA
-void SET_PLAYER_CONTROL(Player playerIndex, boolean value);
+void SET_PLAYER_CONTROL(int playerIndex, bool setControlOn);
 ```
 
 ### Arguments
-- **Player:** playerIndex
-- **boolean:** value
+- **int:** playerIndex
+- **bool:** setControlOn
 
 ### Results
 
 ## Description
+Sets the players control state.

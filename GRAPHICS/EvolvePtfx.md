@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x3CE05E7C
-void EVOLVE_PTFX(uint ptfx, char* evolvetype, float val);
+void EVOLVE_PTFX(int ptfxId, char* evoName, float evoVal);
 ```
 
 ### Arguments
-- **uint:** ptfx
-- **char*:** evolvetype
-- **float:** val
+- **int:** ptfxId
+- **char*:** evoName
+- **float:** evoVal
 
 ### Results
 
 ## Description
+Sets the evolution data of a previously started particle effect.

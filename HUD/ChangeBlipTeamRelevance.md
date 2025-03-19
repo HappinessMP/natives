@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x4B2625BE
-void CHANGE_BLIP_TEAM_RELEVANCE(int blip, int relevance);
+void CHANGE_BLIP_TEAM_RELEVANCE(int blipIndex, int relevance);
 ```
 
 ### Arguments
-- **int:** blip
+- **int:** blipIndex
 - **int:** relevance
 
 ### Results

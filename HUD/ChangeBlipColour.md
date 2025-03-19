@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x1D8800E3
-void CHANGE_BLIP_COLOUR(Blip blip, ColourIndex colour);
+void CHANGE_BLIP_COLOUR(int blipIndex, int colour);
 ```
 
 ### Arguments
-- **Blip:** blip
-- **ColourIndex:** colour
+- **int:** blipIndex
+- **int:** colour
 
 ### Results
 
 ## Description
+Change radar blip colour.

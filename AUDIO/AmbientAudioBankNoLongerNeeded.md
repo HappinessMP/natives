@@ -11,3 +11,4 @@ void AMBIENT_AUDIO_BANK_NO_LONGER_NEEDED();
 ### Results
 
 ## Description
+Unloads a ambient audio bank.

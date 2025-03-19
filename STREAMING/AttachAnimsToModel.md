@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0xB5704E0
-void ATTACH_ANIMS_TO_MODEL(uint model, char* anims);
+void ATTACH_ANIMS_TO_MODEL(int modelHash, char* anims);
 ```
 
 ### Arguments
-- **uint:** model
+- **int:** modelHash
 - **char*:** anims
 
 ### Results

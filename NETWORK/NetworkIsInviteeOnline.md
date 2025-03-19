@@ -12,3 +12,4 @@ bool NETWORK_IS_INVITEE_ONLINE();
 - **bool**
 
 ## Description
+Returns true if the player who accepted the invite is online.

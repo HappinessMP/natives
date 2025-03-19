@@ -13,3 +13,4 @@ float SIN(float value);
 - **float**
 
 ## Description
+Sine (input is in degrees).

@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x3E7D3074
-void ADD_BLIP_FOR_COORD(float x, float y, float z, Blip* pBlip);
+void ADD_BLIP_FOR_COORD(float x, float y, float z, int* blipIndex);
 ```
 
 ### Arguments
@@ -12,6 +12,7 @@ void ADD_BLIP_FOR_COORD(float x, float y, float z, Blip* pBlip);
 - **float:** z
 
 ### Results
-- **Blip*:** pBlip
+- **int*:** blipIndex
 
 ## Description
+Add radar blip at coordinates.

@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0xA1B465C
-void CLEAR_ADDITIONAL_TEXT(int textid, boolean);
+void CLEAR_ADDITIONAL_TEXT(int slotNumber, bool clearPreviousBriefs);
 ```
 
 ### Arguments
-- **int:** textid
-- **boolean**
+- **int:** slotNumber
+- **bool:** clearPreviousBriefs
 
 ### Results
 
 ## Description
+Call this command to remove the text from the previous attempt at the mission from the previous briefs screen.

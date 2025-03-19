@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x5F643EE6
-boolean IS_SYSTEM_UI_SHOWING();
+bool IS_SYSTEM_UI_SHOWING();
 ```
 
 ### Arguments
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns true is a system UI (e.g. the sign-in UI) is showing.

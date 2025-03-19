@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x1BDA0DA5
-boolean IS_CAR_PASSENGER_SEAT_FREE(Vehicle vehicle, uint seatIndex);
+bool IS_CAR_PASSENGER_SEAT_FREE(int carIndex, int seat);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
-- **uint:** seatIndex
+- **int:** carIndex
+- **int:** seat
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if the car seat is free.

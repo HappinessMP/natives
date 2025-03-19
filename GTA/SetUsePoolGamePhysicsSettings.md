@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x5C162D0D
-void SET_USE_POOL_GAME_PHYSICS_SETTINGS(boolean set);
+void SET_USE_POOL_GAME_PHYSICS_SETTINGS(bool set);
 ```
 
 ### Arguments
-- **boolean:** set
+- **bool:** set
 
 ### Results
 

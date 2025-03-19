@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x265F6FF5
-void FLASH_RADAR(boolean flash);
+void FLASH_RADAR(bool onOff);
 ```
 
 ### Arguments
-- **boolean:** flash
+- **bool:** onOff
 
 ### Results
 

@@ -13,3 +13,4 @@ float SQRT(float value);
 - **float**
 
 ## Description
+Square root.

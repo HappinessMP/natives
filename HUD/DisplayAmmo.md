@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x2E115B4B
-void DISPLAY_AMMO(boolean display);
+void DISPLAY_AMMO(bool display);
 ```
 
 ### Arguments
-- **boolean:** display
+- **bool:** display
 
 ### Results
 

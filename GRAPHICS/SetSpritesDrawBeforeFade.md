@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x615959BA
-void SET_SPRITES_DRAW_BEFORE_FADE(boolean set);
+void SET_SPRITES_DRAW_BEFORE_FADE(bool flag);
 ```
 
 ### Arguments
-- **boolean:** set
+- **bool:** flag
 
 ### Results
 
 ## Description
+Sets a rectangle or sprite to be drawn on top of any fade.

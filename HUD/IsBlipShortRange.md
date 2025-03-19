@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x32E84B6A
-boolean IS_BLIP_SHORT_RANGE(Blip blip);
+bool IS_BLIP_SHORT_RANGE(int blipIndex);
 ```
 
 ### Arguments
-- **Blip:** blip
+- **int:** blipIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns whether blip is short range or not.

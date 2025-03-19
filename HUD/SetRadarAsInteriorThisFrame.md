@@ -11,3 +11,4 @@ void SET_RADAR_AS_INTERIOR_THIS_FRAME();
 ### Results
 
 ## Description
+Set radar to appear as if inside an interior for 1 frame.

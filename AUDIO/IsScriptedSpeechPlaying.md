@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x12D71B44
-boolean IS_SCRIPTED_SPEECH_PLAYING(Ped ped);
+bool IS_SCRIPTED_SPEECH_PLAYING(int charIndex);
 ```
 
 ### Arguments
-- **Ped:** ped
+- **int:** charIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if scripted speech is currently playing.

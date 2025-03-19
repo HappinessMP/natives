@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x5E077484
-void SWAP_NEAREST_BUILDING_MODEL(float x, float y, float z, float radius, uint modelfrom, uint modelto);
+void SWAP_NEAREST_BUILDING_MODEL(float x, float y, float z, float radius, int oldModel, int newModel);
 ```
 
 ### Arguments
@@ -11,9 +11,10 @@ void SWAP_NEAREST_BUILDING_MODEL(float x, float y, float z, float radius, uint m
 - **float:** y
 - **float:** z
 - **float:** radius
-- **uint:** modelfrom
-- **uint:** modelto
+- **int:** oldModel
+- **int:** newModel
 
 ### Results
 
 ## Description
+Find the nearest building to a point within a radius and change it's model.

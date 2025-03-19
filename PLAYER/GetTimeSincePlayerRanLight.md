@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x65D95395
-uint GET_TIME_SINCE_PLAYER_RAN_LIGHT(Player playerIndex);
+int GET_TIME_SINCE_PLAYER_RAN_LIGHT(int playerIndex);
 ```
 
 ### Arguments
-- **Player:** playerIndex
+- **int:** playerIndex
 
 ### Results
-- **uint**
+- **int**
 
 ## Description
+Returns (in milliseconds) how long ago the player last ran a red light.

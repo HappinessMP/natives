@@ -13,3 +13,4 @@ int CEIL(float value);
 - **int**
 
 ## Description
+Returns input number rounded up toward positive infinity.

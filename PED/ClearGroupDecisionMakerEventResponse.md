@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x3BF71D5F
-void CLEAR_GROUP_DECISION_MAKER_EVENT_RESPONSE(DecisionMaker dm, uint eventid);
+void CLEAR_GROUP_DECISION_MAKER_EVENT_RESPONSE(DecisionMaker dm, int eventid);
 ```
 
 ### Arguments
 - **DecisionMaker:** dm
-- **uint:** eventid
+- **int:** eventid
 
 ### Results
 

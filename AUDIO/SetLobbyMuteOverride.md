@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x10800FD6
-void SET_LOBBY_MUTE_OVERRIDE(boolean set);
+void SET_LOBBY_MUTE_OVERRIDE(bool overrideMute);
 ```
 
 ### Arguments
-- **boolean:** set
+- **bool:** overrideMute
 
 ### Results
 

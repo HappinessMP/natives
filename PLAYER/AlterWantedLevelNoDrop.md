@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x5F3B6079
-void ALTER_WANTED_LEVEL_NO_DROP(Player playerIndex, uint level);
+void ALTER_WANTED_LEVEL_NO_DROP(int playerIndex, int level);
 ```
 
 ### Arguments
-- **Player:** playerIndex
-- **uint:** level
+- **int:** playerIndex
+- **int:** level
 
 ### Results
 
 ## Description
+Sets the wanted level only if its higher than the current.

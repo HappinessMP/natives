@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x6DD754DD
-uint GET_LEFT_PLAYER_CASH_TO_REACH_LEVEL(uint playerRank);
+int GET_LEFT_PLAYER_CASH_TO_REACH_LEVEL(int level);
 ```
 
 ### Arguments
-- **uint:** playerRank
+- **int:** level
 
 ### Results
-- **uint**
+- **int**
 
 ## Description
+Returns how much cash is required to level up.

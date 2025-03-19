@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x774426C2
-void GET_CAR_DOOR_LOCK_STATUS(Vehicle vehicle, uint* pValue);
+void GET_CAR_DOOR_LOCK_STATUS(int carIndex, int* lockState);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** carIndex
 
 ### Results
-- **uint*:** pValue
+- **int*:** lockState
 
 ## Description
+Gets the car lock status.

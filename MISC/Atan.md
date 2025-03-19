@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x7FFE0A12
-float ATAN(float value);
+float ATAN(float x);
 ```
 
 ### Arguments
-- **float:** value
+- **float:** x
 
 ### Results
 - **float**
 
 ## Description
+Caluclates the arctan.

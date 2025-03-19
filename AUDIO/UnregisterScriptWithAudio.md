@@ -11,3 +11,4 @@ void UNREGISTER_SCRIPT_WITH_AUDIO();
 ### Results
 
 ## Description
+Unregisters a script with audio.

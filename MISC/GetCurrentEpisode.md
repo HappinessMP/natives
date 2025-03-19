@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x7D7619D2
-uint GET_CURRENT_EPISODE();
+int GET_CURRENT_EPISODE();
 ```
 
 ### Arguments
 
 ### Results
-- **uint**
+- **int**
 
 ## Description
+Return the current active episode.

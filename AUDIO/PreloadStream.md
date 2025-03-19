@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x39DE515D
-boolean PRELOAD_STREAM(char* name);
+bool PRELOAD_STREAM(char* streamName);
 ```
 
 ### Arguments
-- **char*:** name
+- **char*:** streamName
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

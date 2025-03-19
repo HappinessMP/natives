@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x51742D5
-void SET_MULTIPLAYER_HUD_CASH(uint cash);
+void SET_MULTIPLAYER_HUD_CASH(int cash);
 ```
 
 ### Arguments
-- **uint:** cash
+- **int:** cash
 
 ### Results
 

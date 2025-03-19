@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x69F11716
-void GET_PED_FROM_NETWORK_ID(int id, Ped* ped);
+void GET_PED_FROM_NETWORK_ID(int networkId, int* charIndex);
 ```
 
 ### Arguments
-- **int:** id
+- **int:** networkId
 
 ### Results
-- **Ped*:** ped
+- **int*:** charIndex
 
 ## Description

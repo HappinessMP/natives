@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x763274B7
-void PLAY_SOUND_FROM_VEHICLE(int SoundId, char* SoundName, Vehicle veh);
+void PLAY_SOUND_FROM_VEHICLE(int soundId, char* soundName, int carIndex);
 ```
 
 ### Arguments
-- **int:** SoundId
-- **char*:** SoundName
-- **Vehicle:** veh
+- **int:** soundId
+- **char*:** soundName
+- **int:** carIndex
 
 ### Results
 
 ## Description
+Plays back a sound from an vehicle's location.

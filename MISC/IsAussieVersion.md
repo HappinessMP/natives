@@ -12,3 +12,4 @@ bool IS_AUSSIE_VERSION();
 - **bool**
 
 ## Description
+Returns TRUE when running with the Australian executable.

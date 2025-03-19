@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x1E203014
-void STORE_SCORE(Player playerIndex, uint* value);
+void STORE_SCORE(int playerIndex, int* score);
 ```
 
 ### Arguments
-- **Player:** playerIndex
+- **int:** playerIndex
 
 ### Results
-- **uint*:** value
+- **int*:** score
 
 ## Description

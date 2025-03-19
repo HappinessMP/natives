@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x192E5726
-void ADD_STRING_TO_NEWS_SCROLLBAR(char* str);
+void ADD_STRING_TO_NEWS_SCROLLBAR(char* newsString);
 ```
 
 ### Arguments
-- **char*:** str
+- **char*:** newsString
 
 ### Results
 
 ## Description
+Add texts to a news scrollbar.

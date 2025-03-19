@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x77A0221
-void SET_CHAR_NOT_DAMAGED_BY_RELATIONSHIP_GROUP(Ped ped, uint relationshipGroup, boolean enable);
+void SET_CHAR_NOT_DAMAGED_BY_RELATIONSHIP_GROUP(int charIndex, int relationshipGroup, bool enable);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** relationshipGroup
-- **boolean:** enable
+- **int:** charIndex
+- **int:** relationshipGroup
+- **bool:** enable
 
 ### Results
 

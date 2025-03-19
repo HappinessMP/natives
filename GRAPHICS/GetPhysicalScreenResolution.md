@@ -13,3 +13,4 @@ void GET_PHYSICAL_SCREEN_RESOLUTION(int* x, int* y);
 - **int*:** y
 
 ## Description
+Returns physical the screen resolution.

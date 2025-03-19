@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x2E815A94
-boolean IS_PLAYER_PERFORMING_STOPPIE(int player);
+bool IS_PLAYER_PERFORMING_STOPPIE(int playerIndex);
 ```
 
 ### Arguments
-- **int:** player
+- **int:** playerIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description

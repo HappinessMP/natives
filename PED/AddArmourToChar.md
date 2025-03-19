@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x1C623537
-void ADD_ARMOUR_TO_CHAR(Ped ped, uint amount);
+void ADD_ARMOUR_TO_CHAR(int charId, int armourToAdd);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** amount
+- **int:** charId
+- **int:** armourToAdd
 
 ### Results
 
 ## Description
+Increments the characters armour.

@@ -3,15 +3,16 @@
 ## Declaration
 ```cpp
 // 0x612C748F
-boolean GET_AMMO_IN_CLIP(Ped ped, uint weapon, uint* pAmmo);
+bool GET_AMMO_IN_CLIP(int charIndex, int weaponType, int* ammoInClip);
 ```
 
 ### Arguments
-- **Ped:** ped
-- **uint:** weapon
+- **int:** charIndex
+- **int:** weaponType
 
 ### Results
-- **boolean**
-- **uint*:** pAmmo
+- **bool**
+- **int*:** ammoInClip
 
 ## Description
+Gets the current amount of ammo in a clip.

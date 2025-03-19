@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x2BB9620F
-boolean GET_WATER_HEIGHT(float x, float y, float z, float* pheight);
+bool GET_WATER_HEIGHT(float x, float y, float z, float* height);
 ```
 
 ### Arguments
@@ -12,7 +12,8 @@ boolean GET_WATER_HEIGHT(float x, float y, float z, float* pheight);
 - **float:** z
 
 ### Results
-- **boolean**
-- **float*:** pheight
+- **bool**
+- **float*:** height
 
 ## Description
+Gets the height of the water below the position including the waves.

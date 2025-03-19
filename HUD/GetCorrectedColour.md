@@ -3,17 +3,17 @@
 ## Declaration
 ```cpp
 // 0x64D35E1D
-void GET_CORRECTED_COLOUR(uint r, uint g, uint b, uint* pR, uint* pG, uint* pB);
+void GET_CORRECTED_COLOUR(int r, int g, int b, int* pR, int* pG, int* pB);
 ```
 
 ### Arguments
-- **uint:** r
-- **uint:** g
-- **uint:** b
+- **int:** r
+- **int:** g
+- **int:** b
 
 ### Results
-- **uint*:** pR
-- **uint*:** pG
-- **uint*:** pB
+- **int*:** pR
+- **int*:** pG
+- **int*:** pB
 
 ## Description

@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x48994D58
-uint GET_INT_STAT(uint stat);
+int GET_INT_STAT(int stat);
 ```
 
 ### Arguments
-- **uint:** stat
+- **int:** stat
 
 ### Results
-- **uint**
+- **int**
 
 ## Description

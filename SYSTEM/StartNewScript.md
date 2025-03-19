@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x4E2260B9
-uint START_NEW_SCRIPT(char* scriptName, uint stacksize);
+int START_NEW_SCRIPT(char* scriptName, int stackSize);
 ```
 
 ### Arguments
 - **char*:** scriptName
-- **uint:** stacksize
+- **int:** stackSize
 
 ### Results
-- **uint**
+- **int:** threadId
 
 ## Description
+Function that starts a new script.
