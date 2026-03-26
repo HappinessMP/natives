@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x384F104F
-void DISPLAY_ONSCREEN_TIMER_WITH_STRING(int timerid, boolean, char* str);
+void DISPLAY_ONSCREEN_TIMER_WITH_STRING(int timer, int direction, char* textLabel);
 ```
 
 ### Arguments
-- **int:** timerid
-- **boolean**
-- **char*:** str
+- **int:** timer
+- **int:** direction
+- **char*:** textLabel
 
 ### Results
 
 ## Description
+Creates a countdown or countup onscreen timer with the text label.

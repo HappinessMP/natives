@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x156E12CA
-void PRINT_WITH_6_NUMBERS_NOW(char* textLabel, int firstNumber, int secondNumber, int thirdNumber, int fourthNumber, int fifthNumber, int sixthNumber, int duration, int colour);
+void PRINT_WITH_6_NUMBERS_NOW(char* textLabel, int firstNumber, int secondNumber, int thirdNumber, int fourthNumber, int fifthNumber, int sixthNumber, int duration, int flag);
 ```
 
 ### Arguments
@@ -14,8 +14,8 @@ void PRINT_WITH_6_NUMBERS_NOW(char* textLabel, int firstNumber, int secondNumber
 - **int:** fourthNumber
 - **int:** fifthNumber
 - **int:** sixthNumber
-- **int:** duration
-- **int:** colour
+- **int:** duration (ms)
+- **int:** flag
 
 ### Results
 

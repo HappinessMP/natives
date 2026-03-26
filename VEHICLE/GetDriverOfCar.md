@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x22457083
-void GET_DRIVER_OF_CAR(Vehicle vehicle, Ped* pPed);
+void GET_DRIVER_OF_CAR(int carIndex, int* charIndex);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** carIndex
 
 ### Results
-- **Ped*:** pPed
+- **int*:** charIndex
 
 ## Description
+Returns the car's driver handle.

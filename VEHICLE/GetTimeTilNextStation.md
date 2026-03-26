@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x142E7C40
-float GET_TIME_TIL_NEXT_STATION(Vehicle train);
+float GET_TIME_TIL_NEXT_STATION(int carIndex);
 ```
 
 ### Arguments
-- **Vehicle:** train
+- **int:** carIndex
 
 ### Results
 - **float**

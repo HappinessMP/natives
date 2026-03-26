@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x295C4C52
-void FREEZE_CAR_POSITION(Vehicle vehicle, boolean frozen);
+void FREEZE_CAR_POSITION(int carIndex, bool frozen);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
-- **boolean:** frozen
+- **int:** carIndex
+- **bool:** frozen
 
 ### Results
 
 ## Description
+Locks the vehicle's position.

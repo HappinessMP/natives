@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x2D432EAB
-void GET_CAR_COORDINATES(Vehicle vehicle, float* pX, float* pY, float* pZ);
+void GET_CAR_COORDINATES(int carIndex, float* pX, float* pY, float* pZ);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** carIndex
 
 ### Results
 - **float*:** pX
@@ -15,3 +15,4 @@ void GET_CAR_COORDINATES(Vehicle vehicle, float* pX, float* pY, float* pZ);
 - **float*:** pZ
 
 ## Description
+Returns the vehicle's coordinates.

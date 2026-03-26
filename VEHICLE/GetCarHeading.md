@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x46803CFA
-void GET_CAR_HEADING(Vehicle vehicle, float* pValue);
+void GET_CAR_HEADING(int carIndex, float* heading);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** carIndex
 
 ### Results
-- **float*:** pValue
+- **float*:** heading
 
 ## Description
+Returns the vehicle's heading (z-angle).

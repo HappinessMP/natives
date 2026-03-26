@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x5F4B0B22
-boolean ARE_TAXI_LIGHTS_ON(Vehicle vehicle);
+bool ARE_TAXI_LIGHTS_ON(int carIndex);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** carIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks if the taxi light is on.

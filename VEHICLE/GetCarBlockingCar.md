@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x66B43B06
-void GET_CAR_BLOCKING_CAR(Car car0, Car* car1);
+void GET_CAR_BLOCKING_CAR(int carIndex1, int* carIndex2);
 ```
 
 ### Arguments
-- **Car:** car0
+- **int:** carIndex1
 
 ### Results
-- **Car*:** car1
+- **int*:** carIndex2
 
 ## Description
+Returns a handle of the vehicle preventing this car from getting to its destination.

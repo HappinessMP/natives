@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x896249A
-int GET_CAR_SIREN_HEALTH(Car car);
+int GET_CAR_SIREN_HEALTH(int carIndex);
 ```
 
 ### Arguments
-- **Car:** car
+- **int:** carIndex
 
 ### Results
 - **int**
 
 ## Description
+Gets the vehicles siren health.

@@ -12,3 +12,4 @@ void CLOSE_GARAGE(char* garageName);
 ### Results
 
 ## Description
+Closes the garage.

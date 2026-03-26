@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x4FB069ED
-void SET_HELP_MESSAGE_BOX_SIZE(float boxSize);
+void SET_HELP_MESSAGE_BOX_SIZE(int size);
 ```
 
 ### Arguments
-- **float:** boxSize
+- **int:** size
 
 ### Results
 

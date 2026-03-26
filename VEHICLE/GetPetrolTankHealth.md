@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x2C835642
-float GET_PETROL_TANK_HEALTH(Vehicle vehicle);
+float GET_PETROL_TANK_HEALTH(int carIndex);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** carIndex
 
 ### Results
 - **float**
 
 ## Description
+Get petrol tank health for a vehicle.

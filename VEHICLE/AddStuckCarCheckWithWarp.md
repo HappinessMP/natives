@@ -3,18 +3,19 @@
 ## Declaration
 ```cpp
 // 0x3BCA4ACA
-void ADD_STUCK_CAR_CHECK_WITH_WARP(Car car, float stuckdif, int time, boolean flag0, boolean flag1, boolean flag2, boolean flag3);
+void ADD_STUCK_CAR_CHECK_WITH_WARP(int carIndex, float minMoveDistance, int checkFrequency, bool warpIfStuck, bool warpIfUpsideDown, bool warpIfInWater, int warpMethod);
 ```
 
 ### Arguments
-- **Car:** car
-- **float:** stuckdif
-- **int:** time
-- **boolean:** flag0
-- **boolean:** flag1
-- **boolean:** flag2
-- **boolean:** flag3
+- **int:** carIndex
+- **float:** minMoveDistance
+- **int:** checkFrequency
+- **bool:** warpIfStuck
+- **bool:** warpIfUpsideDown
+- **bool:** warpIfInWater
+- **int:** warpMethod
 
 ### Results
 
 ## Description
+Will attempt to warp a vehicle out of a stuck or upsidedown or in water position.

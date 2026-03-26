@@ -12,3 +12,4 @@ void DONT_SUPPRESS_CAR_MODEL(int modelHash);
 ### Results
 
 ## Description
+Allows the specified car model to spawn for car generators.

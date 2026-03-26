@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x76A63B4C
-void PRINT_WITH_NUMBER(char* textLabel, int numberToInsert, int duration, int colour);
+void PRINT_WITH_NUMBER(char* textLabel, int numberToInsert, int duration, int flag);
 ```
 
 ### Arguments
 - **char*:** textLabel
 - **int:** numberToInsert
-- **int:** duration (milliseconds)
-- **int:** colour
+- **int:** duration (ms)
+- **int:** flag
 
 ### Results
 

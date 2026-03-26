@@ -12,3 +12,4 @@ void DISPLAY_PLAYER_NAMES(bool display);
 ### Results
 
 ## Description
+Disable name above players head.

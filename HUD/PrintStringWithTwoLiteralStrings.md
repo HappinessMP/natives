@@ -3,15 +3,15 @@
 ## Declaration
 ```cpp
 // 0x19486759
-void PRINT_STRING_WITH_TWO_LITERAL_STRINGS(char* textLabel, char* literalString1, char* literalString2, int duration, int colour);
+void PRINT_STRING_WITH_TWO_LITERAL_STRINGS(char* textLabel, char* literalString1, char* literalString2, int duration, int flag);
 ```
 
 ### Arguments
 - **char*:** textLabel
 - **char*:** literalString1
 - **char*:** literalString2
-- **int:** duration
-- **int:** colour
+- **int:** duration (ms)
+- **int:** flag
 
 ### Results
 

@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x1ABE6A4C
-void HIGHLIGHT_MENU_ITEM(int menuid, int item, boolean highlight);
+void HIGHLIGHT_MENU_ITEM(int menuId, int item, bool highlight);
 ```
 
 ### Arguments
-- **int:** menuid
+- **int:** menuId
 - **int:** item
-- **boolean:** highlight
+- **bool:** highlight
 
 ### Results
 
 ## Description
+Highlights the menu item.

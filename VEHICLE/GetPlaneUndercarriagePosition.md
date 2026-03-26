@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x353F0568
-void GET_PLANE_UNDERCARRIAGE_POSITION(Vehicle plane, float* pos);
+void GET_PLANE_UNDERCARRIAGE_POSITION(int carIndex, float* pos);
 ```
 
 ### Arguments
-- **Vehicle:** plane
+- **int:** carIndex
 
 ### Results
 - **float*:** pos

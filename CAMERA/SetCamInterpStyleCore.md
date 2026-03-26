@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x72297CDC
-void SET_CAM_INTERP_STYLE_CORE(int cam0, int cam1, int cam2, int time, boolean flag);
+void SET_CAM_INTERP_STYLE_CORE(int cam0, int cam1, int cam2, int time, bool flag);
 ```
 
 ### Arguments
@@ -11,7 +11,7 @@ void SET_CAM_INTERP_STYLE_CORE(int cam0, int cam1, int cam2, int time, boolean f
 - **int:** cam1
 - **int:** cam2
 - **int:** time
-- **boolean:** flag
+- **bool:** flag
 
 ### Results
 

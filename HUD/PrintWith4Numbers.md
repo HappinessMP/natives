@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x4D4F65AE
-void PRINT_WITH_4_NUMBERS(char* textLabel, int firstNumber, int secondNumber, int thirdNumber, int fourthNumber, int duration, int colour);
+void PRINT_WITH_4_NUMBERS(char* textLabel, int firstNumber, int secondNumber, int thirdNumber, int fourthNumber, int duration, int flag);
 ```
 
 ### Arguments
@@ -12,8 +12,8 @@ void PRINT_WITH_4_NUMBERS(char* textLabel, int firstNumber, int secondNumber, in
 - **int:** secondNumber
 - **int:** thirdNumber
 - **int:** fourthNumber
-- **int:** duration
-- **int:** colour
+- **int:** duration (ms)
+- **int:** flag
 
 ### Results
 

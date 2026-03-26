@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x7F8D3DD9
-void GET_OFFSET_FROM_CAR_IN_WORLD_COORDS(Vehicle vehicle, float x, float y, float z, float* pOffX, float* pOffY, float* pOffZ);
+void GET_OFFSET_FROM_CAR_IN_WORLD_COORDS(int carIndex, float x, float y, float z, float* pOffX, float* pOffY, float* pOffZ);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** carIndex
 - **float:** x
 - **float:** y
 - **float:** z
@@ -18,3 +18,4 @@ void GET_OFFSET_FROM_CAR_IN_WORLD_COORDS(Vehicle vehicle, float x, float y, floa
 - **float*:** pOffZ
 
 ## Description
+Returns the coordinates of an offset of the vehicle's position, depending on the vehicle's rotation.

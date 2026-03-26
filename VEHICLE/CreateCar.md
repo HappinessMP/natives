@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x2F1D6843
-void CREATE_CAR(int modelHashKey, float x, float y, float z, int* vehicleIndex, bool registerAsNetworkObject);
+void CREATE_CAR(int modelHashKey, float x, float y, float z, int* carIndex, bool registerAsNetworkObject);
 ```
 
 ### Arguments
@@ -14,7 +14,7 @@ void CREATE_CAR(int modelHashKey, float x, float y, float z, int* vehicleIndex, 
 - **bool:** registerAsNetworkObject
 
 ### Results
-- **int*:** vehicleIndex
+- **int*:** carIndex
 
 ## Description
 Creates a car at the specified coords.

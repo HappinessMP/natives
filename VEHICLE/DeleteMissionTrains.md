@@ -11,3 +11,4 @@ void DELETE_MISSION_TRAINS();
 ### Results
 
 ## Description
+Destroys all script-created trains.

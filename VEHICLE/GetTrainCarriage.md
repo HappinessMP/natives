@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x7F861E46
-void GET_TRAIN_CARRIAGE(Vehicle train, int num, Vehicle* carriage);
+void GET_TRAIN_CARRIAGE(int carIndex1, int carriageNumber, int* carIndex2);
 ```
 
 ### Arguments
-- **Vehicle:** train
-- **int:** num
+- **int:** carIndex1 (train engine)
+- **int:** carriageNumber
 
 ### Results
-- **Vehicle*:** carriage
+- **int*:** carIndex2 (train carriage)
 
 ## Description
+Get the specified carriage of the train with the given engine.

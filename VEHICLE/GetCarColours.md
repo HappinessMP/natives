@@ -3,14 +3,15 @@
 ## Declaration
 ```cpp
 // 0x6CAC3D62
-void GET_CAR_COLOURS(Vehicle vehicle, ColourIndex* pColour1, ColourIndex* pColour2);
+void GET_CAR_COLOURS(int carIndex, int* color1, int* color2);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** carIndex
 
 ### Results
-- **ColourIndex*:** pColour1
-- **ColourIndex*:** pColour2
+- **int*:** color1
+- **int*:** color2
 
 ## Description
+Gets the car's primary and secondary colors.

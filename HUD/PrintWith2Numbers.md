@@ -3,15 +3,15 @@
 ## Declaration
 ```cpp
 // 0x230A740F
-void PRINT_WITH_2_NUMBERS(char* textLabel, int firstNumber, int secondNumber, int duration, int colour);
+void PRINT_WITH_2_NUMBERS(char* textLabel, int firstNumber, int secondNumber, int duration, int flag);
 ```
 
 ### Arguments
 - **char*:** textLabel
 - **int:** firstNumberToInsert
 - **int:** secondNumberToInsert
-- **int:** duration (milliseconds)
-- **int:** colour
+- **int:** duration (ms)
+- **int:** flag
 
 ### Results
 

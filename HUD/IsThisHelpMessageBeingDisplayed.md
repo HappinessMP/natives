@@ -13,3 +13,4 @@ bool IS_THIS_HELP_MESSAGE_BEING_DISPLAYED(char* textLabel);
 - **bool**
 
 ## Description
+Returns true if a help message with the specified text label is being displayed.

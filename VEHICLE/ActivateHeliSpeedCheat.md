@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x33B52CA
-void ACTIVATE_HELI_SPEED_CHEAT(Vehicle heli, int cheat);
+void ACTIVATE_HELI_SPEED_CHEAT(int carIndex, int speedBoostValue);
 ```
 
 ### Arguments
-- **Vehicle:** heli
-- **int:** cheat
+- **int:** carIndex
+- **int:** speedBoostValue
 
 ### Results
 
 ## Description
+Activates the heli speed cheat.

@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0xA491CFF
-void PRINT(char* textLabel, int duration, int colour);
+void PRINT(char* textLabel, int duration, int flag);
 ```
 
 ### Arguments
 - **char*:** textLabel
-- **int:** duration (milliseconds)
-- **int:** colour
+- **int:** duration (ms)
+- **int:** flag
 
 ### Results
 

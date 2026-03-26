@@ -3,7 +3,7 @@
 ## Declaration
 ```cpp
 // 0x7F3A0E22
-void GET_NEAREST_CABLE_CAR(float x, float y, float z, float radius, Vehicle* pVehicle);
+void GET_NEAREST_CABLE_CAR(float x, float y, float z, float radius, int* carIndex);
 ```
 
 ### Arguments
@@ -13,6 +13,7 @@ void GET_NEAREST_CABLE_CAR(float x, float y, float z, float radius, Vehicle* pVe
 - **float:** radius
 
 ### Results
-- **Vehicle*:** pVehicle
+- **int*:** carIndex
 
 ## Description
+Gets the nearest cable car to a coord.

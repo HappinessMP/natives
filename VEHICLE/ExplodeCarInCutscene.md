@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x1820DAA
-void EXPLODE_CAR_IN_CUTSCENE(Car car, boolean explode);
+void EXPLODE_CAR_IN_CUTSCENE(int carIndex, bool addExplosion);
 ```
 
 ### Arguments
-- **Car:** car
-- **boolean:** explode
+- **int:** carIndex
+- **bool:** addExplosion
 
 ### Results
 
 ## Description
+Explodes a vehicle in a cutscene.

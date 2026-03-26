@@ -3,15 +3,14 @@
 ## Declaration
 ```cpp
 // 0x3D0F5735
-void DRAW_WINDOW_TEXT(float, float, float, int, char*, int);
+void DRAW_WINDOW_TEXT(float, float, int, char* textLabel, int);
 ```
 
 ### Arguments
 - **float**
 - **float**
-- **float**
 - **int**
-- **char***
+- **char*:** textLabel
 - **int**
 
 ### Results

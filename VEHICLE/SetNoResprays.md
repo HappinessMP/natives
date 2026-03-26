@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x418D0889
-void SET_NO_RESPRAYS(boolean set);
+void SET_NO_RESPRAYS(bool set);
 ```
 
 ### Arguments
-- **boolean:** set
+- **bool:** set
 
 ### Results
 
 ## Description
+Disables respray garages from opening for the player.

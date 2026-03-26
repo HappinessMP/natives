@@ -11,3 +11,4 @@ void DONT_SUPPRESS_ANY_CAR_MODELS();
 ### Results
 
 ## Description
+Resets the disabled car model list for car generators.

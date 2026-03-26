@@ -15,3 +15,4 @@ void CONTROL_CAR_DOOR(int carIndex, int doorIndex, int latch, float angle);
 ### Results
 
 ## Description
+Sets the car's door angle and latch state.

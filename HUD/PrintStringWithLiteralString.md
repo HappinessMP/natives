@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x3F89280B
-void PRINT_STRING_WITH_LITERAL_STRING(char* textLabel, char* literalString, int duration, int colour);
+void PRINT_STRING_WITH_LITERAL_STRING(char* textLabel, char* literalString, int duration, int flag);
 ```
 
 ### Arguments
 - **char*:** textLabel
 - **char*:** literalString
-- **int:** duration
-- **int:** colour
+- **int:** duration (ms)
+- **int:** flag
 
 ### Results
 

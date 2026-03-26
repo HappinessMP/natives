@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0xF0956CA
-boolean DOES_CAR_HAVE_HYDRAULICS(Car car);
+bool DOES_CAR_HAVE_HYDRAULICS(int carIndex);
 ```
 
 ### Arguments
-- **Car:** car
+- **int:** carIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Returns true if the car has hydraulics installed.

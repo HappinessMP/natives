@@ -12,3 +12,4 @@ void CLEAR_THIS_BIG_PRINT(char* textLabel);
 ### Results
 
 ## Description
+Removes the styled text from the screen.

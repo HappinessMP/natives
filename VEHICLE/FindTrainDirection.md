@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x13C1EB7
-int FIND_TRAIN_DIRECTION(Vehicle train);
+bool FIND_TRAIN_DIRECTION(int carIndex);
 ```
 
 ### Arguments
-- **Vehicle:** train
+- **int:** carIndex
 
 ### Results
-- **int**
+- **bool**
 
 ## Description

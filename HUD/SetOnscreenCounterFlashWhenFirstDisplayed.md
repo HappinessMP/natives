@@ -3,12 +3,12 @@
 ## Declaration
 ```cpp
 // 0x6F54963
-void SET_ONSCREEN_COUNTER_FLASH_WHEN_FIRST_DISPLAYED(int counterid, boolean flash);
+void SET_ONSCREEN_COUNTER_FLASH_WHEN_FIRST_DISPLAYED(int counter, bool flash);
 ```
 
 ### Arguments
-- **int:** counterid
-- **boolean:** flash
+- **int:** counter
+- **bool:** flash
 
 ### Results
 

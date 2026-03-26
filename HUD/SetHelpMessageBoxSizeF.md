@@ -12,3 +12,4 @@ void SET_HELP_MESSAGE_BOX_SIZE_F(float size);
 ### Results
 
 ## Description
+Set the help text box size.

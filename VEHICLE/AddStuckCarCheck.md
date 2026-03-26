@@ -3,13 +3,13 @@
 ## Declaration
 ```cpp
 // 0x3A01B12
-void ADD_STUCK_CAR_CHECK(Car car, float stuckdif, int timeout);
+void ADD_STUCK_CAR_CHECK(int carIndex, float minMoveDistance, int checkFrequency);
 ```
 
 ### Arguments
-- **Car:** car
-- **float:** stuckdif
-- **int:** timeout
+- **int:** carIndex
+- **float:** minMoveDistance
+- **int:** checkFrequency
 
 ### Results
 

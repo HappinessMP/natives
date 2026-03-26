@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x5B576767
-void GET_MENU_POSITION(int menuid, float* x, float* y);
+void GET_MENU_POSITION(int menuId, float* x, float* y);
 ```
 
 ### Arguments
-- **int:** menuid
+- **int:** menuId
 
 ### Results
 - **float*:** x

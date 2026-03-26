@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x2E12687B
-void ANCHOR_BOAT(Vehicle boat, boolean anchor);
+void ANCHOR_BOAT(int carIndex, bool anchor);
 ```
 
 ### Arguments
-- **Vehicle:** boat
-- **boolean:** anchor
+- **int:** carIndex
+- **bool:** anchor
 
 ### Results
 
 ## Description
+Makes the boat stay motionless in the water.

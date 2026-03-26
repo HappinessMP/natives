@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x66B93E8C
-void SET_TIMER_BEEP_COUNTDOWN_TIME(int timerid, int beeptime);
+void SET_TIMER_BEEP_COUNTDOWN_TIME(int timer, int beeptime);
 ```
 
 ### Arguments
-- **int:** timerid
-- **int:** beeptime
+- **int:** timer
+- **int:** beeptime (sec)
 
 ### Results
 
 ## Description
+Starts a sound when the countdown timer reaches the specified number of seconds.

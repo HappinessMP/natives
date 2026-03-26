@@ -13,3 +13,4 @@ void GET_CAR_HEALTH(int carIndex, int* health);
 - **int*:** health
 
 ## Description
+Returns the vehicle's health.

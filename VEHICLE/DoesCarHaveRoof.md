@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x7AE52512
-boolean DOES_CAR_HAVE_ROOF(Vehicle vehicle);
+bool DOES_CAR_HAVE_ROOF(int carIndex);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** carIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks that the vehicle has a roof.

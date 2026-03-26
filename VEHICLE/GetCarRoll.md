@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x9C95A65
-void GET_CAR_ROLL(Vehicle vehicle, float* pValue);
+void GET_CAR_ROLL(int carIndex, float* roll);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** carIndex
 
 ### Results
-- **float*:** pValue
+- **float*:** roll
 
 ## Description
+Returns the Y Angle of the vehicle.

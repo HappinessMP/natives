@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x61EE5C9A
-void GET_CAR_PITCH(Vehicle vehicle, float* pValue);
+void GET_CAR_PITCH(int carIndex, float* pitch);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** carIndex
 
 ### Results
-- **float*:** pValue
+- **float*:** pitch
 
 ## Description
+Returns the X Angle of the vehicle.

@@ -12,3 +12,4 @@ void FORCE_RANDOM_CAR_MODEL(int modelHash);
 ### Results
 
 ## Description
+Forces all cars spawned to be of the specified model.

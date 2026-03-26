@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x7DA237BC
-void DELETE_MISSION_TRAIN(Train& pTrain);
+void DELETE_MISSION_TRAIN(int& carIndex);
 ```
 
 ### Arguments
-- **Train&:** pTrain
+- **int&:** carIndex
 
 ### Results
 
 ## Description
+Deletes a mission train.

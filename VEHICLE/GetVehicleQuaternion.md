@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x6C5871D6
-void GET_VEHICLE_QUATERNION(Vehicle veh, float*, float*, float*, float*);
+void GET_VEHICLE_QUATERNION(int carIndex, float*, float*, float*, float*);
 ```
 
 ### Arguments
-- **Vehicle:** veh
+- **int:** carIndex
 
 ### Results
 - **float***
@@ -16,3 +16,4 @@ void GET_VEHICLE_QUATERNION(Vehicle veh, float*, float*, float*, float*);
 - **float***
 
 ## Description
+Gets the quaternion values of the car.

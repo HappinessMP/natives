@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x2B856FAA
-boolean DOES_CAR_HAVE_STUCK_CAR_CHECK(Vehicle vehicle);
+bool DOES_CAR_HAVE_STUCK_CAR_CHECK(int carIndex);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** carIndex
 
 ### Results
-- **boolean**
+- **bool**
 
 ## Description
+Checks that a car has a stuck check.

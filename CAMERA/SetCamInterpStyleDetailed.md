@@ -3,15 +3,15 @@
 ## Declaration
 ```cpp
 // 0x683927F5
-void SET_CAM_INTERP_STYLE_DETAILED(int cam, boolean, boolean, boolean, boolean);
+void SET_CAM_INTERP_STYLE_DETAILED(int cam, int, int, bool, bool);
 ```
 
 ### Arguments
 - **int:** cam
-- **boolean**
-- **boolean**
-- **boolean**
-- **boolean**
+- **int**
+- **int**
+- **bool**
+- **bool**
 
 ### Results
 

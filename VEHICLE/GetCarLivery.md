@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x10237666
-void GET_CAR_LIVERY(Car car, int* livery);
+void GET_CAR_LIVERY(int carIndex, int* livery);
 ```
 
 ### Arguments
-- **Car:** car
+- **int:** carIndex
 
 ### Results
 - **int*:** livery
 
 ## Description
+Return the livery of the vehicle.

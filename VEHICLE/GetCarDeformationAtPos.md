@@ -3,11 +3,11 @@
 ## Declaration
 ```cpp
 // 0x1F913BC7
-void GET_CAR_DEFORMATION_AT_POS(Vehicle vehicle, float x, float y, float z, Vector3* pDeformation);
+void GET_CAR_DEFORMATION_AT_POS(int carIndex, float x, float y, float z, Vector3* pDeformation);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** carIndex
 - **float:** x
 - **float:** y
 - **float:** z
@@ -16,3 +16,4 @@ void GET_CAR_DEFORMATION_AT_POS(Vehicle vehicle, float x, float y, float z, Vect
 - **Vector3*:** pDeformation
 
 ## Description
+Find out how much a car has deformed at a specific position on the vehicle (local coordinates).

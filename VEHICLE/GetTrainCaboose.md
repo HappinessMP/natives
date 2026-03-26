@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x3FB72D27
-void GET_TRAIN_CABOOSE(Vehicle train, Vehicle* caboose);
+void GET_TRAIN_CABOOSE(int carIndex1, int* carIndex2);
 ```
 
 ### Arguments
-- **Vehicle:** train
+- **int:** carIndex1 (train engine)
 
 ### Results
-- **Vehicle*:** caboose
+- **int*:** carIndex2 (train caboose)
 
 ## Description
+Gets last carriage of the train with the given engine.

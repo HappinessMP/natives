@@ -3,13 +3,14 @@
 ## Declaration
 ```cpp
 // 0x8D25912
-float FIND_TIME_POSITION_IN_RECORDING(Car car);
+float FIND_TIME_POSITION_IN_RECORDING(int carIndex);
 ```
 
 ### Arguments
-- **Car:** car
+- **int:** carIndex
 
 ### Results
 - **float**
 
 ## Description
+Gets the time position of the recording.

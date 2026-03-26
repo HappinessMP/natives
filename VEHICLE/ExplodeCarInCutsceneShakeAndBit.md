@@ -3,14 +3,14 @@
 ## Declaration
 ```cpp
 // 0x7CF61A81
-void EXPLODE_CAR_IN_CUTSCENE_SHAKE_AND_BIT(Car car, boolean flag0, boolean flag1, boolean flag2);
+void EXPLODE_CAR_IN_CUTSCENE_SHAKE_AND_BIT(int carIndex, bool shake, bool effect, bool sound);
 ```
 
 ### Arguments
-- **Car:** car
-- **boolean:** flag0
-- **boolean:** flag1
-- **boolean:** flag2
+- **int:** carIndex
+- **bool:** shake
+- **bool:** effect
+- **bool:** sound
 
 ### Results
 

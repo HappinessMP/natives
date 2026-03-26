@@ -11,3 +11,4 @@ void DELETE_ALL_TRAINS();
 ### Results
 
 ## Description
+Deletes all non-mission trains.

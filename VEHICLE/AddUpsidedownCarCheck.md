@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x557C076C
-void ADD_UPSIDEDOWN_CAR_CHECK(Vehicle vehicle);
+void ADD_UPSIDEDOWN_CAR_CHECK(int carIndex);
 ```
 
 ### Arguments
-- **Vehicle:** vehicle
+- **int:** carIndex
 
 ### Results
 
 ## Description
+Activates upside-down car check for the car.

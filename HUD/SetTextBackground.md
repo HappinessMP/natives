@@ -3,12 +3,13 @@
 ## Declaration
 ```cpp
 // 0x768F5140
-void SET_TEXT_BACKGROUND(bool textBackgroundFlag);
+void SET_TEXT_BACKGROUND(bool background);
 ```
 
 ### Arguments
-- **bool:** textBackgroundFlag
+- **bool:** background
 
 ### Results
 
 ## Description
+Gives the text a background.
