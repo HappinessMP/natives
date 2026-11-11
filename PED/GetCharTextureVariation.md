@@ -14,4 +14,4 @@ int GET_CHAR_TEXTURE_VARIATION(int charIndex, int componentNumber);
 - **int**
 
 ## Description
-Gets the index of the current texture variation for the specified char component (part of the body).
+Returns the texture the char wears for the given component, 0 is `a`. See `SET_CHAR_COMPONENT_VARIATION` for the component numbers.

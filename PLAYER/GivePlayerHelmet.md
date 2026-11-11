@@ -12,4 +12,4 @@ void GIVE_PLAYER_HELMET(int playerIndex);
 ### Results
 
 ## Description
-Give the player a helmet.
+Puts a helmet on the character of the player, like `GIVE_PED_HELMET`. The player keeps it on when not on a motorbike.

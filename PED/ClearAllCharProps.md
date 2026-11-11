@@ -12,3 +12,4 @@ void CLEAR_ALL_CHAR_PROPS(Ped ped);
 ### Results
 
 ## Description
+Removes all props of the char.

@@ -12,3 +12,4 @@ void SET_CHAR_DEFAULT_COMPONENT_VARIATION(Ped ped);
 ### Results
 
 ## Description
+Sets drawable 0 with texture 0 on every component of the char.

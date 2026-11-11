@@ -12,3 +12,4 @@ void SET_CHAR_RANDOM_COMPONENT_VARIATION(Ped ped);
 ### Results
 
 ## Description
+Gives the char random clothes. Only combinations the model allows are chosen.

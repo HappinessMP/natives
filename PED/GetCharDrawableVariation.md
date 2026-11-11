@@ -14,4 +14,4 @@ int GET_CHAR_DRAWABLE_VARIATION(int charId, int componentNumber);
 - **int**
 
 ## Description
-Gets the index of the current drawable for the specified part of the character's body (component).
+Returns the drawable (model part) the char wears for the given component. See `SET_CHAR_COMPONENT_VARIATION` for the component numbers.

@@ -15,4 +15,4 @@ int GET_NUMBER_OF_CHAR_TEXTURE_VARIATIONS(int charIndex, int componentNumber, in
 - **int**
 
 ## Description
-Gets the total number of different textures for the specified drawable for the component (body part) for the char's model.
+Returns how many textures the given drawable of the component has, 0 if the drawable does not exist. See `SET_CHAR_COMPONENT_VARIATION` for the component numbers.

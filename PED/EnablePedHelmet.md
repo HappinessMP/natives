@@ -13,3 +13,4 @@ void ENABLE_PED_HELMET(Ped ped, boolean enable);
 ### Results
 
 ## Description
+Allows (`true`) or forbids (`false`) the char to get a helmet, on a motorbike as well as through `GIVE_PED_HELMET`.

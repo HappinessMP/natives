@@ -12,3 +12,4 @@ int GET_PLAYERSETTINGS_MODEL_CHOICE();
 - **int**
 
 ## Description
+Returns the model hash of the multiplayer character chosen in the game profile of this client (`M_Y_MULTIPLAYER` or `F_Y_MULTIPLAYER`).

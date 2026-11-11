@@ -13,4 +13,4 @@ void CLEAR_CHAR_PROP(int charIndex, int position);
 ### Results
 
 ## Description
-Clear the prop slot for the given chat at the given position.
+Removes the prop the char wears at the given position. See `SET_CHAR_PROP_INDEX` for the positions.
